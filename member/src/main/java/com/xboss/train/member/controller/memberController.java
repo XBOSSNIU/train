@@ -4,6 +4,7 @@ import com.xboss.train.common.resp.CommonResp;
 import com.xboss.train.member.req.MemberRegisterReq;
 import com.xboss.train.member.service.MemberService;
 import jakarta.annotation.Resource;
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,7 +24,7 @@ public class memberController {
     }
 
     @PostMapping("register")
-    public CommonResp<Long> register(MemberRegisterReq memberRegisterReq){
+    public CommonResp<Long> register(@Valid MemberRegisterReq memberRegisterReq){
         long register = memberService.register(memberRegisterReq);
         CommonResp<Long> commonResp=new CommonResp<Long>();
         commonResp.setContent(register);
