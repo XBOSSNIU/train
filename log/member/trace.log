@@ -61,3 +61,172 @@
 2024-03-09 16:18:06.846 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号不能为空】]]
 2024-03-09 16:18:56.953 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2024-03-09 16:18:56.958 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-03-09 16:19:00.315 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-09 16:19:00.338 INFO  com.xboss.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 18.0.1.1 with PID 29968 (D:\projectAndcode\train\member\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-09 16:19:00.339 INFO  com.xboss.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-09 16:19:00.371 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-09 16:19:00.371 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-09 16:19:00.862 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b800f7ac-f49e-3352-8548-b3ece724f081
+2024-03-09 16:19:01.337 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-03-09 16:19:01.338 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-09 16:19:01.338 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-09 16:19:01.341 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-09 16:19:01.381 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-03-09 16:19:01.382 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-09 16:19:01.382 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-09 16:19:01.469 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-09 16:19:01.469 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1096 ms
+2024-03-09 16:19:02.157 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-09 16:19:02.285 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-03-09 16:19:02.300 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-03-09 16:19:02.394 INFO  com.xboss.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.496 seconds (process running for 3.035)
+2024-03-09 16:19:02.397 INFO  com.xboss.train.member.config.MemberApplication   :24   [32m                  [0;39m 启动成功！！
+2024-03-09 16:19:02.397 INFO  com.xboss.train.member.config.MemberApplication   :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-03-09 16:19:09.611 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 16:19:09.611 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-03-09 16:19:09.612 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2024-03-09 16:19:09.702 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:19:09.703 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/sendCode POST
+2024-03-09 16:19:09.703 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.sendCode
+2024-03-09 16:19:09.703 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:19:09.742 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"18318227810"}]
+2024-03-09 16:19:09.778 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-03-09 16:19:09.962 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62d38bc0
+2024-03-09 16:19:09.963 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-03-09 16:19:09.969 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:19:09.986 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:19:10.000 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:19:10.000 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:19:10.001 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:19:10.005 INFO  com.xboss.train.member.service.MemberService      :62   [32m                  [0;39m 手机号已存在，不插入记录
+2024-03-09 16:19:10.005 INFO  com.xboss.train.member.service.MemberService      :67   [32m                  [0;39m 生成短信验证码：8888
+2024-03-09 16:19:10.005 INFO  com.xboss.train.member.service.MemberService      :70   [32m                  [0;39m 保存短信记录表
+2024-03-09 16:19:10.005 INFO  com.xboss.train.member.service.MemberService      :73   [32m                  [0;39m 对接短信通道
+2024-03-09 16:19:10.008 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2024-03-09 16:19:10.008 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：307 ms -------------
+2024-03-09 16:20:01.150 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:20:01.150 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2024-03-09 16:20:01.151 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.login
+2024-03-09 16:20:01.151 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:20:01.152 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"18318227810"}]
+2024-03-09 16:20:01.153 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:20:01.153 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:20:01.154 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:20:01.154 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:20:01.154 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:20:01.184 INFO  com.xboss.train.common.util.JwtUtil               :24   [32m                  [0;39m 开始生成JWT token，id：1709648918858，mobile：18318227810
+2024-03-09 16:20:01.312 INFO  com.xboss.train.common.util.JwtUtil               :39   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDk5NzI0MDEsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDA1ODgwMSwiaWF0IjoxNzA5OTcyNDAxfQ.AJyRl8c-sDrJikXghJoNSCvTejGIPnPykDsa81mM-JY
+2024-03-09 16:20:01.314 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1709648918858,"mobile":"18318227810","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDk5NzI0MDEsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDA1ODgwMSwiaWF0IjoxNzA5OTcyNDAxfQ.AJyRl8c-sDrJikXghJoNSCvTejGIPnPykDsa81mM-JY"},"success":true}
+2024-03-09 16:20:01.314 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：164 ms -------------
+2024-03-09 16:26:36.991 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:26:36.991 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/sendCode POST
+2024-03-09 16:26:36.991 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.sendCode
+2024-03-09 16:26:36.992 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:26:36.992 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"18318227810"}]
+2024-03-09 16:26:36.993 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:26:36.993 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:26:36.994 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:26:36.994 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:26:36.994 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:26:36.994 INFO  com.xboss.train.member.service.MemberService      :62   [32m                  [0;39m 手机号已存在，不插入记录
+2024-03-09 16:26:36.994 INFO  com.xboss.train.member.service.MemberService      :67   [32m                  [0;39m 生成短信验证码：8888
+2024-03-09 16:26:36.994 INFO  com.xboss.train.member.service.MemberService      :70   [32m                  [0;39m 保存短信记录表
+2024-03-09 16:26:36.995 INFO  com.xboss.train.member.service.MemberService      :73   [32m                  [0;39m 对接短信通道
+2024-03-09 16:26:36.995 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2024-03-09 16:26:36.995 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-09 16:26:51.402 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:26:51.403 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/sendCode POST
+2024-03-09 16:26:51.403 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.sendCode
+2024-03-09 16:26:51.403 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:26:51.403 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"18318227810"}]
+2024-03-09 16:26:51.404 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:26:51.404 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:26:51.405 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:26:51.405 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:26:51.406 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:26:51.406 INFO  com.xboss.train.member.service.MemberService      :62   [32m                  [0;39m 手机号已存在，不插入记录
+2024-03-09 16:26:51.406 INFO  com.xboss.train.member.service.MemberService      :67   [32m                  [0;39m 生成短信验证码：8888
+2024-03-09 16:26:51.406 INFO  com.xboss.train.member.service.MemberService      :70   [32m                  [0;39m 保存短信记录表
+2024-03-09 16:26:51.406 INFO  com.xboss.train.member.service.MemberService      :73   [32m                  [0;39m 对接短信通道
+2024-03-09 16:26:51.406 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2024-03-09 16:26:51.406 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-09 16:27:00.817 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:27:00.818 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/sendCode POST
+2024-03-09 16:27:00.818 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.sendCode
+2024-03-09 16:27:00.818 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:27:00.818 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"18318227810"}]
+2024-03-09 16:27:00.819 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:27:00.819 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:27:00.820 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:27:00.820 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:27:00.821 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:27:00.821 INFO  com.xboss.train.member.service.MemberService      :62   [32m                  [0;39m 手机号已存在，不插入记录
+2024-03-09 16:27:00.821 INFO  com.xboss.train.member.service.MemberService      :67   [32m                  [0;39m 生成短信验证码：8888
+2024-03-09 16:27:00.821 INFO  com.xboss.train.member.service.MemberService      :70   [32m                  [0;39m 保存短信记录表
+2024-03-09 16:27:00.821 INFO  com.xboss.train.member.service.MemberService      :73   [32m                  [0;39m 对接短信通道
+2024-03-09 16:27:00.821 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2024-03-09 16:27:00.821 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-09 16:34:30.329 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:34:30.330 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/sendCode POST
+2024-03-09 16:34:30.330 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.sendCode
+2024-03-09 16:34:30.330 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:34:30.330 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"18318227810"}]
+2024-03-09 16:34:30.331 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:34:30.331 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:34:30.332 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:34:30.332 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:34:30.332 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:34:30.333 INFO  com.xboss.train.member.service.MemberService      :62   [32m                  [0;39m 手机号已存在，不插入记录
+2024-03-09 16:34:30.333 INFO  com.xboss.train.member.service.MemberService      :67   [32m                  [0;39m 生成短信验证码：8888
+2024-03-09 16:34:30.333 INFO  com.xboss.train.member.service.MemberService      :70   [32m                  [0;39m 保存短信记录表
+2024-03-09 16:34:30.333 INFO  com.xboss.train.member.service.MemberService      :73   [32m                  [0;39m 对接短信通道
+2024-03-09 16:34:30.333 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2024-03-09 16:34:30.333 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-09 16:34:41.083 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:34:41.083 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/sendCode POST
+2024-03-09 16:34:41.083 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.sendCode
+2024-03-09 16:34:41.083 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:34:41.084 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"18318227810"}]
+2024-03-09 16:34:41.084 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:34:41.085 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:34:41.085 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:34:41.086 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:34:41.086 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:34:41.086 INFO  com.xboss.train.member.service.MemberService      :62   [32m                  [0;39m 手机号已存在，不插入记录
+2024-03-09 16:34:41.086 INFO  com.xboss.train.member.service.MemberService      :67   [32m                  [0;39m 生成短信验证码：8888
+2024-03-09 16:34:41.086 INFO  com.xboss.train.member.service.MemberService      :70   [32m                  [0;39m 保存短信记录表
+2024-03-09 16:34:41.086 INFO  com.xboss.train.member.service.MemberService      :73   [32m                  [0;39m 对接短信通道
+2024-03-09 16:34:41.087 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2024-03-09 16:34:41.087 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-09 16:51:48.882 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:51:48.883 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/sendCode POST
+2024-03-09 16:51:48.883 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.sendCode
+2024-03-09 16:51:48.883 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:51:48.883 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"18318227810"}]
+2024-03-09 16:51:48.884 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:51:48.885 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:51:48.886 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:51:48.886 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:51:48.886 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:51:48.887 INFO  com.xboss.train.member.service.MemberService      :62   [32m                  [0;39m 手机号已存在，不插入记录
+2024-03-09 16:51:48.887 INFO  com.xboss.train.member.service.MemberService      :67   [32m                  [0;39m 生成短信验证码：8888
+2024-03-09 16:51:48.887 INFO  com.xboss.train.member.service.MemberService      :70   [32m                  [0;39m 保存短信记录表
+2024-03-09 16:51:48.887 INFO  com.xboss.train.member.service.MemberService      :73   [32m                  [0;39m 对接短信通道
+2024-03-09 16:51:48.887 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2024-03-09 16:51:48.887 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-09 16:54:26.438 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:54:26.439 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/sendCode POST
+2024-03-09 16:54:26.439 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.sendCode
+2024-03-09 16:54:26.439 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:54:26.439 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"18318227810"}]
+2024-03-09 16:54:26.440 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:54:26.440 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:54:26.441 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:54:26.442 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:54:26.442 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:54:26.442 INFO  com.xboss.train.member.service.MemberService      :62   [32m                  [0;39m 手机号已存在，不插入记录
+2024-03-09 16:54:26.442 INFO  com.xboss.train.member.service.MemberService      :67   [32m                  [0;39m 生成短信验证码：8888
+2024-03-09 16:54:26.442 INFO  com.xboss.train.member.service.MemberService      :70   [32m                  [0;39m 保存短信记录表
+2024-03-09 16:54:26.442 INFO  com.xboss.train.member.service.MemberService      :73   [32m                  [0;39m 对接短信通道
+2024-03-09 16:54:26.442 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2024-03-09 16:54:26.442 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
