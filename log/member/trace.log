@@ -1,42 +1,63 @@
-2024-03-06 00:00:29.336 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2024-03-06 00:00:29.367 INFO  com.xboss.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 18.0.1.1 with PID 26212 (D:\projectAndcode\train\member\target\classes started by 86183 in D:\projectAndcode\train)
-2024-03-06 00:00:29.368 INFO  com.xboss.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-03-06 00:00:29.407 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-03-06 00:00:29.407 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-03-06 00:00:29.903 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b800f7ac-f49e-3352-8548-b3ece724f081
-2024-03-06 00:00:30.350 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2024-03-06 00:00:30.350 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
-2024-03-06 00:00:30.350 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
-2024-03-06 00:00:30.354 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
-2024-03-06 00:00:30.360 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2024-03-06 00:00:30.360 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-03-06 00:00:30.361 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2024-03-06 00:00:30.401 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-03-06 00:00:30.401 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 993 ms
-2024-03-06 00:00:30.963 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-03-06 00:00:31.093 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2024-03-06 00:00:31.109 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2024-03-06 00:00:31.209 INFO  com.xboss.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.38 seconds (process running for 2.917)
-2024-03-06 00:00:31.211 INFO  com.xboss.train.member.config.MemberApplication   :24   [32m                  [0;39m 启动成功！！
-2024-03-06 00:00:31.212 INFO  com.xboss.train.member.config.MemberApplication   :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2024-03-06 00:01:13.196 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-03-06 00:01:13.196 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2024-03-06 00:01:13.197 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2024-03-06 00:01:13.251 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
-2024-03-06 00:01:13.252 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://localhost:8001/member/member/register POST
-2024-03-06 00:01:13.252 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.register
-2024-03-06 00:01:13.252 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2024-03-06 00:01:13.289 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"mobile":"19874481706"}]
-2024-03-06 00:01:13.322 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
-2024-03-06 00:01:13.495 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62a27d71
-2024-03-06 00:01:13.497 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2024-03-06 00:01:13.503 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2024-03-06 00:01:13.520 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 19874481706(String)
-2024-03-06 00:01:13.533 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 0
-2024-03-06 00:01:13.568 DEBUG com.xboss.train.member.mapper.MemberMapper.insert :137  [32m                  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
-2024-03-06 00:01:13.569 DEBUG com.xboss.train.member.mapper.MemberMapper.insert :137  [32m                  [0;39m ==> Parameters: 1765044907556343808(Long), 19874481706(String)
-2024-03-06 00:01:13.573 DEBUG com.xboss.train.member.mapper.MemberMapper.insert :137  [32m                  [0;39m <==    Updates: 1
-2024-03-06 00:01:13.575 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":1765044907556343808,"success":true}
-2024-03-06 00:01:13.576 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：326 ms -------------
-2024-03-06 00:01:19.163 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2024-03-06 00:01:19.168 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-03-09 15:59:07.440 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-09 15:59:07.496 INFO  com.xboss.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 18.0.1.1 with PID 35168 (D:\projectAndcode\train\member\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-09 15:59:07.497 INFO  com.xboss.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-09 15:59:07.533 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-09 15:59:07.533 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-09 15:59:08.082 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b800f7ac-f49e-3352-8548-b3ece724f081
+2024-03-09 15:59:08.617 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-03-09 15:59:08.618 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-09 15:59:08.618 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-09 15:59:08.629 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-09 15:59:08.636 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-03-09 15:59:08.636 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-09 15:59:08.637 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-09 15:59:08.685 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-09 15:59:08.685 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1151 ms
+2024-03-09 15:59:09.308 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-09 15:59:09.432 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-03-09 15:59:09.447 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-03-09 15:59:09.539 INFO  com.xboss.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 2.537 seconds (process running for 3.107)
+2024-03-09 15:59:09.541 INFO  com.xboss.train.member.config.MemberApplication   :24   [32m                  [0;39m 启动成功！！
+2024-03-09 15:59:09.541 INFO  com.xboss.train.member.config.MemberApplication   :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-03-09 16:09:43.628 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 16:09:43.628 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-03-09 16:09:43.629 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2024-03-09 16:10:06.630 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:10:06.630 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2024-03-09 16:10:06.630 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.login
+2024-03-09 16:10:06.631 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:10:06.675 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"18318227810"}]
+2024-03-09 16:10:06.713 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-03-09 16:10:06.944 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1de0d7ee
+2024-03-09 16:10:06.946 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-03-09 16:10:06.952 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:10:06.968 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:10:06.985 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:10:06.985 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:10:06.986 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:10:07.025 INFO  com.xboss.train.common.util.JwtUtil               :24   [32m                  [0;39m 开始生成JWT token，id：1709648918858，mobile：18318227810
+2024-03-09 16:10:07.173 INFO  com.xboss.train.common.util.JwtUtil               :39   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDk5NzE4MDcsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDA1ODIwNywiaWF0IjoxNzA5OTcxODA3fQ.BAgFvv3zOIzppgKjUGrrbdpROGBeMyrurazITdR2Okk
+2024-03-09 16:10:07.177 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1709648918858,"mobile":"18318227810","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDk5NzE4MDcsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDA1ODIwNywiaWF0IjoxNzA5OTcxODA3fQ.BAgFvv3zOIzppgKjUGrrbdpROGBeMyrurazITdR2Okk"},"success":true}
+2024-03-09 16:10:07.178 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：549 ms -------------
+2024-03-09 16:10:22.804 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-09 16:10:22.804 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2024-03-09 16:10:22.804 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.member.controller.memberController.login
+2024-03-09 16:10:22.804 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-09 16:10:22.805 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"18318227810"}]
+2024-03-09 16:10:22.806 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2024-03-09 16:10:22.806 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m ==> Parameters: 18318227810(String)
+2024-03-09 16:10:22.807 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==    Columns: id, mobile
+2024-03-09 16:10:22.807 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m                  [0;39m <==        Row: 1709648918858, 18318227810
+2024-03-09 16:10:22.807 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m                  [0;39m <==      Total: 1
+2024-03-09 16:10:22.807 INFO  com.xboss.train.common.util.JwtUtil               :24   [32m                  [0;39m 开始生成JWT token，id：1709648918858，mobile：18318227810
+2024-03-09 16:10:22.808 INFO  com.xboss.train.common.util.JwtUtil               :39   [32m                  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDk5NzE4MjIsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDA1ODIyMiwiaWF0IjoxNzA5OTcxODIyfQ.jnwGosvdcuI3Jg_tJESb26X1nQhAjHOln8rhY_uP6fY
+2024-03-09 16:10:22.808 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"id":1709648918858,"mobile":"18318227810","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MDk5NzE4MjIsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDA1ODIyMiwiaWF0IjoxNzA5OTcxODIyfQ.jnwGosvdcuI3Jg_tJESb26X1nQhAjHOln8rhY_uP6fY"},"success":true}
+2024-03-09 16:10:22.808 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-09 16:13:58.200 ERROR c.x.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m 校验异常：【手机号不能为空】
+2024-03-09 16:13:58.204 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号不能为空】]]
+2024-03-09 16:16:19.137 ERROR c.x.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m 校验异常：【手机号不能为空】
+2024-03-09 16:16:19.139 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号不能为空】]]
+2024-03-09 16:18:06.844 ERROR c.x.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m 校验异常：【手机号不能为空】
+2024-03-09 16:18:06.846 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号不能为空】]]
+2024-03-09 16:18:56.953 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-03-09 16:18:56.958 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.

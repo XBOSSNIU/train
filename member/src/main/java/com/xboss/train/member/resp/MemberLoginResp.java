@@ -1,4 +1,4 @@
-package com.xboss.train.common.resp;
+package com.xboss.train.member.resp;
 
 public class MemberLoginResp {
     private Long id;
