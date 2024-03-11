@@ -4,7 +4,7 @@
     <div style="float: right;color:white;">
       您好：{{member.mobile}} &nbsp;&nbsp;
       <router-link to="/login">
-        退出登录
+        <a @click="quit">退出登录</a>
       </router-link>
     </div>
     <a-menu
@@ -28,9 +28,14 @@ export default defineComponent({
   name: "the-header-view",
   setup() {
     let member=store.state.member;
+    const quit = () => {
+      store.commit("setMember", {});
+    };
+
     return {
       selectedKeys1: ref(['2']),
-      member
+      member,
+      quit,
     };
   },
   });
