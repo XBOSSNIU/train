@@ -52,8 +52,8 @@ public class MemberService {
         //如果手机号未注册
         if(ObjectUtil.isNull(member)){
             Member newMember=new Member();
-            member.setId(SnowUtil.getSnowflakeNextId());
-            member.setMobile(mobile);
+            newMember.setId(SnowUtil.getSnowflakeNextId());
+            newMember.setMobile(mobile);
             memberMapper.insert(newMember);
 
             LOG.info("手机号未注册，插入一条记录");
