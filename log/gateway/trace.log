@@ -212,3 +212,34 @@ Original Stack Trace:
 2024-03-12 15:33:48.298 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
 2024-03-12 15:33:48.299 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
 2024-03-12 15:33:48.510 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:15:33:48 +0800] "POST /member/passenger/save HTTP/1.1" 500 7927 213
+2024-03-12 15:42:44.570 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-12 15:42:44.596 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 15284 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-12 15:42:44.598 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-12 15:42:44.633 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-12 15:42:44.634 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-12 15:42:45.122 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2024-03-12 15:42:45.723 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-12 15:42:45.723 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-12 15:42:45.723 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-12 15:42:45.725 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-12 15:42:45.725 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-12 15:42:45.725 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-12 15:42:45.725 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-12 15:42:45.725 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-12 15:42:45.884 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-12 15:42:46.128 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-03-12 15:42:46.357 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 2.212 seconds (process running for 2.772)
+2024-03-12 15:42:46.359 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
+2024-03-12 15:42:46.360 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-03-12 15:43:07.836 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/save
+2024-03-12 15:43:07.837 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjg2OTgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxNTA5OCwiaWF0IjoxNzEwMjI4Njk4fQ.wFnuzlRIghU33b0lJ9t8vrqkVlsY_BaLeZ4R_TzxZBw
+2024-03-12 15:43:07.837 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjg2OTgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxNTA5OCwiaWF0IjoxNzEwMjI4Njk4fQ.wFnuzlRIghU33b0lJ9t8vrqkVlsY_BaLeZ4R_TzxZBw
+2024-03-12 15:43:08.041 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-12 15:43:08.041 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-12 15:43:08.766 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:15:43:07 +0800] "POST /member/passenger/save HTTP/1.1" 200 199 961
