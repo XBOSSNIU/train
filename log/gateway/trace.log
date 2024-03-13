@@ -1,245 +1,455 @@
-2024-03-12 14:13:21.936 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2024-03-12 14:13:21.978 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 14960 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
-2024-03-12 14:13:21.979 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-03-12 14:13:22.024 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-03-12 14:13:22.024 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-03-12 14:13:22.581 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
-2024-03-12 14:13:23.321 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
-2024-03-12 14:13:23.321 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
-2024-03-12 14:13:23.321 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
-2024-03-12 14:13:23.321 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
-2024-03-12 14:13:23.321 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
-2024-03-12 14:13:23.322 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
-2024-03-12 14:13:23.322 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
-2024-03-12 14:13:23.322 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
-2024-03-12 14:13:23.322 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
-2024-03-12 14:13:23.322 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
-2024-03-12 14:13:23.322 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
-2024-03-12 14:13:23.322 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
-2024-03-12 14:13:23.323 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
-2024-03-12 14:13:23.323 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
-2024-03-12 14:13:23.530 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-03-12 14:13:23.877 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
-2024-03-12 14:13:24.292 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 2.86 seconds (process running for 3.546)
-2024-03-12 14:13:24.296 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
-2024-03-12 14:13:24.297 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
-2024-03-12 14:35:33.139 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/login
-2024-03-12 14:35:33.302 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:35:33 +0800] "POST /member/member/login HTTP/1.1" 200 72 198
-2024-03-12 14:35:44.230 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/sendCode
-2024-03-12 14:35:44.238 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:35:44 +0800] "POST /member/member/sendCode?mobile=18318227810 HTTP/1.1" 400 5625 9
-2024-03-12 14:36:53.340 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/sendCode
-2024-03-12 14:36:53.354 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:36:53 +0800] "POST /member/member/sendCode HTTP/1.1" 200 46 15
-2024-03-12 14:37:18.284 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/login
-2024-03-12 14:37:18.454 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:37:18 +0800] "POST /member/member/login HTTP/1.1" 200 303 170
-2024-03-12 14:38:01.851 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/save
-2024-03-12 14:38:01.852 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjU0MzgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxMTgzOCwiaWF0IjoxNzEwMjI1NDM4fQ.cR-Sk7GdDc6TkbR8nynQkPePZ3kx1-CNNculmc6PEnw
-2024-03-12 14:38:01.852 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjU0MzgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxMTgzOCwiaWF0IjoxNzEwMjI1NDM4fQ.cR-Sk7GdDc6TkbR8nynQkPePZ3kx1-CNNculmc6PEnw
-2024-03-12 14:38:02.056 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
-2024-03-12 14:38:02.056 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
-2024-03-12 14:38:02.066 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:38:01 +0800] "POST /member/passenger/save HTTP/1.1" 200 202 215
-2024-03-12 14:47:42.141 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/login
-2024-03-12 14:47:42.154 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:47:42 +0800] "POST /member/member/login HTTP/1.1" 200 303 13
-2024-03-12 14:48:06.869 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/save
-2024-03-12 14:48:06.870 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：undefined
-2024-03-12 14:48:06.870 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：undefined
-2024-03-12 14:48:06.884 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [458b9584-7]  500 Server Error for HTTP POST "/member/passenger/save"
-cn.hutool.jwt.JWTException: The token was expected 3 parts, but got 1.
-	at cn.hutool.jwt.JWT.splitToken(JWT.java:404)
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP POST "/member/passenger/save" [ExceptionHandlingWebHandler]
-Original Stack Trace:
-		at cn.hutool.jwt.JWT.splitToken(JWT.java:404)
-		at cn.hutool.jwt.JWT.parse(JWT.java:96)
-		at cn.hutool.jwt.JWT.<init>(JWT.java:85)
-		at cn.hutool.jwt.JWT.of(JWT.java:66)
-		at cn.hutool.jwt.JWTUtil.parseToken(JWTUtil.java:73)
-		at com.xboss.train.gateway.utils.JwtUtil.validate(JwtUtil.java:47)
-		at com.xboss.train.gateway.config.LoginMemberFilter.filter(LoginMemberFilter.java:44)
-		at org.springframework.cloud.gateway.handler.FilteringWebHandler$GatewayFilterAdapter.filter(FilteringWebHandler.java:137)
-		at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44)
-		at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:117)
-		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44)
-		at reactor.core.publisher.Mono.subscribe(Mono.java:4444)
-		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
-		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
-		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
-		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
-		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
-		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
-		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
-		at reactor.core.publisher.Mono.subscribe(Mono.java:4444)
-		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
-		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
-		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
-		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:165)
-		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
-		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
-		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
-		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258)
-		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863)
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
-		at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:74)
-		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:158)
-		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:122)
-		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:82)
-		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.innerNext(FluxConcatMapNoPrefetch.java:258)
-		at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:863)
-		at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:79)
-		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
-		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.onNext(MonoFilterWhen.java:136)
-		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2508)
-		at reactor.core.publisher.MonoFilterWhen$MonoFilterWhenMain.request(MonoFilterWhen.java:182)
-		at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.request(MonoPeekTerminal.java:139)
-		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2268)
-		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2268)
-		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338)
-		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
-		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
-		at reactor.core.publisher.MonoFlatMap$FlatMapMain.request(MonoFlatMap.java:194)
-		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2268)
-		at reactor.core.publisher.FluxMap$MapSubscriber.request(FluxMap.java:164)
-		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.request(Operators.java:2268)
-		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.request(FluxConcatMapNoPrefetch.java:338)
-		at reactor.core.publisher.MonoNext$NextSubscriber.request(MonoNext.java:108)
-		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.set(Operators.java:2304)
-		at reactor.core.publisher.Operators$MultiSubscriptionSubscriber.onSubscribe(Operators.java:2178)
-		at reactor.core.publisher.MonoNext$NextSubscriber.onSubscribe(MonoNext.java:70)
-		at reactor.core.publisher.FluxConcatMapNoPrefetch$FluxConcatMapNoPrefetchSubscriber.onSubscribe(FluxConcatMapNoPrefetch.java:164)
-		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:165)
-		at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:87)
-		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
-		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
-		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
-		at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52)
-		at reactor.core.publisher.Mono.subscribe(Mono.java:4444)
-		at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:263)
-		at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:51)
-		at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:64)
-		at reactor.core.publisher.MonoDeferContextual.subscribe(MonoDeferContextual.java:55)
-		at reactor.netty.http.server.HttpServer$HttpServerHandle.onStateChange(HttpServer.java:997)
-		at reactor.netty.ReactorNetty$CompositeConnectionObserver.onStateChange(ReactorNetty.java:680)
-		at reactor.netty.transport.ServerTransport$ChildObserver.onStateChange(ServerTransport.java:477)
-		at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:573)
-		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113)
-		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-		at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:220)
-		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
-		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-		at reactor.netty.http.server.logging.AccessLogHandlerH1.channelRead(AccessLogHandlerH1.java:58)
-		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
-		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
-		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333)
-		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454)
-		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
-		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
-		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
-		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-		at java.base/java.lang.Thread.run(Thread.java:833)
-2024-03-12 14:48:06.928 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:48:06 +0800] "POST /member/passenger/save HTTP/1.1" 500 10858 59
-2024-03-12 14:48:27.577 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:48:27 +0800] "GET / HTTP/1.1" 404 11897 27
-2024-03-12 14:48:27.643 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:48:27 +0800] "GET /favicon.ico HTTP/1.1" 404 13552 5
-2024-03-12 14:50:32.285 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/login
-2024-03-12 14:50:32.295 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:50:32 +0800] "POST /member/member/login HTTP/1.1" 200 303 10
-2024-03-12 14:50:40.328 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/save
-2024-03-12 14:50:40.328 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjYyMzIsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxMjYzMiwiaWF0IjoxNzEwMjI2MjMyfQ.CUE87y5XdAE5MCQQrg-wCNbbaL1GQX3qx_gJOmFjdzY
-2024-03-12 14:50:40.329 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjYyMzIsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxMjYzMiwiaWF0IjoxNzEwMjI2MjMyfQ.CUE87y5XdAE5MCQQrg-wCNbbaL1GQX3qx_gJOmFjdzY
-2024-03-12 14:50:40.329 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
-2024-03-12 14:50:40.329 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
-2024-03-12 14:50:40.341 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:14:50:40 +0800] "POST /member/passenger/save HTTP/1.1" 200 202 13
-2024-03-12 15:31:22.813 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2024-03-12 15:31:22.850 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 30092 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
-2024-03-12 15:31:22.851 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-03-12 15:31:22.887 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-03-12 15:31:22.888 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-03-12 15:31:23.382 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
-2024-03-12 15:31:24.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
-2024-03-12 15:31:24.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
-2024-03-12 15:31:24.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
-2024-03-12 15:31:24.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
-2024-03-12 15:31:24.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
-2024-03-12 15:31:24.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
-2024-03-12 15:31:24.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
-2024-03-12 15:31:24.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
-2024-03-12 15:31:24.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
-2024-03-12 15:31:24.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
-2024-03-12 15:31:24.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
-2024-03-12 15:31:24.032 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
-2024-03-12 15:31:24.032 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
-2024-03-12 15:31:24.032 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
-2024-03-12 15:31:24.146 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2024-03-12 15:31:24.360 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
-2024-03-12 15:31:24.566 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 2.159 seconds (process running for 2.721)
-2024-03-12 15:31:24.569 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
-2024-03-12 15:31:24.569 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
-2024-03-12 15:31:37.389 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/login
-2024-03-12 15:31:38.106 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:15:31:37 +0800] "POST /member/member/login HTTP/1.1" 200 303 748
-2024-03-12 15:31:58.783 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/save
-2024-03-12 15:31:58.783 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjg2OTgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxNTA5OCwiaWF0IjoxNzEwMjI4Njk4fQ.wFnuzlRIghU33b0lJ9t8vrqkVlsY_BaLeZ4R_TzxZBw
-2024-03-12 15:31:58.784 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjg2OTgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxNTA5OCwiaWF0IjoxNzEwMjI4Njk4fQ.wFnuzlRIghU33b0lJ9t8vrqkVlsY_BaLeZ4R_TzxZBw
-2024-03-12 15:31:58.993 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
-2024-03-12 15:31:58.993 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
-2024-03-12 15:31:59.031 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:15:31:58 +0800] "POST /member/passenger/save HTTP/1.1" 500 7903 249
-2024-03-12 15:33:22.402 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/save
-2024-03-12 15:33:22.403 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjg2OTgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxNTA5OCwiaWF0IjoxNzEwMjI4Njk4fQ.wFnuzlRIghU33b0lJ9t8vrqkVlsY_BaLeZ4R_TzxZBw
-2024-03-12 15:33:22.403 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjg2OTgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxNTA5OCwiaWF0IjoxNzEwMjI4Njk4fQ.wFnuzlRIghU33b0lJ9t8vrqkVlsY_BaLeZ4R_TzxZBw
-2024-03-12 15:33:22.404 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
-2024-03-12 15:33:22.404 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
-2024-03-12 15:33:22.412 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:15:33:22 +0800] "POST /member/passenger/save HTTP/1.1" 500 7903 10
-2024-03-12 15:33:48.297 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/save
-2024-03-12 15:33:48.298 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjg2OTgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxNTA5OCwiaWF0IjoxNzEwMjI4Njk4fQ.wFnuzlRIghU33b0lJ9t8vrqkVlsY_BaLeZ4R_TzxZBw
-2024-03-12 15:33:48.298 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjg2OTgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxNTA5OCwiaWF0IjoxNzEwMjI4Njk4fQ.wFnuzlRIghU33b0lJ9t8vrqkVlsY_BaLeZ4R_TzxZBw
-2024-03-12 15:33:48.298 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
-2024-03-12 15:33:48.299 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
-2024-03-12 15:33:48.510 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:15:33:48 +0800] "POST /member/passenger/save HTTP/1.1" 500 7927 213
-2024-03-12 15:42:44.570 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2024-03-12 15:42:44.596 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 15284 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
-2024-03-12 15:42:44.598 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-03-12 15:42:44.633 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-03-12 15:42:44.634 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-03-12 15:42:45.122 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
-2024-03-12 15:42:45.723 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
-2024-03-12 15:42:45.723 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
-2024-03-12 15:42:45.723 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
-2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
-2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
-2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
-2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
-2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
-2024-03-12 15:42:45.724 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
-2024-03-12 15:42:45.725 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
-2024-03-12 15:42:45.725 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
-2024-03-12 15:42:45.725 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
-2024-03-12 15:42:45.725 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
-2024-03-12 15:42:45.725 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
-2024-03-12 15:42:45.884 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-03-12 15:42:46.128 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
-2024-03-12 15:42:46.357 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 2.212 seconds (process running for 2.772)
-2024-03-12 15:42:46.359 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
-2024-03-12 15:42:46.360 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
-2024-03-12 15:43:07.836 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/save
-2024-03-12 15:43:07.837 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjg2OTgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxNTA5OCwiaWF0IjoxNzEwMjI4Njk4fQ.wFnuzlRIghU33b0lJ9t8vrqkVlsY_BaLeZ4R_TzxZBw
-2024-03-12 15:43:07.837 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAyMjg2OTgsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDMxNTA5OCwiaWF0IjoxNzEwMjI4Njk4fQ.wFnuzlRIghU33b0lJ9t8vrqkVlsY_BaLeZ4R_TzxZBw
-2024-03-12 15:43:08.041 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
-2024-03-12 15:43:08.041 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
-2024-03-12 15:43:08.766 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [12/3月/2024:15:43:07 +0800] "POST /member/passenger/save HTTP/1.1" 200 199 961
+2024-03-13 13:15:15.083 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-13 13:15:15.118 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 13244 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-13 13:15:15.119 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-13 13:15:15.158 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-13 13:15:15.159 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-13 13:15:15.755 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2024-03-13 13:15:16.642 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-13 13:15:16.643 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-13 13:15:16.643 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-13 13:15:16.643 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-13 13:15:16.643 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-13 13:15:16.643 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-13 13:15:16.643 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-13 13:15:16.644 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-13 13:15:16.644 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-13 13:15:16.644 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-13 13:15:16.644 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-13 13:15:16.644 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-13 13:15:16.645 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-13 13:15:16.645 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-13 13:15:16.832 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-13 13:15:17.109 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-03-13 13:15:17.346 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 2.798 seconds (process running for 3.63)
+2024-03-13 13:15:17.349 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
+2024-03-13 13:15:17.349 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-03-13 13:15:47.992 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:13:15:47 +0800] "OPTIONS /member/member/sendCode HTTP/1.1" 200 0 41
+2024-03-13 13:15:47.998 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/sendCode
+2024-03-13 13:15:48.598 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:13:15:47 +0800] "POST /member/member/sendCode HTTP/1.1" 200 46 604
+2024-03-13 13:15:49.197 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:13:15:49 +0800] "OPTIONS /member/member/login HTTP/1.1" 200 0 1
+2024-03-13 13:15:49.199 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/login
+2024-03-13 13:15:49.396 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:13:15:49 +0800] "POST /member/member/login HTTP/1.1" 200 303 198
+2024-03-13 14:58:40.168 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:14:58:40 +0800] "OPTIONS /member/member/sendCode HTTP/1.1" 200 0 17
+2024-03-13 14:58:40.172 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/sendCode
+2024-03-13 14:58:40.233 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:14:58:40 +0800] "POST /member/member/sendCode HTTP/1.1" 200 46 62
+2024-03-13 14:58:40.870 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:14:58:40 +0800] "OPTIONS /member/member/login HTTP/1.1" 200 0 1
+2024-03-13 14:58:40.872 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/member/member/login
+2024-03-13 14:58:40.883 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:14:58:40 +0800] "POST /member/member/login HTTP/1.1" 200 303 12
+2024-03-13 14:58:42.165 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:14:58:42 +0800] "OPTIONS /member/passenger/query-list?page=1&size=10 HTTP/1.1" 200 0 1
+2024-03-13 14:58:42.167 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2024-03-13 14:58:42.168 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 14:58:42.170 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 14:58:42.410 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 14:58:42.410 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 14:58:42.482 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:14:58:42 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 315
+2024-03-13 14:59:13.181 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2024-03-13 14:59:13.182 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 14:59:13.182 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 14:59:13.183 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 14:59:13.183 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 14:59:13.195 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:14:59:13 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 14
+2024-03-13 14:59:25.708 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2024-03-13 14:59:25.708 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 14:59:25.708 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 14:59:25.709 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 14:59:25.710 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 14:59:25.724 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:14:59:25 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 17
+2024-03-13 15:00:02.299 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:00:02 +0800] "OPTIONS /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 0 1
+2024-03-13 15:00:02.303 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:00:02.303 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:00:02.308 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:00:02.309 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:00:02.309 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:00:02.421 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:00:02 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 119
+2024-03-13 15:00:08.435 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:00:08.435 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:00:08.435 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:00:08.436 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:00:08.436 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:00:08.447 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:00:08 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 13
+2024-03-13 15:00:24.284 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:00:24 +0800] "OPTIONS /member/passenger/delete/1767456275600060416 HTTP/1.1" 200 0 0
+2024-03-13 15:00:24.286 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/delete/1767456275600060416
+2024-03-13 15:00:24.286 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:00:24.287 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:00:24.287 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:00:24.287 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:00:24.294 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:00:24 +0800] "DELETE /member/passenger/delete/1767456275600060416 HTTP/1.1" 404 165 8
+2024-03-13 15:00:27.895 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:00:27.895 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:00:27.895 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:00:27.896 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:00:27.896 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:00:27.905 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:00:27 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 11
+2024-03-13 15:01:32.431 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:01:32.431 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:32.431 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:32.432 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:01:32.432 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:01:32.444 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:01:32 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 14
+2024-03-13 15:01:37.847 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:01:37.847 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:37.847 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:37.848 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:01:37.848 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:01:37.857 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:01:37 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 11
+2024-03-13 15:01:47.444 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:01:47.445 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:47.445 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:47.445 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:01:47.446 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:01:47.456 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:01:47 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 12
+2024-03-13 15:01:52.103 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:01:52.104 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:52.104 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:52.104 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:01:52.105 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:01:52.114 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:01:52 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 11
+2024-03-13 15:01:54.145 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:01:54.146 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:54.146 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:54.146 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:01:54.146 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:01:54.157 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:01:54 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 12
+2024-03-13 15:01:55.546 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:01:55.546 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:55.546 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:55.546 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:01:55.546 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:01:55.557 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:01:55 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 12
+2024-03-13 15:01:56.380 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:01:56.381 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:56.381 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:01:56.381 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:01:56.382 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:01:56.393 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:01:56 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 13
+2024-03-13 15:02:05.494 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:02:05.494 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:02:05.494 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:02:05.495 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:02:05.495 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:02:05.505 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:02:05 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 12
+2024-03-13 15:03:03.779 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:03:03.779 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:03:03.779 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:03:03.780 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:03:03.780 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:03:03.790 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:03:03 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 12
+2024-03-13 15:03:04.553 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:03:04.553 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:03:04.553 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:03:04.554 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:03:04.554 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:03:04.563 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:03:04 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 11
+2024-03-13 15:03:35.536 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:03:35.536 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:03:35.536 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:03:35.536 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:03:35.537 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:03:35.546 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:03:35 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 11
+2024-03-13 15:03:37.437 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:03:37.438 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:03:37.438 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:03:37.438 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:03:37.438 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:03:37.448 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:03:37 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 11
+2024-03-13 15:03:38.301 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:03:38.301 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:03:38.302 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:03:38.302 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:03:38.302 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:03:38.311 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:03:38 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 10
+2024-03-13 15:05:19.744 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:05:19.744 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:05:19.744 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:05:19.744 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:05:19.745 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:05:19.754 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:05:19 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 11
+2024-03-13 15:05:20.853 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:05:20.853 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:05:20.853 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:05:20.853 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:05:20.853 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:05:20.861 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:05:20 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 8
+2024-03-13 15:07:10.746 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:07:10.747 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:07:10.747 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:07:10.747 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:07:10.747 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:07:10.758 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:07:10 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 12
+2024-03-13 15:10:25.333 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-13 15:10:25.356 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 26616 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-13 15:10:25.357 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-13 15:10:25.387 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-13 15:10:25.387 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-13 15:10:25.801 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2024-03-13 15:10:26.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-13 15:10:26.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-13 15:10:26.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-13 15:10:26.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-13 15:10:26.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-13 15:10:26.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-13 15:10:26.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-13 15:10:26.325 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-13 15:10:26.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-13 15:10:26.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-13 15:10:26.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-13 15:10:26.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-13 15:10:26.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-13 15:10:26.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-13 15:10:26.448 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-13 15:10:26.666 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-03-13 15:10:26.869 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 1.946 seconds (process running for 2.51)
+2024-03-13 15:10:26.872 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
+2024-03-13 15:10:26.872 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-03-13 15:11:24.514 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:11:24.514 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:11:24.515 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:11:24.716 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:11:24.717 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:11:25.407 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:11:24 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 929
+2024-03-13 15:14:26.083 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:14:26.084 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:14:26.084 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:14:26.085 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:14:26.085 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:14:26.105 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:14:26 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 23
+2024-03-13 15:14:28.954 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:14:28.955 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:14:28.955 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:14:28.956 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:14:28.956 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:14:28.969 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:14:28 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 15
+2024-03-13 15:14:50.671 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:14:50.672 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:14:50.672 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:14:50.672 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:14:50.672 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:14:50.685 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:14:50 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 15
+2024-03-13 15:14:52.658 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:14:52.659 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:14:52.659 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:14:52.659 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:14:52.659 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:14:52.675 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:14:52 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 17
+2024-03-13 15:14:59.326 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:14:59.326 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:14:59.327 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:14:59.327 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:14:59.327 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:14:59.341 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:14:59 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 16
+2024-03-13 15:24:18.951 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:24:18.951 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:24:18.951 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:24:18.952 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:24:18.953 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:24:18.967 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:24:18 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 345 17
+2024-03-13 15:24:25.287 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:24:25 +0800] "OPTIONS /member/passenger/delete/1 HTTP/1.1" 200 0 1
+2024-03-13 15:24:25.290 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/delete/1
+2024-03-13 15:24:25.290 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:24:25.290 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:24:25.290 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:24:25.291 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:24:25.305 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:24:25 +0800] "DELETE /member/passenger/delete/1 HTTP/1.1" 200 46 16
+2024-03-13 15:24:25.319 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:24:25.319 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:24:25.319 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:24:25.320 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:24:25.320 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:24:25.330 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:24:25 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 12
+2024-03-13 15:24:44.411 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:24:44 +0800] "OPTIONS /member/passenger/save HTTP/1.1" 200 0 1
+2024-03-13 15:24:44.413 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/save
+2024-03-13 15:24:44.413 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:24:44.413 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:24:44.414 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:24:44.414 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:24:44.451 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:24:44 +0800] "POST /member/passenger/save HTTP/1.1" 200 75 39
+2024-03-13 15:34:12.841 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:34:12.842 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:34:12.842 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:34:12.843 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:34:12.843 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:34:12.854 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:34:12 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 13
+2024-03-13 15:42:46.322 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2024-03-13 15:42:46.322 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:42:46.322 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:42:46.323 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:42:46.323 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:42:46.343 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:42:46 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 22
+2024-03-13 15:42:56.995 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2024-03-13 15:42:56.995 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:42:56.995 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:42:56.996 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:42:56.996 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:42:57.005 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:42:56 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 11
+2024-03-13 15:42:59.237 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2024-03-13 15:42:59.238 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:42:59.238 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:42:59.238 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:42:59.238 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:42:59.247 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:42:59 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 10
+2024-03-13 15:43:17.037 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2024-03-13 15:43:17.037 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:43:17.037 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:43:17.037 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:43:17.037 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:43:17.045 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:43:17 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 9
+2024-03-13 15:43:47.616 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:43:47.617 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:43:47.617 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:43:47.618 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:43:47.618 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:43:47.632 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:43:47 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 17
+2024-03-13 15:43:49.897 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:43:49.897 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:43:49.897 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:43:49.898 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:43:49.898 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:43:49.906 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:43:49 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 10
+2024-03-13 15:48:04.234 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:48:04.235 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:48:04.235 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:48:04.235 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:48:04.235 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:48:04.245 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:48:04 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 11
+2024-03-13 15:48:07.479 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:48:07.479 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:48:07.479 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:48:07.480 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:48:07.480 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:48:07.490 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:48:07 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 12
+2024-03-13 15:49:08.037 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-13 15:49:08.068 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 23496 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-13 15:49:08.069 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-13 15:49:08.110 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-13 15:49:08.110 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-13 15:49:08.735 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2024-03-13 15:49:09.384 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-13 15:49:09.385 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-13 15:49:09.385 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-13 15:49:09.385 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-13 15:49:09.385 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-13 15:49:09.385 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-13 15:49:09.386 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-13 15:49:09.386 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-13 15:49:09.386 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-13 15:49:09.386 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-13 15:49:09.386 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-13 15:49:09.387 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-13 15:49:09.387 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-13 15:49:09.387 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-13 15:49:09.539 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-13 15:49:09.784 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-03-13 15:49:10.001 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 2.424 seconds (process running for 2.971)
+2024-03-13 15:49:10.004 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
+2024-03-13 15:49:10.004 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-03-13 15:49:24.270 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:49:24.271 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:49:24.272 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:49:24.474 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:49:24.474 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:49:25.174 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:49:24 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 939
+2024-03-13 15:49:30.974 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:49:30.975 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:49:30.975 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:49:30.975 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:49:30.975 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:49:30.990 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:49:30 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 17
+2024-03-13 15:53:02.297 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:53:02.298 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:53:02.298 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:53:02.299 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:53:02.299 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:53:02.314 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:53:02 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 18
+2024-03-13 15:53:31.878 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:53:31.879 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:53:31.879 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:53:31.879 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:53:31.880 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:53:31.894 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:53:31 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 16
+2024-03-13 15:54:16.388 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-13 15:54:16.428 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 17536 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-13 15:54:16.429 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-13 15:54:16.472 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-13 15:54:16.473 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-13 15:54:17.037 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2024-03-13 15:54:17.667 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-13 15:54:17.667 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-13 15:54:17.667 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-13 15:54:17.667 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-13 15:54:17.667 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-13 15:54:17.667 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-13 15:54:17.668 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-13 15:54:17.668 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-13 15:54:17.668 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-13 15:54:17.668 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-13 15:54:17.668 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-13 15:54:17.668 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-13 15:54:17.668 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-13 15:54:17.668 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-13 15:54:17.823 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-13 15:54:18.078 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-03-13 15:54:18.292 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 2.394 seconds (process running for 3.027)
+2024-03-13 15:54:18.294 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
+2024-03-13 15:54:18.294 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-03-13 15:54:27.796 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:54:27.796 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:54:27.797 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:54:27.999 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:54:28.000 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:54:28.700 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:54:27 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 940
+2024-03-13 15:59:33.846 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:59:33.846 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:59:33.846 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:59:33.850 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:59:33.851 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:59:33.866 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:59:33 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 21
+2024-03-13 15:59:37.411 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 15:59:37.411 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:59:37.411 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 15:59:37.412 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 15:59:37.412 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 15:59:37.425 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:15:59:37 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 15
+2024-03-13 16:03:11.643 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:16:03:11 +0800] "OPTIONS /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 0 1
+2024-03-13 16:03:11.651 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 16:03:11.651 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 16:03:11.651 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 16:03:11.652 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 16:03:11.652 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 16:03:11.667 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:16:03:11 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 214 17
+2024-03-13 16:04:59.367 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-13 16:04:59.390 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 17288 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-13 16:04:59.391 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-13 16:04:59.420 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-13 16:04:59.421 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-13 16:04:59.858 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2024-03-13 16:05:00.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-13 16:05:00.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-13 16:05:00.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-13 16:05:00.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-13 16:05:00.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-13 16:05:00.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-13 16:05:00.382 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-13 16:05:00.382 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-13 16:05:00.382 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-13 16:05:00.382 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-13 16:05:00.382 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-13 16:05:00.382 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-13 16:05:00.382 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-13 16:05:00.382 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-13 16:05:00.497 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-13 16:05:00.715 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-03-13 16:05:00.924 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 1.956 seconds (process running for 2.49)
+2024-03-13 16:05:00.927 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
+2024-03-13 16:05:00.927 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-03-13 16:05:04.752 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 16:05:04.752 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 16:05:04.753 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 16:05:04.959 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 16:05:04.960 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 16:05:05.654 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:16:05:04 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 216 940
+2024-03-13 16:05:13.760 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :32   [32m                  [0;39m 需要登录验证：/member/passenger/selectByMemberId
+2024-03-13 16:05:13.761 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :36   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 16:05:13.761 INFO  com.xboss.train.gateway.utils.JwtUtil             :45   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3MTAzMTMxMjAsIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTcxMDM5OTUyMCwiaWF0IjoxNzEwMzEzMTIwfQ.UGDb8dS70MVM5sJmdmowPMl3tJCW3hp0MVmgm44IamA
+2024-03-13 16:05:13.761 INFO  com.xboss.train.gateway.utils.JwtUtil             :50   [32m                  [0;39m JWT token校验结果：true
+2024-03-13 16:05:13.761 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :46   [32m                  [0;39m token有效，放行该请求
+2024-03-13 16:05:13.774 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [13/3月/2024:16:05:13 +0800] "GET /member/passenger/selectByMemberId?page=1&size=10 HTTP/1.1" 200 216 15

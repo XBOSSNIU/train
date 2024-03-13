@@ -1,15 +1,17 @@
 package com.xboss.train.member.controller;
 
 import com.xboss.train.common.resp.CommonResp;
+import com.xboss.train.common.resp.PageResp;
 import com.xboss.train.member.domain.Passenger;
+import com.xboss.train.member.req.PassengerQueryReq;
 import com.xboss.train.member.req.PassengerSaveReq;
+import com.xboss.train.member.resp.PassengerQueryResp;
 import com.xboss.train.member.service.PassengerService;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/passenger")
@@ -23,5 +25,29 @@ public class PassengerController {
         CommonResp commonResp=new CommonResp();
         commonResp.setContent(passenger);
         return commonResp;
+    }
+
+    @GetMapping("selectByMemberId")
+    public CommonResp<PageResp> selectByMemberId(@Valid PassengerQueryReq passengerQueryReq){
+        PageResp<PassengerQueryResp> passengerQueryRespPageResp = passengerService.queryList(passengerQueryReq);
+        return new CommonResp(passengerQueryRespPageResp);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public CommonResp<Object> delete(@PathVariable Long id) {
+        passengerService.delete(id);
+        return new CommonResp<>();
+    }
+
+    @GetMapping("/query-mine")
+    public CommonResp<List<PassengerQueryResp>> queryMine() {
+        List<PassengerQueryResp> list = passengerService.queryMine();
+        return new CommonResp<>(list);
+    }
+
+    @GetMapping("/init")
+    public CommonResp<Object> init() {
+        passengerService.init();
+        return new CommonResp<>();
     }
 }
