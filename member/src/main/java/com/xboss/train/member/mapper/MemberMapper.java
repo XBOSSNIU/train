@@ -1,7 +1,8 @@
 package com.xboss.train.member.mapper;
 
-import com.xboss.train.member.domain.Member;
 import com.xboss.train.member.domain.MemberExample;
+import com.xboss.train.member.domain.Member;
+
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

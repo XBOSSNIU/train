@@ -1,9 +1,9 @@
 package com.xboss.train.member.controller;
 
 import com.xboss.train.common.resp.CommonResp;
+import com.xboss.train.member.req.MemberSendCodeReq;
 import com.xboss.train.member.req.MemberLoginReq;
 import com.xboss.train.member.req.MemberRegisterReq;
-import com.xboss.train.member.req.MemberSendCodeReq;
 import com.xboss.train.member.resp.MemberLoginResp;
 import com.xboss.train.member.service.MemberService;
 import jakarta.annotation.Resource;

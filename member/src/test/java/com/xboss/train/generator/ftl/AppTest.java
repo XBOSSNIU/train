@@ -1,4 +1,4 @@
-package com.xboss;
+package com.xboss.train.generator.ftl;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
