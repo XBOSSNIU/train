@@ -1,7 +1,7 @@
 2024-03-12 14:16:22.506 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: 
 ### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null
 ### The error may exist in file [D:\projectAndcode\train\member\target\classes\mapper\PassengerMapper.xml]
-### The error may involve com.xboss.train.member.mapper.PassengerMapper.insert-Inline
+### The error may involve mapper.member.train.com.xboss.train.generator.ftl.PassengerMapper.insert-Inline
 ### The error occurred while setting parameters
 ### SQL: insert into passenger (id, member_id, `name`,        id_card, `type`, create_time,        update_time)     values (?, ?, ?,        ?, ?, ?,        ?)
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null
@@ -34,8 +34,8 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be 
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy82.insert(Unknown Source)
-	at com.xboss.train.member.service.PassengerService.save(PassengerService.java:22)
-	at com.xboss.train.member.controller.PassengerController.save(PassengerController.java:20)
+	at service.member.train.com.xboss.train.generator.ftl.PassengerService.save(PassengerService.java:22)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController.save(PassengerController.java:20)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
@@ -46,7 +46,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be 
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.xboss.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at aspect.common.train.com.xboss.train.generator.ftl.LogAspect.doAround(LogAspect.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
@@ -58,7 +58,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be 
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.xboss.train.member.controller.PassengerController$$SpringCGLIB$$0.save(<generated>)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController$$SpringCGLIB$$0.save(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -110,7 +110,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be 
 2024-03-12 14:16:55.007 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: 
 ### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null
 ### The error may exist in file [D:\projectAndcode\train\member\target\classes\mapper\PassengerMapper.xml]
-### The error may involve com.xboss.train.member.mapper.PassengerMapper.insert-Inline
+### The error may involve mapper.member.train.com.xboss.train.generator.ftl.PassengerMapper.insert-Inline
 ### The error occurred while setting parameters
 ### SQL: insert into passenger (id, member_id, `name`,        id_card, `type`, create_time,        update_time)     values (?, ?, ?,        ?, ?, ?,        ?)
 ### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be null
@@ -143,8 +143,8 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be 
 	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
 	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
 	at jdk.proxy3/jdk.proxy3.$Proxy82.insert(Unknown Source)
-	at com.xboss.train.member.service.PassengerService.save(PassengerService.java:22)
-	at com.xboss.train.member.controller.PassengerController.save(PassengerController.java:22)
+	at service.member.train.com.xboss.train.generator.ftl.PassengerService.save(PassengerService.java:22)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController.save(PassengerController.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
@@ -155,7 +155,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be 
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.xboss.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at aspect.common.train.com.xboss.train.generator.ftl.LogAspect.doAround(LogAspect.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
@@ -167,7 +167,7 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'member_id' cannot be 
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.xboss.train.member.controller.PassengerController$$SpringCGLIB$$0.save(<generated>)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController$$SpringCGLIB$$0.save(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -232,11 +232,11 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at com.xboss.train.member.config.MemberApplication.main(MemberApplication.java:23)
+	at config.member.train.com.xboss.train.generator.ftl.MemberApplication.main(MemberApplication.java:23)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.xboss.train.member.controller.PassengerController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3182f21b]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [controller.member.train.com.xboss.train.generator.ftl.PassengerController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3182f21b]
 	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:740)
 	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:672)
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:340)
@@ -251,7 +251,7 @@ Caused by: java.lang.NoClassDefFoundError: com/xboss/train/member/service/Passen
 	at java.base/java.lang.Class.getDeclaredFields(Class.java:2403)
 	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:735)
 	... 22 common frames omitted
-Caused by: java.lang.ClassNotFoundException: com.xboss.train.member.service.PassengerService
+Caused by: java.lang.ClassNotFoundException: service.member.train.com.xboss.train.generator.ftl.PassengerService
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
@@ -261,10 +261,10 @@ Caused by: java.lang.ClassNotFoundException: com.xboss.train.member.service.Pass
 	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
 	... 26 common frames omitted
-2024-03-12 15:31:59.013 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.MemberLoginResp.getId()" because the return value of "com.xboss.train.common.context.LoginMemberContext.getMember()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.MemberLoginResp.getId()" because the return value of "com.xboss.train.common.context.LoginMemberContext.getMember()" is null
-	at com.xboss.train.member.service.PassengerService.save(PassengerService.java:22)
-	at com.xboss.train.member.controller.PassengerController.save(PassengerController.java:22)
+2024-03-12 15:31:59.013 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "resp.common.train.com.xboss.train.generator.ftl.MemberLoginResp.getId()" because the return value of "context.common.train.com.xboss.train.generator.ftl.LoginMemberContext.getMember()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "resp.common.train.com.xboss.train.generator.ftl.MemberLoginResp.getId()" because the return value of "context.common.train.com.xboss.train.generator.ftl.LoginMemberContext.getMember()" is null
+	at service.member.train.com.xboss.train.generator.ftl.PassengerService.save(PassengerService.java:22)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController.save(PassengerController.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
@@ -275,7 +275,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.xboss.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at aspect.common.train.com.xboss.train.generator.ftl.LogAspect.doAround(LogAspect.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
@@ -287,7 +287,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.xboss.train.member.controller.PassengerController$$SpringCGLIB$$0.save(<generated>)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController$$SpringCGLIB$$0.save(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -336,10 +336,10 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2024-03-12 15:33:22.408 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.MemberLoginResp.getId()" because the return value of "com.xboss.train.common.context.LoginMemberContext.getMember()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.MemberLoginResp.getId()" because the return value of "com.xboss.train.common.context.LoginMemberContext.getMember()" is null
-	at com.xboss.train.member.service.PassengerService.save(PassengerService.java:22)
-	at com.xboss.train.member.controller.PassengerController.save(PassengerController.java:22)
+2024-03-12 15:33:22.408 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "resp.common.train.com.xboss.train.generator.ftl.MemberLoginResp.getId()" because the return value of "context.common.train.com.xboss.train.generator.ftl.LoginMemberContext.getMember()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "resp.common.train.com.xboss.train.generator.ftl.MemberLoginResp.getId()" because the return value of "context.common.train.com.xboss.train.generator.ftl.LoginMemberContext.getMember()" is null
+	at service.member.train.com.xboss.train.generator.ftl.PassengerService.save(PassengerService.java:22)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController.save(PassengerController.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
@@ -350,7 +350,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.xboss.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at aspect.common.train.com.xboss.train.generator.ftl.LogAspect.doAround(LogAspect.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
@@ -362,7 +362,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.xboss.train.member.controller.PassengerController$$SpringCGLIB$$0.save(<generated>)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController$$SpringCGLIB$$0.save(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -411,11 +411,11 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2024-03-12 15:33:48.478 ERROR com.xboss.train.common.context.LoginMemberContext :24   [32m                  [0;39m 获取登录会员信息异常
-java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.MemberLoginResp.getId()" because the return value of "java.lang.ThreadLocal.get()" is null
-	at com.xboss.train.common.context.LoginMemberContext.getId(LoginMemberContext.java:22)
-	at com.xboss.train.member.service.PassengerService.save(PassengerService.java:22)
-	at com.xboss.train.member.controller.PassengerController.save(PassengerController.java:22)
+2024-03-12 15:33:48.478 ERROR context.common.train.com.xboss.train.generator.ftl.LoginMemberContext :24   [32m                  [0;39m 获取登录会员信息异常
+java.lang.NullPointerException: Cannot invoke "resp.common.train.com.xboss.train.generator.ftl.MemberLoginResp.getId()" because the return value of "java.lang.ThreadLocal.get()" is null
+	at context.common.train.com.xboss.train.generator.ftl.LoginMemberContext.getId(LoginMemberContext.java:22)
+	at service.member.train.com.xboss.train.generator.ftl.PassengerService.save(PassengerService.java:22)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController.save(PassengerController.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
@@ -426,7 +426,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.xboss.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at aspect.common.train.com.xboss.train.generator.ftl.LogAspect.doAround(LogAspect.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
@@ -438,7 +438,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.xboss.train.member.controller.PassengerController$$SpringCGLIB$$0.save(<generated>)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController$$SpringCGLIB$$0.save(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -487,11 +487,11 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2024-03-12 15:33:48.483 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.MemberLoginResp.getId()" because the return value of "java.lang.ThreadLocal.get()" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.MemberLoginResp.getId()" because the return value of "java.lang.ThreadLocal.get()" is null
-	at com.xboss.train.common.context.LoginMemberContext.getId(LoginMemberContext.java:22)
-	at com.xboss.train.member.service.PassengerService.save(PassengerService.java:22)
-	at com.xboss.train.member.controller.PassengerController.save(PassengerController.java:22)
+2024-03-12 15:33:48.483 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "resp.common.train.com.xboss.train.generator.ftl.MemberLoginResp.getId()" because the return value of "java.lang.ThreadLocal.get()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "resp.common.train.com.xboss.train.generator.ftl.MemberLoginResp.getId()" because the return value of "java.lang.ThreadLocal.get()" is null
+	at context.common.train.com.xboss.train.generator.ftl.LoginMemberContext.getId(LoginMemberContext.java:22)
+	at service.member.train.com.xboss.train.generator.ftl.PassengerService.save(PassengerService.java:22)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController.save(PassengerController.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
@@ -502,7 +502,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.xboss.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at aspect.common.train.com.xboss.train.generator.ftl.LogAspect.doAround(LogAspect.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
@@ -514,7 +514,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.common.resp.Membe
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.xboss.train.member.controller.PassengerController$$SpringCGLIB$$0.save(<generated>)
+	at controller.member.train.com.xboss.train.generator.ftl.PassengerController$$SpringCGLIB$$0.save(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)

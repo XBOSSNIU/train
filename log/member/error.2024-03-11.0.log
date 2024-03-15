@@ -1,7 +1,7 @@
-2024-03-11 22:51:28.498 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Member.setId(java.lang.Long)" because "member" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Member.setId(java.lang.Long)" because "member" is null
-	at com.xboss.train.member.service.MemberService.sendCode(MemberService.java:55)
-	at com.xboss.train.member.controller.memberController.sendCode(memberController.java:37)
+2024-03-11 22:51:28.498 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "domain.member.train.com.xboss.train.generator.ftl.Member.setId(java.lang.Long)" because "member" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "domain.member.train.com.xboss.train.generator.ftl.Member.setId(java.lang.Long)" because "member" is null
+	at service.member.train.com.xboss.train.generator.ftl.MemberService.sendCode(MemberService.java:55)
+	at controller.member.train.com.xboss.train.generator.ftl.memberController.sendCode(memberController.java:37)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
@@ -12,7 +12,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Mem
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.xboss.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at aspect.common.train.com.xboss.train.generator.ftl.LogAspect.doAround(LogAspect.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
@@ -24,7 +24,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Mem
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.xboss.train.member.controller.memberController$$SpringCGLIB$$0.sendCode(<generated>)
+	at controller.member.train.com.xboss.train.generator.ftl.memberController$$SpringCGLIB$$0.sendCode(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -73,10 +73,10 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Mem
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2024-03-11 22:51:36.457 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Member.setId(java.lang.Long)" because "member" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Member.setId(java.lang.Long)" because "member" is null
-	at com.xboss.train.member.service.MemberService.sendCode(MemberService.java:55)
-	at com.xboss.train.member.controller.memberController.sendCode(memberController.java:37)
+2024-03-11 22:51:36.457 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "domain.member.train.com.xboss.train.generator.ftl.Member.setId(java.lang.Long)" because "member" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "domain.member.train.com.xboss.train.generator.ftl.Member.setId(java.lang.Long)" because "member" is null
+	at service.member.train.com.xboss.train.generator.ftl.MemberService.sendCode(MemberService.java:55)
+	at controller.member.train.com.xboss.train.generator.ftl.memberController.sendCode(memberController.java:37)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
@@ -87,7 +87,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Mem
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.xboss.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at aspect.common.train.com.xboss.train.generator.ftl.LogAspect.doAround(LogAspect.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
@@ -99,7 +99,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Mem
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.xboss.train.member.controller.memberController$$SpringCGLIB$$0.sendCode(<generated>)
+	at controller.member.train.com.xboss.train.generator.ftl.memberController$$SpringCGLIB$$0.sendCode(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
@@ -148,10 +148,10 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Mem
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2024-03-11 22:55:30.697 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Member.setId(java.lang.Long)" because "member" is null] with root cause
-java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Member.setId(java.lang.Long)" because "member" is null
-	at com.xboss.train.member.service.MemberService.sendCode(MemberService.java:55)
-	at com.xboss.train.member.controller.memberController.sendCode(memberController.java:37)
+2024-03-11 22:55:30.697 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "domain.member.train.com.xboss.train.generator.ftl.Member.setId(java.lang.Long)" because "member" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "domain.member.train.com.xboss.train.generator.ftl.Member.setId(java.lang.Long)" because "member" is null
+	at service.member.train.com.xboss.train.generator.ftl.MemberService.sendCode(MemberService.java:55)
+	at controller.member.train.com.xboss.train.generator.ftl.memberController.sendCode(memberController.java:37)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
@@ -162,7 +162,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Mem
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at com.xboss.train.common.aspect.LogAspect.doAround(LogAspect.java:78)
+	at aspect.common.train.com.xboss.train.generator.ftl.LogAspect.doAround(LogAspect.java:78)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
@@ -174,7 +174,7 @@ java.lang.NullPointerException: Cannot invoke "com.xboss.train.member.domain.Mem
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at com.xboss.train.member.controller.memberController$$SpringCGLIB$$0.sendCode(<generated>)
+	at controller.member.train.com.xboss.train.generator.ftl.memberController$$SpringCGLIB$$0.sendCode(<generated>)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
