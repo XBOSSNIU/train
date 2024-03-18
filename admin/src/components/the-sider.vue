@@ -25,6 +25,12 @@
           <user-outlined /> &nbsp; 火车管理
         </router-link>
       </a-menu-item>
+      <a-menu-item key="/carriage">
+        <router-link to="/carriage">
+          <user-outlined /> &nbsp; 火车车厢
+        </router-link>
+      </a-menu-item>
+
     </a-menu>
   </a-layout-sider>
 </template>
