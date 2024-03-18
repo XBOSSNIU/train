@@ -23,35 +23,26 @@
 
         <!-- 配置数据源，需要根据自己的项目修改 -->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/train_business?serverTimezone=Asia/Shanghai&amp;nullCatalogMeansCurrent=true"
+                        connectionURL="jdbc:mysql://localhost:3306/train?serverTimezone=Asia/Shanghai&amp;nullCatalogMeansCurrent=true"
                         userId="root"
                         password="123456">
         </jdbcConnection>
 
         <!-- domain类的位置 targetProject是相对pom.xml的路径-->
-        <javaModelGenerator targetProject="../business/src/main/java"
-                            targetPackage="com.xboss.train.business.domain"/>
+        <javaModelGenerator targetProject="../member/src/main/java"
+                            targetPackage="com.xboss.train.member.domain"/>
 
         <!-- mapper xml的位置 targetProject是相对pom.xml的路径 -->
-        <sqlMapGenerator targetProject="../business/src/main/resources"
+        <sqlMapGenerator targetProject="../member/src/main/resources"
                          targetPackage="mapper"/>
 
         <!-- mapper类的位置 targetProject是相对pom.xml的路径 -->
-        <javaClientGenerator targetProject="../business/src/main/java"
-                             targetPackage="com.xboss.train.business.mapper"
+        <javaClientGenerator targetProject="../member/src/main/java"
+                             targetPackage="com.xboss.train.member.mapper"
                              type="XMLMAPPER"/>
 
-<!--        <table tableName="station" domainObjectName="Station"/>-->
-        <table tableName="train" domainObjectName="Train"/>
-<!--        <table tableName="train_station" domainObjectName="TrainStation"/>-->
-<!--        <table tableName="train_carriage" domainObjectName="TrainCarriage"/>-->
-<!--        <table tableName="train_seat" domainObjectName="TrainSeat"/>-->
-<!--        <table tableName="daily_train" domainObjectName="DailyTrain"/>-->
-<!--        <table tableName="daily_train_station" domainObjectName="DailyTrainStation"/>-->
-<!--        <table tableName="daily_train_carriage" domainObjectName="DailyTrainCarriage"/>-->
-<!--        <table tableName="daily_train_seat" domainObjectName="DailyTrainSeat"/>-->
-<!--        <table tableName="daily_train_ticket" domainObjectName="DailyTrainTicket"/>-->
-<!--        <table tableName="confirm_order" domainObjectName="ConfirmOrder"/>-->
-<!--        <table tableName="sk_token" domainObjectName="SkToken"/>-->
+<!--        <table tableName="member" domainObjectName="Member"/>-->
+        <!--<table tableName="passenger" domainObjectName="Passenger"/>-->
+        <!--<table tableName="ticket" domainObjectName="Ticket"/>-->
     </context>
 </generatorConfiguration>
