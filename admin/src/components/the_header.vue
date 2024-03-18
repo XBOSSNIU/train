@@ -34,9 +34,19 @@
           <user-outlined /> &nbsp; 火车管理
         </router-link>
       </a-menu-item>
+      <a-menu-item key="/base/train-station">
+        <router-link to="/base/train-station">
+          <MenuUnfoldOutlined /> &nbsp; 火车车站
+        </router-link>
+      </a-menu-item>
       <a-menu-item key="/carriage">
         <router-link to="/carriage">
           <user-outlined /> &nbsp; 火车车厢
+        </router-link>
+      </a-menu-item>
+      <a-menu-item key="/seat">
+        <router-link to="/seat">
+          <user-outlined /> &nbsp; 座位管理
         </router-link>
       </a-menu-item>
 

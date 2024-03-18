@@ -215,3 +215,44 @@
 2024-03-18 18:17:12.857 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 1.953 seconds (process running for 2.486)
 2024-03-18 18:17:12.859 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
 2024-03-18 18:17:12.859 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-03-18 18:21:19.142 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-18 18:21:19.169 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 15484 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-18 18:21:19.170 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-18 18:21:19.205 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-18 18:21:19.205 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-18 18:21:19.672 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2024-03-18 18:21:20.218 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-18 18:21:20.218 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-18 18:21:20.218 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-18 18:21:20.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-18 18:21:20.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-18 18:21:20.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-18 18:21:20.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-18 18:21:20.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-18 18:21:20.219 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-18 18:21:20.221 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-18 18:21:20.221 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-18 18:21:20.221 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-18 18:21:20.221 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-18 18:21:20.222 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-18 18:21:20.335 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-18 18:21:20.562 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-03-18 18:21:20.765 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 2.09 seconds (process running for 2.665)
+2024-03-18 18:21:20.767 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
+2024-03-18 18:21:20.768 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-03-18 18:21:38.101 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 18:21:42.794 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 18:21:43.194 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 18:21:43.898 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 18:21:47.926 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/save
+2024-03-18 18:21:47.974 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 18:21:52.063 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/save
+2024-03-18 18:21:52.087 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 18:21:53.388 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 18:21:54.725 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 18:22:03.516 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2024-03-18 18:22:03.548 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 18:22:07.061 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2024-03-18 18:22:07.083 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 18:22:09.585 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/delete/1769670595571748864
+2024-03-18 18:22:09.602 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
