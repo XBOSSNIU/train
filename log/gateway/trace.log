@@ -347,3 +347,136 @@
 2024-03-18 21:38:17.254 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
 2024-03-18 21:38:17.626 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
 2024-03-18 21:38:17.627 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-all
+2024-03-18 21:38:33.633 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-18 21:38:33.662 INFO  com.xboss.train.gateway.config.gatewayApplication :51   [32m                  [0;39m Starting gatewayApplication using Java 18.0.1.1 with PID 35552 (D:\projectAndcode\train\gateway\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-18 21:38:33.663 INFO  com.xboss.train.gateway.config.gatewayApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-18 21:38:33.696 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-18 21:38:33.696 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-18 21:38:34.177 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2024-03-18 21:38:34.807 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-03-18 21:38:34.808 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-03-18 21:38:34.808 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-03-18 21:38:34.808 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-03-18 21:38:34.808 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-03-18 21:38:34.808 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-03-18 21:38:34.808 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-03-18 21:38:34.808 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-03-18 21:38:34.809 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-03-18 21:38:34.809 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-03-18 21:38:34.809 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-03-18 21:38:34.809 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-03-18 21:38:34.809 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-03-18 21:38:34.809 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-03-18 21:38:34.946 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-18 21:38:35.181 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2024-03-18 21:38:35.392 INFO  com.xboss.train.gateway.config.gatewayApplication :57   [32m                  [0;39m Started gatewayApplication in 2.202 seconds (process running for 3.079)
+2024-03-18 21:38:35.394 INFO  com.xboss.train.gateway.config.gatewayApplication :23   [32m                  [0;39m 启动成功！！
+2024-03-18 21:38:35.395 INFO  com.xboss.train.gateway.config.gatewayApplication :24   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2024-03-18 21:38:52.287 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-all
+2024-03-18 21:38:52.287 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:39:10.977 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:39:10.977 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-all
+2024-03-18 21:39:13.807 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 21:39:14.541 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:39:14.541 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-all
+2024-03-18 21:39:23.680 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-all
+2024-03-18 21:39:23.680 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:41:02.607 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:41:02.607 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:41:06.485 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:41:06.485 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:41:07.423 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 21:41:07.819 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:41:07.819 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:41:09.922 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 21:41:10.439 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:41:10.439 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:41:11.870 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 21:41:12.364 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2024-03-18 21:41:12.860 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 21:41:13.246 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:41:13.246 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:41:49.449 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:41:49.449 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:43:27.382 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 21:43:27.522 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:43:27.522 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:45:35.721 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:45:35.721 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:45:57.486 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 21:45:57.855 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:45:57.855 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:48:51.349 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:48:51.349 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:48:56.722 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:48:56.722 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:49:00.662 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:49:00.662 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:49:36.945 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:49:36.945 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:49:50.506 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:49:50.506 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:50:16.795 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:50:16.795 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:50:46.676 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:50:46.676 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:50:52.653 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:50:52.653 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:51:01.270 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:51:01.270 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:51:07.683 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:51:07.683 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:51:14.860 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:51:14.860 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:51:18.305 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:51:18.305 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:51:22.643 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:51:22.643 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:51:39.914 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:51:39.914 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:51:42.737 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:51:42.737 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:56:24.016 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:56:24.016 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:59:02.902 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:59:02.902 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:59:35.245 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:59:35.245 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 21:59:40.861 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 21:59:40.861 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:00:06.688 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:00:06.688 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:00:14.066 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:00:14.066 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:00:45.104 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:00:45.104 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:02:30.061 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:02:30.061 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:03:02.360 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 22:03:12.082 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/save
+2024-03-18 22:03:12.126 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 22:03:13.244 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:03:13.244 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:03:19.591 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 22:05:22.285 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:05:22.285 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 22:05:48.175 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:05:48.175 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:05:49.305 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 22:05:50.618 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:05:50.618 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:05:54.073 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:05:54.073 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 22:05:59.988 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:05:59.988 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:06:00.522 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2024-03-18 22:06:01.653 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:06:01.653 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:06:05.080 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:06:05.080 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 22:07:14.866 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 22:07:14.866 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:07:15.117 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2024-03-18 22:07:15.117 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2024-03-18 22:07:18.964 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2024-03-18 22:07:18.964 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
