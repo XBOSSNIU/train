@@ -1316,3 +1316,901 @@
 2024-03-18 21:06:14.821 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总页数：1
 2024-03-18 21:06:14.823 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
 2024-03-18 21:06:14.823 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：19 ms -------------
+2024-03-18 21:10:03.190 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:10:03.191 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-18 21:10:03.191 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-18 21:10:03.191 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:10:03.191 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:10:03.191 INFO  com.xboss.train.business.service.TrainService     :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:10:03.192 INFO  com.xboss.train.business.service.TrainService     :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:10:03.193 INFO  com.xboss.train.business.service.TrainService     :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:10:03.194 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:10:03.194 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
+2024-03-18 21:10:03.194 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-18 21:10:10.705 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:10:10.705 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-18 21:10:10.705 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-18 21:10:10.705 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:10:10.705 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:10:10.705 INFO  com.xboss.train.business.service.TrainService     :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:10:10.705 INFO  com.xboss.train.business.service.TrainService     :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:10:10.706 INFO  com.xboss.train.business.service.TrainService     :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:10:10.707 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:10:10.707 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
+2024-03-18 21:10:10.707 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:10:12.534 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:10:12.534 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-carriage/query-list GET
+2024-03-18 21:10:12.534 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainCarriageAdminController.queryList
+2024-03-18 21:10:12.534 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:10:12.535 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:10:12.537 INFO  c.x.train.business.service.TrainCarriageService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:10:12.537 INFO  c.x.train.business.service.TrainCarriageService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:10:12.540 INFO  c.x.train.business.service.TrainCarriageService   :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:10:12.540 INFO  c.x.train.business.service.TrainCarriageService   :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:10:12.541 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:10:12.541 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2024-03-18 21:10:13.286 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:10:13.286 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-18 21:10:13.286 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-18 21:10:13.286 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:10:13.287 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:10:13.288 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:10:13.289 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:10:13.290 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:10:13.291 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:10:13.291 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:10:13.291 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-18 21:10:54.862 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:10:54.863 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-18 21:10:54.863 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-18 21:10:54.863 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:10:54.863 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:10:54.863 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:10:54.863 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:10:54.864 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:10:54.864 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:10:54.864 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:10:54.864 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:10:56.562 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:10:56.562 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-carriage/query-list GET
+2024-03-18 21:10:56.562 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainCarriageAdminController.queryList
+2024-03-18 21:10:56.562 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:10:56.562 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:10:56.562 INFO  c.x.train.business.service.TrainCarriageService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:10:56.563 INFO  c.x.train.business.service.TrainCarriageService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:10:56.564 INFO  c.x.train.business.service.TrainCarriageService   :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:10:56.564 INFO  c.x.train.business.service.TrainCarriageService   :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:10:56.565 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:10:56.565 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:13:22.733 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:13:22.733 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-18 21:13:22.733 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-18 21:13:22.733 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:13:22.734 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:13:22.735 INFO  com.xboss.train.business.service.StationService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:13:22.735 INFO  com.xboss.train.business.service.StationService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:13:22.737 INFO  com.xboss.train.business.service.StationService   :56   [32m                  [0;39m 总行数：3
+2024-03-18 21:13:22.737 INFO  com.xboss.train.business.service.StationService   :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:13:22.739 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-18 21:13:22.739 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2024-03-18 21:13:23.372 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:13:23.373 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-18 21:13:23.373 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-18 21:13:23.373 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:13:23.373 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:13:23.373 INFO  com.xboss.train.business.service.TrainService     :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:13:23.373 INFO  com.xboss.train.business.service.TrainService     :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:13:23.374 INFO  com.xboss.train.business.service.TrainService     :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:13:23.374 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:13:23.375 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
+2024-03-18 21:13:23.375 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:13:34.910 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:13:34.911 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-18 21:13:34.911 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-18 21:13:34.911 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:13:34.911 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:13:34.911 INFO  com.xboss.train.business.service.StationService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:13:34.911 INFO  com.xboss.train.business.service.StationService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:13:34.913 INFO  com.xboss.train.business.service.StationService   :56   [32m                  [0;39m 总行数：3
+2024-03-18 21:13:34.913 INFO  com.xboss.train.business.service.StationService   :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:13:34.913 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-18 21:13:34.913 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:13:36.150 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:13:36.150 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-18 21:13:36.150 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-18 21:13:36.151 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:13:36.151 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:13:36.151 INFO  com.xboss.train.business.service.TrainService     :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:13:36.151 INFO  com.xboss.train.business.service.TrainService     :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:13:36.152 INFO  com.xboss.train.business.service.TrainService     :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:13:36.152 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:13:36.153 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
+2024-03-18 21:13:36.153 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:13:37.800 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:13:37.800 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-carriage/query-list GET
+2024-03-18 21:13:37.800 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainCarriageAdminController.queryList
+2024-03-18 21:13:37.800 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:13:37.800 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:13:37.800 INFO  c.x.train.business.service.TrainCarriageService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:13:37.800 INFO  c.x.train.business.service.TrainCarriageService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:13:37.801 INFO  c.x.train.business.service.TrainCarriageService   :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:13:37.801 INFO  c.x.train.business.service.TrainCarriageService   :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:13:37.801 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:13:37.801 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
+2024-03-18 21:13:39.810 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:13:39.810 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-18 21:13:39.810 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-18 21:13:39.810 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:13:39.811 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:13:39.811 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:13:39.811 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:13:39.812 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:13:39.812 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:13:39.812 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:13:39.812 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:13:41.288 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:13:41.288 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-carriage/query-list GET
+2024-03-18 21:13:41.288 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainCarriageAdminController.queryList
+2024-03-18 21:13:41.288 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:13:41.288 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:13:41.288 INFO  c.x.train.business.service.TrainCarriageService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:13:41.289 INFO  c.x.train.business.service.TrainCarriageService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:13:41.290 INFO  c.x.train.business.service.TrainCarriageService   :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:13:41.290 INFO  c.x.train.business.service.TrainCarriageService   :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:13:41.290 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:13:41.290 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:13:41.829 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:13:41.829 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-18 21:13:41.829 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-18 21:13:41.829 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:13:41.829 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:13:41.829 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:13:41.829 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:13:41.831 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:13:41.831 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:13:41.831 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:13:41.831 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:13:51.354 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:13:51.354 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-carriage/query-list GET
+2024-03-18 21:13:51.354 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainCarriageAdminController.queryList
+2024-03-18 21:13:51.354 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:13:51.354 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:13:51.355 INFO  c.x.train.business.service.TrainCarriageService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:13:51.355 INFO  c.x.train.business.service.TrainCarriageService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:13:51.356 INFO  c.x.train.business.service.TrainCarriageService   :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:13:51.356 INFO  c.x.train.business.service.TrainCarriageService   :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:13:51.356 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:13:51.356 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:13:52.978 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:13:52.978 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-18 21:13:52.978 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-18 21:13:52.978 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:13:52.978 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:13:52.978 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:13:52.978 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:13:52.979 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:13:52.979 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:13:52.980 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:13:52.980 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:14:00.116 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:14:00.117 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-18 21:14:00.117 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-18 21:14:00.117 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:14:00.117 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:14:00.117 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:14:00.117 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:14:00.119 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:14:00.119 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:14:00.119 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:14:00.119 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:14:03.694 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:14:03.694 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-18 21:14:03.694 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-18 21:14:03.694 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:14:03.694 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:14:03.694 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:14:03.694 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:14:03.695 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:14:03.695 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:14:03.695 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:14:03.696 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:14:49.156 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:14:49.157 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-18 21:14:49.157 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-18 21:14:49.157 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:14:49.157 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:14:49.157 INFO  com.xboss.train.business.service.TrainService     :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:14:49.157 INFO  com.xboss.train.business.service.TrainService     :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:14:49.158 INFO  com.xboss.train.business.service.TrainService     :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:14:49.158 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:14:49.159 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
+2024-03-18 21:14:49.159 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:14:50.319 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:14:50.319 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-18 21:14:50.319 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-18 21:14:50.319 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:14:50.319 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:14:50.319 INFO  com.xboss.train.business.service.StationService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:14:50.320 INFO  com.xboss.train.business.service.StationService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:14:50.321 INFO  com.xboss.train.business.service.StationService   :56   [32m                  [0;39m 总行数：3
+2024-03-18 21:14:50.321 INFO  com.xboss.train.business.service.StationService   :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:14:50.322 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-18 21:14:50.322 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:15:06.915 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:15:06.915 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-18 21:15:06.915 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-18 21:15:06.915 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:15:06.915 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:15:06.916 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:15:06.916 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:15:06.917 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:15:06.918 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:15:06.918 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:15:06.918 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:15:17.189 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:15:17.189 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/save POST
+2024-03-18 21:15:17.189 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.save
+2024-03-18 21:15:17.189 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:15:17.190 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"carriageIndex":2,"carriageSeatIndex":2,"col":"A","row":"3","seatType":"1","trainCode":"1"}]
+2024-03-18 21:15:17.194 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2024-03-18 21:15:17.194 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-18 21:15:17.215 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:15:17.215 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-18 21:15:17.215 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-18 21:15:17.215 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:15:17.216 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:15:17.216 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:15:17.216 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:15:17.217 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:15:17.217 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:15:17.218 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"carriageIndex":2,"carriageSeatIndex":2,"col":"A","createTime":1710767717190,"id":1769714189741461504,"row":"3","seatType":"1","trainCode":"1","updateTime":1710767717190}],"total":1},"success":true}
+2024-03-18 21:15:17.218 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:15:19.453 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:15:19.453 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-carriage/query-list GET
+2024-03-18 21:15:19.453 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainCarriageAdminController.queryList
+2024-03-18 21:15:19.454 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:15:19.454 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:15:19.454 INFO  c.x.train.business.service.TrainCarriageService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:15:19.454 INFO  c.x.train.business.service.TrainCarriageService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:15:19.455 INFO  c.x.train.business.service.TrainCarriageService   :56   [32m                  [0;39m 总行数：0
+2024-03-18 21:15:19.455 INFO  c.x.train.business.service.TrainCarriageService   :57   [32m                  [0;39m 总页数：0
+2024-03-18 21:15:19.456 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:15:19.456 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:15:28.593 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:15:28.594 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-carriage/save POST
+2024-03-18 21:15:28.594 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainCarriageAdminController.save
+2024-03-18 21:15:28.594 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:15:28.594 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"colCount":5,"index":1,"rowCount":4,"seatCount":3,"seatType":"1","trainCode":"1"}]
+2024-03-18 21:15:28.598 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"success":true}
+2024-03-18 21:15:28.598 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-18 21:15:28.614 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:15:28.614 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-carriage/query-list GET
+2024-03-18 21:15:28.614 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainCarriageAdminController.queryList
+2024-03-18 21:15:28.614 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:15:28.615 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:15:28.615 INFO  c.x.train.business.service.TrainCarriageService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:15:28.615 INFO  c.x.train.business.service.TrainCarriageService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:15:28.615 INFO  c.x.train.business.service.TrainCarriageService   :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:15:28.615 INFO  c.x.train.business.service.TrainCarriageService   :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:15:28.617 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"colCount":5,"createTime":1710767728594,"id":1769714237573304320,"index":1,"rowCount":4,"seatCount":3,"seatType":"1","trainCode":"1","updateTime":1710767728594}],"total":1},"success":true}
+2024-03-18 21:15:28.617 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:17:19.163 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:17:19.163 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:17:19.163 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:17:19.163 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:17:19.164 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:17:19.166 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:17:19.166 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:17:19.168 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:17:19.168 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:17:19.169 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:17:19.169 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2024-03-18 21:17:20.233 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:17:20.233 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-18 21:17:20.233 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-18 21:17:20.233 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:17:20.233 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:17:20.233 INFO  com.xboss.train.business.service.TrainService     :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:17:20.234 INFO  com.xboss.train.business.service.TrainService     :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:17:20.235 INFO  com.xboss.train.business.service.TrainService     :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:17:20.235 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:17:20.235 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
+2024-03-18 21:17:20.235 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:17:20.722 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:17:20.722 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:17:20.723 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:17:20.723 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:17:20.723 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:17:20.723 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:17:20.723 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:17:20.724 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:17:20.724 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:17:20.724 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:17:20.724 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:17:21.456 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:17:21.456 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-18 21:17:21.456 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-18 21:17:21.456 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:17:21.456 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:17:21.456 INFO  com.xboss.train.business.service.TrainService     :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:17:21.456 INFO  com.xboss.train.business.service.TrainService     :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:17:21.458 INFO  com.xboss.train.business.service.TrainService     :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:17:21.458 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:17:21.458 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
+2024-03-18 21:17:21.458 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:17:21.950 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:17:21.951 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:17:21.951 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:17:21.951 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:17:21.951 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:17:21.951 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:17:21.951 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:17:21.952 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:17:21.952 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:17:21.952 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:17:21.952 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:17:23.132 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:17:23.132 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-carriage/query-list GET
+2024-03-18 21:17:23.132 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainCarriageAdminController.queryList
+2024-03-18 21:17:23.132 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:17:23.132 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:17:23.133 INFO  c.x.train.business.service.TrainCarriageService   :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:17:23.133 INFO  c.x.train.business.service.TrainCarriageService   :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:17:23.134 INFO  c.x.train.business.service.TrainCarriageService   :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:17:23.134 INFO  c.x.train.business.service.TrainCarriageService   :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:17:23.134 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"colCount":5,"createTime":1710767728594,"id":1769714237573304320,"index":1,"rowCount":4,"seatCount":3,"seatType":"1","trainCode":"1","updateTime":1710767728594}],"total":1},"success":true}
+2024-03-18 21:17:23.134 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:17:23.658 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:17:23.658 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-18 21:17:23.658 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-18 21:17:23.658 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:17:23.658 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:17:23.659 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:17:23.659 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:17:23.660 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:17:23.660 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:17:23.660 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"carriageIndex":2,"carriageSeatIndex":2,"col":"A","createTime":1710767717190,"id":1769714189741461504,"row":"3","seatType":"1","trainCode":"1","updateTime":1710767717190}],"total":1},"success":true}
+2024-03-18 21:17:23.660 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:17:24.052 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:17:24.052 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:17:24.053 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:17:24.053 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:17:24.053 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:17:24.053 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:17:24.053 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:17:24.054 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:17:24.054 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:17:24.054 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:17:24.054 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:17:25.330 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:17:25.330 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:17:25.330 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:17:25.330 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:17:25.330 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:17:25.330 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:17:25.330 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:17:25.331 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:17:25.331 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:17:25.332 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:17:25.332 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:18:54.598 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:18:54.599 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:18:54.599 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:18:54.599 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:18:54.599 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:18:54.599 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:18:54.599 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:18:54.600 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:18:54.600 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:18:54.601 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:18:54.601 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:19:16.606 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:19:16.606 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:19:16.606 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:19:16.607 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:19:16.607 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:19:16.607 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:19:16.607 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:19:16.609 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:19:16.609 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:19:16.609 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:19:16.609 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:19:35.257 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:19:35.258 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:19:35.258 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:19:35.258 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:19:35.258 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:19:35.258 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:19:35.258 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:19:35.260 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:19:35.260 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:19:35.260 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:19:35.260 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:19:58.710 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:19:58.710 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:19:58.710 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:19:58.710 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:19:58.710 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:19:58.710 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:19:58.711 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:19:58.712 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:19:58.712 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:19:58.712 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:19:58.712 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:23:33.776 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:23:33.776 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-18 21:23:33.777 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-18 21:23:33.777 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:23:33.777 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:23:33.777 INFO  com.xboss.train.business.service.TrainService     :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:23:33.777 INFO  com.xboss.train.business.service.TrainService     :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:23:33.778 INFO  com.xboss.train.business.service.TrainService     :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:23:33.778 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:23:33.779 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
+2024-03-18 21:23:33.779 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:23:34.202 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:23:34.202 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:23:34.202 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:23:34.203 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:23:34.203 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:23:34.203 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:23:34.203 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:23:34.204 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:23:34.204 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:23:34.204 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:23:34.205 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:23:40.031 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:23:40.031 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-18 21:23:40.032 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-18 21:23:40.032 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:23:40.032 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:23:40.032 INFO  com.xboss.train.business.service.TrainService     :50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:23:40.032 INFO  com.xboss.train.business.service.TrainService     :51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:23:40.033 INFO  com.xboss.train.business.service.TrainService     :56   [32m                  [0;39m 总行数：1
+2024-03-18 21:23:40.033 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总页数：1
+2024-03-18 21:23:40.034 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
+2024-03-18 21:23:40.034 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:23:41.531 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:23:41.531 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:23:41.531 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:23:41.531 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:23:41.531 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:23:41.531 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:23:41.531 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:23:41.532 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:23:41.532 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:23:41.533 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:23:41.533 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:27:04.501 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-03-18 21:27:04.510 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:27:04.510 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-18 21:27:04.510 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-18 21:27:04.512 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-18 21:27:04.512 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:27:04.513 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:27:04.515 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2024-03-18 21:27:04.518 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2024-03-18 21:27:04.673 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 21264 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-18 21:27:04.673 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-18 21:27:04.874 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 21:27:04.874 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 21:27:04.875 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2024-03-18 21:27:04.912 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1421f49-8e98-3cb1-89dc-17d43273403c
+2024-03-18 21:27:04.994 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-18 21:27:04.994 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-18 21:27:04.994 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-18 21:27:04.994 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-18 21:27:04.995 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:27:04.995 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-18 21:27:04.995 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-18 21:27:05.012 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-18 21:27:05.013 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 338 ms
+2024-03-18 21:27:05.243 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-18 21:27:05.441 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-18 21:27:05.553 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-18 21:27:05.574 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:27:05.576 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-18 21:27:05.664 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 1.108 seconds (process running for 11151.535)
+2024-03-18 21:27:05.665 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-18 21:27:05.665 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-18 21:27:05.665 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
+2024-03-18 21:27:06.893 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-03-18 21:27:06.902 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:27:06.902 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-18 21:27:06.903 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:27:06.904 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:27:07.043 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 21264 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-18 21:27:07.044 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-18 21:27:07.176 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 21:27:07.176 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 21:27:07.177 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2024-03-18 21:27:07.204 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1421f49-8e98-3cb1-89dc-17d43273403c
+2024-03-18 21:27:07.263 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-18 21:27:07.264 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-18 21:27:07.264 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-18 21:27:07.264 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-18 21:27:07.264 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:27:07.264 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-18 21:27:07.264 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-18 21:27:07.279 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-18 21:27:07.279 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 234 ms
+2024-03-18 21:27:07.455 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-18 21:27:07.616 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-18 21:27:07.725 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-18 21:27:07.742 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:27:07.744 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-18 21:27:07.831 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 0.895 seconds (process running for 11153.702)
+2024-03-18 21:27:07.832 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-18 21:27:07.832 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-18 21:27:07.832 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
+2024-03-18 21:33:03.967 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18 21:33:03.967 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-03-18 21:33:03.968 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2024-03-18 21:33:03.976 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:33:03.976 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:33:03.976 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:33:03.976 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:33:03.977 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:33:03.980 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:33:03.980 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:33:03.982 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2024-03-18 21:33:03.993 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d6f2c10
+2024-03-18 21:33:03.994 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2024-03-18 21:33:03.995 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:33:03.995 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:33:03.997 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:33:03.997 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：22 ms -------------
+2024-03-18 21:33:08.502 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-18 21:33:08.512 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:33:08.513 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-18 21:33:08.513 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-18 21:33:08.514 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-18 21:33:08.514 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [HikariPool-4 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-18 21:33:08.515 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:33:08.516 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:33:08.519 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2024-03-18 21:33:08.521 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2024-03-18 21:33:08.793 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 21264 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-18 21:33:08.793 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-18 21:33:09.014 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-18 21:33:09.014 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-18 21:33:09.015 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2024-03-18 21:33:09.050 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1421f49-8e98-3cb1-89dc-17d43273403c
+2024-03-18 21:33:09.121 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-18 21:33:09.122 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-18 21:33:09.122 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-18 21:33:09.122 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-18 21:33:09.122 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:33:09.122 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-18 21:33:09.122 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-18 21:33:09.137 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-18 21:33:09.138 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 341 ms
+2024-03-18 21:33:09.356 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-18 21:33:09.580 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-18 21:33:09.700 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-18 21:33:09.720 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-18 21:33:09.722 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-18 21:33:09.905 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 1.346 seconds (process running for 11515.777)
+2024-03-18 21:33:09.907 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-18 21:33:09.907 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-18 21:33:09.908 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
+2024-03-18 21:33:28.375 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18 21:33:28.376 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-03-18 21:33:28.376 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2024-03-18 21:33:28.381 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:33:28.382 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:33:28.382 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:33:28.382 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:33:28.382 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:33:28.384 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:33:28.385 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:33:28.385 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-5 - Starting...
+2024-03-18 21:33:28.393 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57349f3a
+2024-03-18 21:33:28.393 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-5 - Start completed.
+2024-03-18 21:33:28.394 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:33:28.394 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:33:28.395 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:33:28.395 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：14 ms -------------
+2024-03-18 21:33:34.623 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:33:34.623 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:33:34.623 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:33:34.623 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:33:34.623 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:33:34.623 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:33:34.623 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:33:34.624 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:33:34.625 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:33:34.625 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:33:34.625 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:33:57.984 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:33:57.984 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:33:57.984 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:33:57.985 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:33:57.985 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:33:57.985 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:33:57.985 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:33:57.986 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:33:57.986 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:33:57.986 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:33:57.986 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:34:01.077 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:34:01.078 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:34:01.078 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:34:01.078 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:34:01.078 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:34:01.078 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:34:01.078 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:34:01.079 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:34:01.079 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:34:01.079 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:34:01.080 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:34:09.620 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:34:09.620 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:34:09.620 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:34:09.620 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:34:09.621 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:34:09.621 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:34:09.621 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:34:09.622 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:34:09.623 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:34:09.623 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:34:09.623 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:34:17.255 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:34:17.255 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:34:17.255 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:34:17.255 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:34:17.256 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:34:17.256 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:34:17.256 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:34:17.257 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:34:17.257 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:34:17.257 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:34:17.257 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:34:29.720 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:34:29.720 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:34:29.721 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:34:29.721 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:34:29.721 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:34:29.721 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:34:29.721 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:34:29.722 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:34:29.722 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:34:29.723 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:34:29.723 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:34:32.521 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:34:32.522 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:34:32.522 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:34:32.522 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:34:32.522 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:34:32.522 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:34:32.522 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:34:32.523 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:34:32.523 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:34:32.524 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:34:32.524 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:34:41.777 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:34:41.778 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:34:41.778 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:34:41.778 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:34:41.778 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:34:41.778 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:34:41.778 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:34:41.780 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:34:41.780 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:34:41.780 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:34:41.780 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:34:53.891 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:34:53.891 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:34:53.891 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:34:53.891 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:34:53.891 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:34:53.891 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:34:53.891 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:34:53.892 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:34:53.892 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:34:53.892 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:34:53.893 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:35:02.589 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:35:02.589 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:35:02.589 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:35:02.589 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:35:02.590 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:35:02.590 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:35:02.590 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:35:02.591 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:35:02.591 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:35:02.591 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:35:02.591 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:35:12.800 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:35:12.800 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:35:12.800 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:35:12.800 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:35:12.800 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:35:12.800 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:35:12.800 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:35:12.802 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:35:12.802 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:35:12.802 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:35:12.802 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:35:14.332 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:35:14.332 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:35:14.332 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:35:14.332 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:35:14.332 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:35:14.332 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:35:14.332 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:35:14.333 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:35:14.334 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:35:14.334 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:35:14.334 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:35:21.732 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:35:21.733 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:35:21.733 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:35:21.733 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:35:21.733 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:35:21.733 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:35:21.733 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:35:21.734 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:35:21.734 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:35:21.734 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:35:21.735 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:35:33.314 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:35:33.314 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:35:33.314 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:35:33.314 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:35:33.314 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:35:33.314 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:35:33.314 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:35:33.315 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:35:33.315 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:35:33.316 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:35:33.316 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:35:36.850 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:35:36.850 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:35:36.850 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:35:36.850 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:35:36.850 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:35:36.851 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:35:36.851 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:35:36.852 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:35:36.852 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:35:36.852 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:35:36.852 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:35:39.949 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:35:39.949 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:35:39.950 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:35:39.950 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:35:39.950 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:35:39.950 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:35:39.950 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:35:39.952 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:35:39.952 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:35:39.952 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:35:39.952 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:35:48.295 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:35:48.295 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:35:48.295 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:35:48.295 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:35:48.295 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:35:48.295 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:35:48.296 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:35:48.297 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:35:48.297 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:35:48.297 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:35:48.297 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:35:52.679 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:35:52.680 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:35:52.680 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:35:52.680 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:35:52.680 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:35:52.680 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:35:52.680 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:35:52.682 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:35:52.682 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:35:52.682 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:35:52.682 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:35:56.868 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:35:56.868 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:35:56.868 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:35:56.868 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:35:56.868 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:35:56.868 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:35:56.868 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:35:56.869 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:35:56.869 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:35:56.869 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:35:56.870 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:36:10.980 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:36:10.981 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:36:10.981 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:36:10.981 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:36:10.981 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:36:10.981 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:36:10.981 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:36:10.984 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:36:10.984 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:36:10.984 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:36:10.984 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-18 21:36:47.696 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:36:47.697 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:36:47.697 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:36:47.697 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:36:47.697 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:36:47.697 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:36:47.697 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:36:47.699 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:36:47.699 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:36:47.699 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:36:47.699 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-18 21:37:19.793 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:37:19.793 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:37:19.793 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:37:19.793 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:37:19.794 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:37:19.794 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:37:19.794 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:37:19.795 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:37:19.795 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:37:19.795 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:37:19.795 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:37:27.596 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:37:27.596 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:37:27.596 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:37:27.596 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:37:27.596 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:37:27.596 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:37:27.596 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:37:27.597 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:37:27.597 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:37:27.598 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:37:27.598 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-18 21:37:40.417 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:37:40.418 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-18 21:37:40.418 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-18 21:37:40.418 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:37:40.418 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:37:40.420 INFO  com.xboss.train.business.service.TrainService     :51   [32m                  [0;39m 查询页码：1
+2024-03-18 21:37:40.420 INFO  com.xboss.train.business.service.TrainService     :52   [32m                  [0;39m 每页条数：10
+2024-03-18 21:37:40.422 INFO  com.xboss.train.business.service.TrainService     :57   [32m                  [0;39m 总行数：1
+2024-03-18 21:37:40.422 INFO  com.xboss.train.business.service.TrainService     :58   [32m                  [0;39m 总页数：1
+2024-03-18 21:37:40.424 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710757312067}],"total":1},"success":true}
+2024-03-18 21:37:40.424 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2024-03-18 21:37:40.826 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-18 21:37:40.826 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-18 21:37:40.826 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-18 21:37:40.826 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-18 21:37:40.826 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-18 21:37:40.826 INFO  c.xboss.train.business.service.TrainStationService:50   [32m                  [0;39m 查询页码：1
+2024-03-18 21:37:40.826 INFO  c.xboss.train.business.service.TrainStationService:51   [32m                  [0;39m 每页条数：10
+2024-03-18 21:37:40.827 INFO  c.xboss.train.business.service.TrainStationService:56   [32m                  [0;39m 总行数：0
+2024-03-18 21:37:40.827 INFO  c.xboss.train.business.service.TrainStationService:57   [32m                  [0;39m 总页数：0
+2024-03-18 21:37:40.827 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-18 21:37:40.827 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
+2024-03-18 21:38:07.608 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2024-03-18 21:38:07.611 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
