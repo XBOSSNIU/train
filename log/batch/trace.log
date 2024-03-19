@@ -1,0 +1,418 @@
+2024-03-19 22:18:55.534 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-19 22:18:55.563 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 14796 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-19 22:18:55.564 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-19 22:18:55.600 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-19 22:18:55.600 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-19 22:18:56.210 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2024-03-19 22:18:56.275 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=380e59e3-4ff9-3c68-9a45-5c2b58119fe5
+2024-03-19 22:18:56.918 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-03-19 22:18:56.919 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-19 22:18:56.919 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-19 22:18:56.923 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-19 22:18:56.931 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:18:56.931 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-19 22:18:56.932 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-19 22:18:56.985 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-19 22:18:56.986 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1385 ms
+2024-03-19 22:18:57.293 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-19 22:18:57.683 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2024-03-19 22:18:57.696 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-03-19 22:18:57.696 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2024-03-19 22:18:57.697 INFO  org.quartz.simpl.RAMJobStore                      :155  [32m                  [0;39m RAMJobStore initialized.
+2024-03-19 22:18:57.698 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-03-19 22:18:57.698 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-03-19 22:18:57.698 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2024-03-19 22:18:57.698 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2ccf7057
+2024-03-19 22:18:57.765 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-19 22:18:57.920 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-19 22:18:58.030 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:18:58.047 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-03-19 22:18:58.136 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :729  [32m                  [0;39m Starting Quartz Scheduler now
+2024-03-19 22:18:58.137 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-03-19 22:18:58.145 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 3.066 seconds (process running for 3.679)
+2024-03-19 22:18:58.148 INFO  com.xboss.train.batch.config.BatchApplication     :24   [32m                  [0;39m 启动成功！！
+2024-03-19 22:18:58.148 INFO  com.xboss.train.batch.config.BatchApplication     :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2024-03-19 22:30:48.519 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-03-19 22:30:48.521 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-03-19 22:30:48.531 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:30:48.532 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-19 22:30:48.535 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:30:48.537 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:30:48.539 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2024-03-19 22:30:48.540 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2024-03-19 22:30:48.540 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-03-19 22:30:48.540 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2024-03-19 22:30:48.704 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 14796 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-19 22:30:48.704 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-19 22:30:48.868 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2024-03-19 22:30:48.872 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=380e59e3-4ff9-3c68-9a45-5c2b58119fe5
+2024-03-19 22:30:48.955 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-03-19 22:30:48.956 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-19 22:30:48.956 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-19 22:30:48.956 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-19 22:30:48.957 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:30:48.957 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-19 22:30:48.957 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-19 22:30:48.976 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-19 22:30:48.976 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 270 ms
+2024-03-19 22:30:49.104 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-19 22:30:49.367 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2024-03-19 22:30:49.368 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-03-19 22:30:49.369 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2024-03-19 22:30:49.369 INFO  org.quartz.simpl.RAMJobStore                      :155  [32m                  [0;39m RAMJobStore initialized.
+2024-03-19 22:30:49.369 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-03-19 22:30:49.369 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-03-19 22:30:49.369 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2024-03-19 22:30:49.369 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5dba6c2f
+2024-03-19 22:30:49.395 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-19 22:30:49.515 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-19 22:30:49.542 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:30:49.545 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-03-19 22:30:49.633 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :729  [32m                  [0;39m Starting Quartz Scheduler now
+2024-03-19 22:30:49.634 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-03-19 22:30:49.637 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 1.062 seconds (process running for 715.171)
+2024-03-19 22:30:49.638 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-19 22:30:49.638 INFO  com.xboss.train.batch.config.BatchApplication     :24   [32m                  [0;39m 启动成功！！
+2024-03-19 22:30:49.639 INFO  com.xboss.train.batch.config.BatchApplication     :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2024-03-19 22:30:50.817 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 6 class path changes (6 additions, 0 deletions, 0 modifications)
+2024-03-19 22:30:50.818 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-03-19 22:30:50.826 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:30:50.826 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-19 22:30:50.827 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:30:50.828 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:30:50.829 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2024-03-19 22:30:50.829 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2024-03-19 22:30:50.829 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-03-19 22:30:50.829 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2024-03-19 22:30:50.961 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 14796 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-19 22:30:50.961 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-19 22:30:51.099 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2024-03-19 22:30:51.102 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=380e59e3-4ff9-3c68-9a45-5c2b58119fe5
+2024-03-19 22:30:51.166 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-03-19 22:30:51.166 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-19 22:30:51.166 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-19 22:30:51.166 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-19 22:30:51.167 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:30:51.167 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-19 22:30:51.167 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-19 22:30:51.184 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-19 22:30:51.185 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 222 ms
+2024-03-19 22:30:51.303 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-19 22:30:51.424 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2024-03-19 22:30:51.424 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-03-19 22:30:51.425 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2024-03-19 22:30:51.425 INFO  org.quartz.simpl.RAMJobStore                      :155  [32m                  [0;39m RAMJobStore initialized.
+2024-03-19 22:30:51.425 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-03-19 22:30:51.425 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-03-19 22:30:51.425 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2024-03-19 22:30:51.425 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6a8eb0a1
+2024-03-19 22:30:51.442 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-19 22:30:51.555 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-19 22:30:51.574 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:30:51.576 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-03-19 22:30:51.660 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :729  [32m                  [0;39m Starting Quartz Scheduler now
+2024-03-19 22:30:51.661 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-03-19 22:30:51.664 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 0.807 seconds (process running for 717.198)
+2024-03-19 22:30:51.665 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-19 22:30:51.665 INFO  com.xboss.train.batch.config.BatchApplication     :24   [32m                  [0;39m 启动成功！！
+2024-03-19 22:30:51.665 INFO  com.xboss.train.batch.config.BatchApplication     :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2024-03-19 22:32:13.166 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 7 class path changes (0 additions, 7 deletions, 0 modifications)
+2024-03-19 22:32:13.168 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-03-19 22:32:13.181 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:32:13.181 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-19 22:32:13.182 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:32:13.183 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:32:13.184 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2024-03-19 22:32:13.185 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2024-03-19 22:32:13.185 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-03-19 22:32:13.185 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2024-03-19 22:32:13.358 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 14796 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-19 22:32:13.358 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-19 22:32:13.520 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2024-03-19 22:32:13.524 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=380e59e3-4ff9-3c68-9a45-5c2b58119fe5
+2024-03-19 22:32:13.594 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-03-19 22:32:13.594 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-19 22:32:13.594 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-19 22:32:13.595 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-19 22:32:13.595 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:32:13.595 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-19 22:32:13.595 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-19 22:32:13.614 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-19 22:32:13.614 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 254 ms
+2024-03-19 22:32:13.746 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-19 22:32:13.860 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2024-03-19 22:32:13.861 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-03-19 22:32:13.861 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2024-03-19 22:32:13.861 INFO  org.quartz.simpl.RAMJobStore                      :155  [32m                  [0;39m RAMJobStore initialized.
+2024-03-19 22:32:13.861 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2024-03-19 22:32:13.861 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2024-03-19 22:32:13.861 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2024-03-19 22:32:13.861 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@556659a2
+2024-03-19 22:32:13.877 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-19 22:32:13.988 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-19 22:32:14.007 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-03-19 22:32:14.009 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-03-19 22:32:14.097 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :729  [32m                  [0;39m Starting Quartz Scheduler now
+2024-03-19 22:32:14.097 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2024-03-19 22:32:14.100 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 0.878 seconds (process running for 799.634)
+2024-03-19 22:32:14.101 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-19 22:32:14.101 INFO  com.xboss.train.batch.config.BatchApplication     :24   [32m                  [0;39m 启动成功！！
+2024-03-19 22:32:14.101 INFO  com.xboss.train.batch.config.BatchApplication     :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2024-03-19 23:25:36.712 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 8 class path changes (8 additions, 0 deletions, 0 modifications)
+2024-03-19 23:25:36.713 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-03-19 23:25:36.722 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2024-03-19 23:25:36.722 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-19 23:25:36.723 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2024-03-19 23:25:36.724 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2024-03-19 23:25:36.725 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2024-03-19 23:25:36.725 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2024-03-19 23:25:36.725 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2024-03-19 23:25:36.725 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2024-03-19 23:25:36.880 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 14796 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-19 23:25:36.880 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-19 23:25:37.038 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2024-03-19 23:25:37.049 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=2e97bf40-1bdb-332f-930d-7809c64bd0a8
+2024-03-19 23:25:37.126 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-03-19 23:25:37.126 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-19 23:25:37.126 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-19 23:25:37.126 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-19 23:25:37.127 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-03-19 23:25:37.127 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-19 23:25:37.127 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-19 23:25:37.144 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-19 23:25:37.144 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 263 ms
+2024-03-19 23:25:37.190 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2024-03-19 23:25:37.191 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-03-19 23:25:37.191 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2024-03-19 23:25:37.196 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-03-19 23:25:37.369 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17ee0e10
+2024-03-19 23:25:37.371 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-03-19 23:25:37.377 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  [32m                  [0;39m Using db table-based data access locking (synchronization).
+2024-03-19 23:25:37.379 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  [32m                  [0;39m JobStoreCMT initialized.
+2024-03-19 23:25:37.379 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2024-03-19 23:25:37.379 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2024-03-19 23:25:37.379 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2024-03-19 23:25:37.379 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: com.xboss.train.batch.config.MyJobFactory@6720343a
+2024-03-19 23:25:37.514 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-19 23:25:37.641 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-19 23:25:37.770 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-19 23:25:37.789 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-03-19 23:25:37.791 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-03-19 23:25:37.881 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  [32m                  [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2024-03-19 23:25:37.885 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 1.131 seconds (process running for 4003.419)
+2024-03-19 23:25:37.887 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :58   [32m                  [0;39m Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   QuartzAutoConfiguration#quartzScheduler:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.scheduling.quartz.SchedulerFactoryBean; SearchStrategy: all) found beans of type 'org.springframework.scheduling.quartz.SchedulerFactoryBean' &schedulerFactoryBean (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-03-19 23:25:37.888 INFO  com.xboss.train.batch.config.BatchApplication     :24   [32m                  [0;39m 启动成功！！
+2024-03-19 23:25:37.888 INFO  com.xboss.train.batch.config.BatchApplication     :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2024-03-19 23:25:39.888 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  [32m                  [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2024-03-19 23:25:39.917 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  [32m                  [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2024-03-19 23:25:39.920 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  [32m                  [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2024-03-19 23:25:39.920 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  [32m                  [0;39m Recovery complete.
+2024-03-19 23:25:39.921 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  [32m                  [0;39m Removed 0 'complete' triggers.
+2024-03-19 23:25:39.921 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  [32m                  [0;39m Removed 0 stale fired job entries.
+2024-03-19 23:25:39.924 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2024-03-19 23:31:56.295 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-03-19 23:31:56.305 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2024-03-19 23:31:56.306 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-03-19 23:31:56.306 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-03-19 23:31:56.306 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-03-19 23:31:56.306 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-03-19 23:31:56.310 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-03-19 23:31:59.014 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-19 23:31:59.040 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 34548 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-19 23:31:59.040 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-19 23:31:59.075 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-19 23:31:59.075 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-19 23:31:59.641 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2024-03-19 23:31:59.710 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=2e97bf40-1bdb-332f-930d-7809c64bd0a8
+2024-03-19 23:32:00.329 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-03-19 23:32:00.330 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-19 23:32:00.330 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-19 23:32:00.333 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-19 23:32:00.340 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-03-19 23:32:00.341 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-19 23:32:00.341 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-19 23:32:00.391 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-19 23:32:00.392 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1317 ms
+2024-03-19 23:32:00.520 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2024-03-19 23:32:00.528 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-03-19 23:32:00.528 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2024-03-19 23:32:00.534 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-03-19 23:32:00.728 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10e60b54
+2024-03-19 23:32:00.729 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-03-19 23:32:00.736 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  [32m                  [0;39m Using db table-based data access locking (synchronization).
+2024-03-19 23:32:00.738 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  [32m                  [0;39m JobStoreCMT initialized.
+2024-03-19 23:32:00.739 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2024-03-19 23:32:00.739 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2024-03-19 23:32:00.739 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2024-03-19 23:32:00.739 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: com.xboss.train.batch.config.MyJobFactory@9d38eac
+2024-03-19 23:32:01.023 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-19 23:32:01.288 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-19 23:32:01.420 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-19 23:32:01.511 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-03-19 23:32:01.530 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-03-19 23:32:01.618 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  [32m                  [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2024-03-19 23:32:01.626 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 3.053 seconds (process running for 4.198)
+2024-03-19 23:32:01.628 INFO  com.xboss.train.batch.config.BatchApplication     :24   [32m                  [0;39m 启动成功！！
+2024-03-19 23:32:01.628 INFO  com.xboss.train.batch.config.BatchApplication     :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2024-03-19 23:32:03.625 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  [32m                  [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2024-03-19 23:32:03.648 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  [32m                  [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2024-03-19 23:32:03.650 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  [32m                  [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2024-03-19 23:32:03.650 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  [32m                  [0;39m Recovery complete.
+2024-03-19 23:32:03.650 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  [32m                  [0;39m Removed 0 'complete' triggers.
+2024-03-19 23:32:03.651 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  [32m                  [0;39m Removed 0 stale fired job entries.
+2024-03-19 23:32:03.652 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2024-03-19 23:33:59.662 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-03-19 23:33:59.676 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2024-03-19 23:33:59.676 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-03-19 23:33:59.676 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-03-19 23:33:59.677 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-03-19 23:33:59.677 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-03-19 23:33:59.681 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-03-19 23:34:02.574 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-19 23:34:02.604 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 20944 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-19 23:34:02.604 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-19 23:34:02.642 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-19 23:34:02.643 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-19 23:34:03.320 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2024-03-19 23:34:03.399 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=2e97bf40-1bdb-332f-930d-7809c64bd0a8
+2024-03-19 23:34:04.070 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-03-19 23:34:04.071 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-19 23:34:04.071 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-19 23:34:04.074 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-19 23:34:04.081 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-03-19 23:34:04.082 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-19 23:34:04.083 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-19 23:34:04.142 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-19 23:34:04.142 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1499 ms
+2024-03-19 23:34:04.293 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2024-03-19 23:34:04.302 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-03-19 23:34:04.303 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2024-03-19 23:34:04.311 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-03-19 23:34:04.538 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d7219f0
+2024-03-19 23:34:04.540 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-03-19 23:34:04.548 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  [32m                  [0;39m Using db table-based data access locking (synchronization).
+2024-03-19 23:34:04.549 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  [32m                  [0;39m JobStoreCMT initialized.
+2024-03-19 23:34:04.550 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2024-03-19 23:34:04.550 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2024-03-19 23:34:04.550 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2024-03-19 23:34:04.551 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: com.xboss.train.batch.config.MyJobFactory@2b98e734
+2024-03-19 23:34:04.879 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-19 23:34:05.175 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-19 23:34:05.316 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-19 23:34:05.420 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-03-19 23:34:05.437 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-03-19 23:34:05.525 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  [32m                  [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2024-03-19 23:34:05.534 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 3.455 seconds (process running for 4.83)
+2024-03-19 23:34:05.536 INFO  com.xboss.train.batch.config.BatchApplication     :24   [32m                  [0;39m 启动成功！！
+2024-03-19 23:34:05.537 INFO  com.xboss.train.batch.config.BatchApplication     :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2024-03-19 23:34:07.533 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  [32m                  [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2024-03-19 23:34:07.557 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  [32m                  [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2024-03-19 23:34:07.559 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  [32m                  [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2024-03-19 23:34:07.559 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  [32m                  [0;39m Recovery complete.
+2024-03-19 23:34:07.559 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  [32m                  [0;39m Removed 0 'complete' triggers.
+2024-03-19 23:34:07.560 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  [32m                  [0;39m Removed 0 stale fired job entries.
+2024-03-19 23:34:07.561 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2024-03-19 23:38:07.252 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 23:38:07.252 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-03-19 23:38:07.253 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2024-03-19 23:38:07.447 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1710862687360esc  [0;39m ------------- 开始 -------------
+2024-03-19 23:38:07.448 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1710862687360esc  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/add POST
+2024-03-19 23:38:07.449 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1710862687360esc  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.add
+2024-03-19 23:38:07.449 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1710862687360esc  [0;39m 远程地址: 127.0.0.1
+2024-03-19 23:38:07.512 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1710862687360esc  [0;39m 请求参数: [{"cronExpression":"*/2 * * * * ?","name":"com.jiawa.train.batch.job.TestJob"}]
+2024-03-19 23:38:19.029 INFO  com.xboss.train.batch.controller.JobController    :46   [32m1710862687360esc  [0;39m 创建定时任务开始：com.jiawa.train.batch.job.TestJob，null，*/2 * * * * ?，null
+2024-03-19 23:38:19.029 INFO  org.quartz.core.QuartzScheduler                   :547  [32m1710862687360esc  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2024-03-19 23:38:19.030 ERROR com.xboss.train.batch.controller.JobController    :72   [32m1710862687360esc  [0;39m 创建定时任务失败:java.lang.ClassNotFoundException: com.jiawa.train.batch.job.TestJob
+2024-03-19 23:38:19.031 INFO  com.xboss.train.batch.controller.JobController    :76   [32m1710862687360esc  [0;39m 创建定时任务结束：CommonResp{success=false, message='创建定时任务失败：任务类不存在', content=null}
+2024-03-19 23:38:19.035 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1710862687360esc  [0;39m 返回结果: {"message":"创建定时任务失败：任务类不存在","success":false}
+2024-03-19 23:38:19.035 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1710862687360esc  [0;39m ------------- 结束 耗时：11589 ms -------------
+2024-03-19 23:38:19.055 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-03-19 23:38:19.072 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2024-03-19 23:38:19.073 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-03-19 23:38:19.073 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-03-19 23:38:19.073 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-03-19 23:38:19.073 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-03-19 23:38:19.079 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
