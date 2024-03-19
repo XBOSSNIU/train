@@ -1,0 +1,90 @@
+2024-03-15 15:51:10.996 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web application could not be started as there was no org.springframework.boot.web.servlet.server.ServletWebServerFactory bean defined in the context.
+
+Action:
+
+Check your application's dependencies for a supported servlet web server.
+Check the configured web application type.
+
+2024-03-15 15:53:17.657 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8002 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8002 or configure this application to listen on another port.
+
+2024-03-15 17:21:03.331 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.xboss.train.business.mapper.StationMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.xboss.train.business.mapper.StationMapper' in your configuration.
+
+2024-03-15 17:25:48.661 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.xboss.train.business.mapper.StationMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.xboss.train.business.mapper.StationMapper' in your configuration.
+
+2024-03-15 17:27:02.104 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.xboss.train.business.mapper.StationMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.xboss.train.business.mapper.StationMapper' in your configuration.
+
+2024-03-15 17:30:55.550 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.xboss.train.business.mapper.StationMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.xboss.train.business.mapper.StationMapper' in your configuration.
+
+2024-03-15 17:49:15.006 ERROR c.x.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m 校验异常：【每页条数】不能为空
