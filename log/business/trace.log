@@ -1196,3 +1196,16 @@
 2024-03-19 16:59:14.988 INFO  c.x.train.business.service.TrainCarriageService   :60   [32m                  [0;39m 总页数：1
 2024-03-19 16:59:14.989 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"colCount":2,"createTime":1710838404977,"id":1770010675805032448,"index":1,"rowCount":5,"seatCount":10,"seatType":"1","trainCode":"G1","updateTime":1710838404977}],"total":1},"success":true}
 2024-03-19 16:59:14.989 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-19 17:01:20.000 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-19 17:01:20.000 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-19 17:01:20.000 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-19 17:01:20.000 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-19 17:01:20.002 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-19 17:01:20.005 INFO  com.xboss.train.business.service.TrainSeatService :50   [32m                  [0;39m 查询页码：1
+2024-03-19 17:01:20.005 INFO  com.xboss.train.business.service.TrainSeatService :51   [32m                  [0;39m 每页条数：10
+2024-03-19 17:01:20.008 INFO  com.xboss.train.business.service.TrainSeatService :56   [32m                  [0;39m 总行数：1
+2024-03-19 17:01:20.008 INFO  com.xboss.train.business.service.TrainSeatService :57   [32m                  [0;39m 总页数：1
+2024-03-19 17:01:20.013 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"carriageIndex":2,"carriageSeatIndex":2,"col":"A","createTime":1710767717190,"id":1769714189741461504,"row":"3","seatType":"1","trainCode":"1","updateTime":1710767717190}],"total":1},"success":true}
+2024-03-19 17:01:20.013 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：14 ms -------------
+2024-03-19 17:03:47.911 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-03-19 17:03:47.915 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
