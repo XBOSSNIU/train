@@ -1,0 +1,634 @@
+2024-03-25 14:36:24.096 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-25 14:36:24.129 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 26156 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-25 14:36:24.131 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-25 14:36:24.181 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-25 14:36:24.181 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-25 14:36:24.920 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-25 14:36:24.924 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-25 14:36:24.958 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-03-25 14:36:25.262 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a1421f49-8e98-3cb1-89dc-17d43273403c
+2024-03-25 14:36:26.133 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-25 14:36:26.135 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-25 14:36:26.135 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-25 14:36:26.138 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-25 14:36:26.146 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-25 14:36:26.147 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-25 14:36:26.147 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-25 14:36:26.213 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-25 14:36:26.214 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2031 ms
+2024-03-25 14:36:27.030 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-25 14:36:27.710 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-25 14:36:27.888 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-25 14:36:28.022 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-25 14:36:28.041 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-25 14:36:28.181 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 4.612 seconds (process running for 5.429)
+2024-03-25 14:36:28.183 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-25 14:36:28.184 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
+2024-03-25 14:42:30.906 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-25 14:42:30.906 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-03-25 14:42:30.907 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2024-03-25 14:42:31.049 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:42:31.050 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:42:31.050 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:42:31.050 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:42:31.100 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:42:31.102 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:42:31.102 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:42:31.139 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-03-25 14:42:31.334 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9ae4099
+2024-03-25 14:42:31.336 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-03-25 14:42:31.343 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:42:31.366 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:42:31.380 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:42:31.382 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:42:31.384 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:42:31.385 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:42:31.385 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:42:31.390 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:42:31.390 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:42:31.438 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:42:31.438 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：389 ms -------------
+2024-03-25 14:42:34.201 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:42:34.202 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:42:34.202 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:42:34.202 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:42:34.202 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:42:34.202 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:42:34.202 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:42:34.203 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:42:34.204 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:42:34.204 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:42:34.205 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:42:34.205 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:42:34.206 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:42:34.207 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:42:34.207 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:42:34.207 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:42:34.208 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:42:34.208 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2024-03-25 14:42:35.905 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:42:35.905 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:42:35.906 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:42:35.906 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:42:35.906 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:42:35.906 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:42:35.906 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:42:35.907 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:42:35.908 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:42:35.908 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:42:35.909 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:42:35.910 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:42:35.910 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:42:35.911 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:42:35.911 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:42:35.911 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:42:35.912 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:42:35.912 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2024-03-25 14:42:38.958 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:42:38.959 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:42:38.959 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:42:38.959 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:42:38.959 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:42:38.959 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:42:38.959 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:42:38.960 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:42:38.960 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:42:38.961 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:42:38.961 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:42:38.962 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:42:38.963 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:42:38.963 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:42:38.963 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:42:38.963 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:42:38.964 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:42:38.964 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2024-03-25 14:42:42.137 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:42:42.137 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:42:42.137 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:42:42.137 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:42:42.138 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:42:42.138 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:42:42.138 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:42:42.139 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:42:42.139 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:42:42.140 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:42:42.140 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:42:42.141 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:42:42.142 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:42:42.142 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:42:42.142 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:42:42.142 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:42:42.143 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:42:42.143 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2024-03-25 14:42:44.222 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:42:44.222 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:42:44.222 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:42:44.222 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:42:44.223 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:42:44.223 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:42:44.223 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:42:44.224 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:42:44.224 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:42:44.225 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:42:44.225 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:42:44.225 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:42:44.226 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:42:44.226 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:42:44.226 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:42:44.227 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:42:44.227 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:42:44.227 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-25 14:42:50.023 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:42:50.023 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:42:50.023 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:42:50.023 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:42:50.023 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:42:50.023 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:42:50.023 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:42:50.024 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:42:50.024 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:42:50.025 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:42:50.026 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:42:50.026 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:42:50.027 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:42:50.027 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:42:50.028 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:42:50.028 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:42:50.029 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:42:50.029 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2024-03-25 14:42:52.770 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:42:52.770 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:42:52.770 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:42:52.770 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:42:52.770 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:42:52.770 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:42:52.770 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:42:52.771 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:42:52.771 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:42:52.772 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:42:52.772 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:42:52.773 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:42:52.773 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:42:52.777 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:42:52.777 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:42:52.777 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:42:52.778 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:42:52.778 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：8 ms -------------
+2024-03-25 14:42:59.187 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:42:59.187 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:42:59.187 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:42:59.188 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:42:59.188 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:42:59.188 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:42:59.188 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:42:59.189 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:42:59.189 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:42:59.190 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:42:59.190 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:42:59.191 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:42:59.191 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:42:59.191 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:42:59.192 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:42:59.192 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:42:59.192 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:42:59.192 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-25 14:43:01.591 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:43:01.591 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:43:01.592 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:43:01.592 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:43:01.592 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:43:01.592 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:43:01.592 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:43:01.593 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:43:01.593 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:43:01.594 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:43:01.594 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:43:01.595 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:43:01.595 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:43:01.599 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:43:01.599 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:43:01.600 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:43:01.600 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:43:01.600 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2024-03-25 14:44:12.329 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:44:12.329 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:44:12.330 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:44:12.330 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:44:12.330 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:44:12.330 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:44:12.330 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:44:12.331 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:44:12.331 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:44:12.332 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:44:12.332 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:44:12.332 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:44:12.333 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:44:12.333 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:44:12.333 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:44:12.334 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:44:12.334 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:44:12.334 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-25 14:46:19.841 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:46:19.841 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:46:19.841 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:46:19.841 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:46:19.842 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:46:19.842 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:46:19.842 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:46:19.843 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:46:19.843 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:46:19.843 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:46:19.844 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:46:19.844 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:46:19.844 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:46:19.845 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:46:19.845 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:46:19.845 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:46:19.845 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:46:19.845 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-25 14:46:25.595 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:46:25.595 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:46:25.595 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:46:25.595 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:46:25.596 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:46:25.596 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:46:25.596 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:46:25.597 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:46:25.598 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:46:25.598 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:46:25.598 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:46:25.598 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:46:25.599 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:46:25.599 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:46:25.599 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:46:25.599 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:46:25.600 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:46:25.600 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-25 14:46:31.880 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:46:31.881 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:46:31.881 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:46:31.881 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:46:31.881 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:46:31.881 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:46:31.881 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:46:31.882 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:46:31.882 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:46:31.883 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:46:31.883 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:46:31.884 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:46:31.884 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:46:31.884 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:46:31.885 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:46:31.885 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:46:31.885 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:46:31.885 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-25 14:46:36.134 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:46:36.135 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:46:36.135 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:46:36.135 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:46:36.135 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:46:36.135 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:46:36.135 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:46:36.136 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:46:36.136 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:46:36.137 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:46:36.137 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:46:36.137 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:46:36.138 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:46:36.138 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:46:36.138 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:46:36.138 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:46:36.139 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:46:36.139 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-25 14:46:39.177 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:46:39.177 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:46:39.177 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:46:39.178 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:46:39.178 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:46:39.178 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:46:39.178 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:46:39.179 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:46:39.179 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:46:39.180 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:46:39.180 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:46:39.180 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:46:39.180 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:46:39.181 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:46:39.181 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:46:39.181 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:46:39.181 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:46:39.181 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-25 14:46:42.466 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:46:42.467 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-25 14:46:42.467 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-25 14:46:42.467 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:46:42.469 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:46:42.471 INFO  com.xboss.train.business.service.TrainService     :73   [32m                  [0;39m 查询页码：1
+2024-03-25 14:46:42.471 INFO  com.xboss.train.business.service.TrainService     :74   [32m                  [0;39m 每页条数：10
+2024-03-25 14:46:42.473 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by id desc
+2024-03-25 14:46:42.473 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:46:42.474 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2024-03-25 14:46:42.474 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1769968283357941760, G2, G, 广州, guangzhou, 00:00:00, 上海, shanghai, 07:00:00, 2024-03-19 14:04:57.823, 2024-03-19 14:04:57.823
+2024-03-25 14:46:42.475 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1769600191159209984, G1, G, 广州, guangzhou, 00:01:01, 清远, qingyuan, 00:06:03, 2024-03-18 13:42:17, 2024-03-18 22:03:12.104
+2024-03-25 14:46:42.475 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m <==      Total: 2
+2024-03-25 14:46:42.475 INFO  com.xboss.train.business.service.TrainService     :79   [32m                  [0;39m 总行数：2
+2024-03-25 14:46:42.476 INFO  com.xboss.train.business.service.TrainService     :80   [32m                  [0;39m 总页数：1
+2024-03-25 14:46:42.481 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"G2","createTime":1710828297823,"end":"上海","endPinyin":"shanghai","endTime":-3600000,"id":1769968283357941760,"start":"广州","startPinyin":"guangzhou","startTime":-28800000,"type":"G","updateTime":1710828297823},{"code":"G1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710770592104}],"total":2},"success":true}
+2024-03-25 14:46:42.482 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2024-03-25 14:51:38.123 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:51:38.123 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-25 14:51:38.124 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-25 14:51:38.124 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:51:38.124 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:51:38.124 INFO  com.xboss.train.business.service.TrainService     :73   [32m                  [0;39m 查询页码：1
+2024-03-25 14:51:38.124 INFO  com.xboss.train.business.service.TrainService     :74   [32m                  [0;39m 每页条数：10
+2024-03-25 14:51:38.125 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by id desc
+2024-03-25 14:51:38.125 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:51:38.126 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2024-03-25 14:51:38.126 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1769968283357941760, G2, G, 广州, guangzhou, 00:00:00, 上海, shanghai, 07:00:00, 2024-03-19 14:04:57.823, 2024-03-19 14:04:57.823
+2024-03-25 14:51:38.127 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1769600191159209984, G1, G, 广州, guangzhou, 00:01:01, 清远, qingyuan, 00:06:03, 2024-03-18 13:42:17, 2024-03-18 22:03:12.104
+2024-03-25 14:51:38.127 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m <==      Total: 2
+2024-03-25 14:51:38.128 INFO  com.xboss.train.business.service.TrainService     :79   [32m                  [0;39m 总行数：2
+2024-03-25 14:51:38.128 INFO  com.xboss.train.business.service.TrainService     :80   [32m                  [0;39m 总页数：1
+2024-03-25 14:51:38.128 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"G2","createTime":1710828297823,"end":"上海","endPinyin":"shanghai","endTime":-3600000,"id":1769968283357941760,"start":"广州","startPinyin":"guangzhou","startTime":-28800000,"type":"G","updateTime":1710828297823},{"code":"G1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710770592104}],"total":2},"success":true}
+2024-03-25 14:51:38.128 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-25 14:51:42.254 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:51:42.254 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-list GET
+2024-03-25 14:51:42.254 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.StationAdminController.queryList
+2024-03-25 14:51:42.254 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:51:42.254 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:51:42.255 INFO  com.xboss.train.business.service.StationService   :70   [32m                  [0;39m 查询页码：1
+2024-03-25 14:51:42.255 INFO  com.xboss.train.business.service.StationService   :71   [32m                  [0;39m 每页条数：10
+2024-03-25 14:51:42.256 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2024-03-25 14:51:42.256 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:51:42.257 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2024-03-25 14:51:42.257 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710694200119296, 清远, qingyuan, qy, 2024-03-18 21:01:23.789, 2024-03-18 21:01:23.789
+2024-03-25 14:51:42.257 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710670430998528, 上海, shanghai, sh, 2024-03-18 21:01:18.122, 2024-03-18 21:01:18.122
+2024-03-25 14:51:42.257 TRACE c.x.t.b.mapper.StationMapper.selectByExample      :143  [32m                  [0;39m <==        Row: 1769710631356862464, 广州, guangzhou, gz, 2024-03-18 21:01:08.805, 2024-03-18 21:01:08.805
+2024-03-25 14:51:42.258 DEBUG c.x.t.b.mapper.StationMapper.selectByExample      :137  [32m                  [0;39m <==      Total: 3
+2024-03-25 14:51:42.258 INFO  com.xboss.train.business.service.StationService   :76   [32m                  [0;39m 总行数：3
+2024-03-25 14:51:42.258 INFO  com.xboss.train.business.service.StationService   :77   [32m                  [0;39m 总页数：1
+2024-03-25 14:51:42.258 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710766883789,"id":1769710694200119296,"name":"清远","namePinyin":"qingyuan","namePy":"qy","updateTime":1710766883789},{"createTime":1710766878122,"id":1769710670430998528,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1710766878122},{"createTime":1710766868805,"id":1769710631356862464,"name":"广州","namePinyin":"guangzhou","namePy":"gz","updateTime":1710766868805}],"total":3},"success":true}
+2024-03-25 14:51:42.258 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-25 14:51:43.055 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:51:43.055 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2024-03-25 14:51:43.055 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-25 14:51:43.055 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:51:43.055 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:51:43.055 INFO  com.xboss.train.business.service.TrainService     :73   [32m                  [0;39m 查询页码：1
+2024-03-25 14:51:43.055 INFO  com.xboss.train.business.service.TrainService     :74   [32m                  [0;39m 每页条数：10
+2024-03-25 14:51:43.056 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by id desc
+2024-03-25 14:51:43.057 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:51:43.057 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2024-03-25 14:51:43.057 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1769968283357941760, G2, G, 广州, guangzhou, 00:00:00, 上海, shanghai, 07:00:00, 2024-03-19 14:04:57.823, 2024-03-19 14:04:57.823
+2024-03-25 14:51:43.058 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1769600191159209984, G1, G, 广州, guangzhou, 00:01:01, 清远, qingyuan, 00:06:03, 2024-03-18 13:42:17, 2024-03-18 22:03:12.104
+2024-03-25 14:51:43.058 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m <==      Total: 2
+2024-03-25 14:51:43.058 INFO  com.xboss.train.business.service.TrainService     :79   [32m                  [0;39m 总行数：2
+2024-03-25 14:51:43.058 INFO  com.xboss.train.business.service.TrainService     :80   [32m                  [0;39m 总页数：1
+2024-03-25 14:51:43.059 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"G2","createTime":1710828297823,"end":"上海","endPinyin":"shanghai","endTime":-3600000,"id":1769968283357941760,"start":"广州","startPinyin":"guangzhou","startTime":-28800000,"type":"G","updateTime":1710828297823},{"code":"G1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710770592104}],"total":2},"success":true}
+2024-03-25 14:51:43.059 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
+2024-03-25 14:51:43.781 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:51:43.782 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-all GET
+2024-03-25 14:51:43.782 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainAdminController.queryList
+2024-03-25 14:51:43.782 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:51:43.782 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: []
+2024-03-25 14:51:43.788 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:51:43.788 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2024-03-25 14:51:43.788 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainStationAdminController.queryList
+2024-03-25 14:51:43.788 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:51:43.788 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2024-03-25 14:51:43.788 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:51:43.789 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2024-03-25 14:51:43.789 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1769600191159209984, G1, G, 广州, guangzhou, 00:01:01, 清远, qingyuan, 00:06:03, 2024-03-18 13:42:17, 2024-03-18 22:03:12.104
+2024-03-25 14:51:43.789 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:51:43.790 TRACE c.x.t.business.mapper.TrainMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1769968283357941760, G2, G, 广州, guangzhou, 00:00:00, 上海, shanghai, 07:00:00, 2024-03-19 14:04:57.823, 2024-03-19 14:04:57.823
+2024-03-25 14:51:43.790 DEBUG c.x.t.business.mapper.TrainMapper.selectByExample :137  [32m                  [0;39m <==      Total: 2
+2024-03-25 14:51:43.793 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":[{"code":"G1","createTime":1710740537000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1769600191159209984,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1710770592104},{"code":"G2","createTime":1710828297823,"end":"上海","endPinyin":"shanghai","endTime":-3600000,"id":1769968283357941760,"start":"广州","startPinyin":"guangzhou","startTime":-28800000,"type":"G","updateTime":1710828297823}],"success":true}
+2024-03-25 14:51:43.793 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：12 ms -------------
+2024-03-25 14:51:43.793 INFO  c.xboss.train.business.service.TrainStationService:94   [32m                  [0;39m 查询页码：1
+2024-03-25 14:51:43.793 INFO  c.xboss.train.business.service.TrainStationService:95   [32m                  [0;39m 每页条数：10
+2024-03-25 14:51:43.795 DEBUG c.x.t.b.mapper.TrainStationMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, train_code, `index`, `name`, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time from train_station order by train_code asc, `index` asc
+2024-03-25 14:51:43.795 DEBUG c.x.t.b.mapper.TrainStationMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:51:43.796 TRACE c.x.t.b.mapper.TrainStationMapper.selectByExample :143  [32m                  [0;39m <==    Columns: id, train_code, index, name, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time
+2024-03-25 14:51:43.797 TRACE c.x.t.b.mapper.TrainStationMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1770009971019354112, G1, 0, 广州, guangzhou, 00:00:00, 00:10:00, 00:10:00, 0.00, 2024-03-19 16:50:36.935, 2024-03-19 16:50:36.935
+2024-03-25 14:51:43.798 TRACE c.x.t.b.mapper.TrainStationMapper.selectByExample :143  [32m                  [0;39m <==        Row: 1770010163042979840, G1, 1, 清远, qingyuan, 00:30:00, 00:40:00, 00:10:00, 60.00, 2024-03-19 16:51:22.725, 2024-03-19 16:51:22.725
+2024-03-25 14:51:43.799 DEBUG c.x.t.b.mapper.TrainStationMapper.selectByExample :137  [32m                  [0;39m <==      Total: 2
+2024-03-25 14:51:43.799 INFO  c.xboss.train.business.service.TrainStationService:100  [32m                  [0;39m 总行数：2
+2024-03-25 14:51:43.799 INFO  c.xboss.train.business.service.TrainStationService:101  [32m                  [0;39m 总页数：1
+2024-03-25 14:51:43.804 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"createTime":1710838236935,"id":1770009971019354112,"inTime":-28800000,"index":0,"km":0.00,"name":"广州","namePinyin":"guangzhou","outTime":-28200000,"stopTime":-28200000,"trainCode":"G1","updateTime":1710838236935},{"createTime":1710838282725,"id":1770010163042979840,"inTime":-27000000,"index":1,"km":60.00,"name":"清远","namePinyin":"qingyuan","outTime":-26400000,"stopTime":-28200000,"trainCode":"G1","updateTime":1710838282725}],"total":2},"success":true}
+2024-03-25 14:51:43.804 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2024-03-25 14:51:45.276 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:51:45.276 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-carriage/query-list GET
+2024-03-25 14:51:45.276 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainCarriageAdminController.queryList
+2024-03-25 14:51:45.276 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:51:45.277 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:51:45.279 INFO  c.x.train.business.service.TrainCarriageService   :83   [32m                  [0;39m 查询页码：1
+2024-03-25 14:51:45.280 INFO  c.x.train.business.service.TrainCarriageService   :84   [32m                  [0;39m 每页条数：10
+2024-03-25 14:51:45.281 DEBUG c.x.t.b.mapper.TrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from train_carriage order by train_code asc, `index` asc
+2024-03-25 14:51:45.281 DEBUG c.x.t.b.mapper.TrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:51:45.282 TRACE c.x.t.b.mapper.TrainCarriageMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, train_code, index, seat_type, seat_count, row_count, col_count, create_time, update_time
+2024-03-25 14:51:45.282 TRACE c.x.t.b.mapper.TrainCarriageMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1770010675805032448, G1, 1, 1, 12, 3, 4, 2024-03-19 16:53:24, 2024-03-19 18:48:33.105
+2024-03-25 14:51:45.283 TRACE c.x.t.b.mapper.TrainCarriageMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1770039256782344192, G2, 1, 2, 10, 2, 5, 2024-03-19 18:46:59.203, 2024-03-19 18:46:59.203
+2024-03-25 14:51:45.283 DEBUG c.x.t.b.mapper.TrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
+2024-03-25 14:51:45.283 INFO  c.x.train.business.service.TrainCarriageService   :89   [32m                  [0;39m 总行数：2
+2024-03-25 14:51:45.283 INFO  c.x.train.business.service.TrainCarriageService   :90   [32m                  [0;39m 总页数：1
+2024-03-25 14:51:45.287 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"colCount":4,"createTime":1710838404000,"id":1770010675805032448,"index":1,"rowCount":3,"seatCount":12,"seatType":"1","trainCode":"G1","updateTime":1710845313105},{"colCount":5,"createTime":1710845219203,"id":1770039256782344192,"index":1,"rowCount":2,"seatCount":10,"seatType":"2","trainCode":"G2","updateTime":1710845219203}],"total":2},"success":true}
+2024-03-25 14:51:45.287 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：11 ms -------------
+2024-03-25 14:51:45.731 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-25 14:51:45.731 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-seat/query-list GET
+2024-03-25 14:51:45.731 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.TrainSeatAdminController.queryList
+2024-03-25 14:51:45.731 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-25 14:51:45.733 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-25 14:51:45.735 INFO  com.xboss.train.business.service.TrainSeatService :60   [32m                  [0;39m 查询页码：1
+2024-03-25 14:51:45.735 INFO  com.xboss.train.business.service.TrainSeatService :61   [32m                  [0;39m 每页条数：10
+2024-03-25 14:51:45.736 DEBUG c.x.t.b.mapper.TrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, train_code, carriage_index, `row`, col, seat_type, carriage_seat_index, create_time, update_time from train_seat order by train_code asc, carriage_index asc, carriage_seat_index asc
+2024-03-25 14:51:45.736 DEBUG c.x.t.b.mapper.TrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2024-03-25 14:51:45.737 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, train_code, carriage_index, row, col, seat_type, carriage_seat_index, create_time, update_time
+2024-03-25 14:51:45.738 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575281025024, G1, 1, 01, A, 1, 1, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.738 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575289413632, G1, 1, 01, C, 1, 2, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.738 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575289413633, G1, 1, 01, D, 1, 3, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.739 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575293607936, G1, 1, 01, F, 1, 4, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.739 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575297802240, G1, 1, 02, A, 1, 5, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.739 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575297802241, G1, 1, 02, C, 1, 6, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.739 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575301996544, G1, 1, 02, D, 1, 7, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.739 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575306190848, G1, 1, 02, F, 1, 8, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.740 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575306190849, G1, 1, 03, A, 1, 9, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.740 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575310385152, G1, 1, 03, C, 1, 10, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.740 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575314579456, G1, 1, 03, D, 1, 11, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.740 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575314579457, G1, 1, 03, F, 1, 12, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.740 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575318773760, G1, 1, 04, A, 1, 13, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.741 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575318773761, G1, 1, 04, C, 1, 14, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.741 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575318773762, G1, 1, 04, D, 1, 15, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.741 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575322968064, G1, 1, 04, F, 1, 16, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.741 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575327162368, G1, 1, 05, A, 1, 17, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.741 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575327162369, G1, 1, 05, C, 1, 18, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.741 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575331356672, G1, 1, 05, D, 1, 19, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.742 TRACE c.x.t.b.mapper.TrainSeatMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 1770020575331356673, G1, 1, 05, F, 1, 20, 2024-03-19 17:32:45.186, 2024-03-19 17:32:45.186
+2024-03-25 14:51:45.742 DEBUG c.x.t.b.mapper.TrainSeatMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 20
+2024-03-25 14:51:45.742 INFO  com.xboss.train.business.service.TrainSeatService :66   [32m                  [0;39m 总行数：20
+2024-03-25 14:51:45.742 INFO  com.xboss.train.business.service.TrainSeatService :67   [32m                  [0;39m 总页数：1
+2024-03-25 14:51:45.748 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"carriageIndex":1,"carriageSeatIndex":1,"col":"A","createTime":1710840765186,"id":1770020575281025024,"row":"01","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":2,"col":"C","createTime":1710840765186,"id":1770020575289413632,"row":"01","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":3,"col":"D","createTime":1710840765186,"id":1770020575289413633,"row":"01","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":4,"col":"F","createTime":1710840765186,"id":1770020575293607936,"row":"01","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":5,"col":"A","createTime":1710840765186,"id":1770020575297802240,"row":"02","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":6,"col":"C","createTime":1710840765186,"id":1770020575297802241,"row":"02","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":7,"col":"D","createTime":1710840765186,"id":1770020575301996544,"row":"02","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":8,"col":"F","createTime":1710840765186,"id":1770020575306190848,"row":"02","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":9,"col":"A","createTime":1710840765186,"id":1770020575306190849,"row":"03","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":10,"col":"C","createTime":1710840765186,"id":1770020575310385152,"row":"03","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":11,"col":"D","createTime":1710840765186,"id":1770020575314579456,"row":"03","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":12,"col":"F","createTime":1710840765186,"id":1770020575314579457,"row":"03","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":13,"col":"A","createTime":1710840765186,"id":1770020575318773760,"row":"04","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":14,"col":"C","createTime":1710840765186,"id":1770020575318773761,"row":"04","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":15,"col":"D","createTime":1710840765186,"id":1770020575318773762,"row":"04","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":16,"col":"F","createTime":1710840765186,"id":1770020575322968064,"row":"04","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":17,"col":"A","createTime":1710840765186,"id":1770020575327162368,"row":"05","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":18,"col":"C","createTime":1710840765186,"id":1770020575327162369,"row":"05","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":19,"col":"D","createTime":1710840765186,"id":1770020575331356672,"row":"05","seatType":"1","trainCode":"G1","updateTime":1710840765186},{"carriageIndex":1,"carriageSeatIndex":20,"col":"F","createTime":1710840765186,"id":1770020575331356673,"row":"05","seatType":"1","trainCode":"G1","updateTime":1710840765186}],"total":20},"success":true}
+2024-03-25 14:51:45.748 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：17 ms -------------
+2024-03-25 15:04:22.480 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-03-25 15:04:22.492 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:22.493 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-25 15:04:22.494 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-25 15:04:22.496 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [sentinel-command-center-executor-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/sun.nio.ch.Net.accept(Native Method)
+ java.base@18.0.1.1/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:752)
+ java.base@18.0.1.1/java.net.ServerSocket.implAccept(ServerSocket.java:673)
+ java.base@18.0.1.1/java.net.ServerSocket.platformImplAccept(ServerSocket.java:639)
+ java.base@18.0.1.1/java.net.ServerSocket.implAccept(ServerSocket.java:615)
+ java.base@18.0.1.1/java.net.ServerSocket.implAccept(ServerSocket.java:572)
+ java.base@18.0.1.1/java.net.ServerSocket.accept(ServerSocket.java:530)
+ app//com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter$ServerThread.run(SimpleHttpCommandCenter.java:191)
+ java.base@18.0.1.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+ java.base@18.0.1.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-25 15:04:22.497 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [sentinel-heartbeat-send-task-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-25 15:04:22.497 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [sentinel-time-tick-thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/java.lang.Thread.sleep(Native Method)
+ java.base@18.0.1.1/java.lang.Thread.sleep(Thread.java:337)
+ java.base@18.0.1.1/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+ app//com.alibaba.csp.sentinel.util.TimeUtil.run(TimeUtil.java:123)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-25 15:04:22.497 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [sentinel-system-status-record-task-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-25 15:04:22.498 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [sentinel-metrics-record-task-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-25 15:04:22.498 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-25 15:04:22.498 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [sentinel-heartbeat-send-task-thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@18.0.1.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3464)
+ java.base@18.0.1.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3435)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-25 15:04:22.501 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:22.503 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:22.519 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-03-25 15:04:22.525 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-03-25 15:04:22.791 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 26156 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-25 15:04:22.791 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-25 15:04:23.093 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-25 15:04:23.093 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-25 15:04:23.095 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-03-25 15:04:23.174 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=8ea4ac3f-42da-3cba-994b-ae73cf42ea74
+2024-03-25 15:04:23.331 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-25 15:04:23.331 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-25 15:04:23.332 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-25 15:04:23.332 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-25 15:04:23.332 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:23.332 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-25 15:04:23.333 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-25 15:04:23.356 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-25 15:04:23.356 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 561 ms
+2024-03-25 15:04:23.669 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-25 15:04:23.899 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-25 15:04:24.033 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-25 15:04:24.062 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:24.064 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-25 15:04:24.164 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 1.591 seconds (process running for 1681.412)
+2024-03-25 15:04:24.166 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-25 15:04:24.166 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-25 15:04:24.167 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
+2024-03-25 15:04:25.337 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 6 class path changes (6 additions, 0 deletions, 0 modifications)
+2024-03-25 15:04:25.346 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:25.346 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-25 15:04:25.347 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:25.347 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:25.501 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 26156 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-25 15:04:25.501 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-25 15:04:25.672 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-25 15:04:25.672 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-25 15:04:25.674 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2024-03-25 15:04:25.710 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=8ea4ac3f-42da-3cba-994b-ae73cf42ea74
+2024-03-25 15:04:25.787 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-25 15:04:25.787 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-25 15:04:25.788 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-25 15:04:25.788 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-25 15:04:25.788 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:25.788 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-25 15:04:25.788 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-25 15:04:25.804 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-25 15:04:25.805 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 302 ms
+2024-03-25 15:04:26.030 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-25 15:04:26.205 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-25 15:04:26.326 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-25 15:04:26.348 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:26.350 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-25 15:04:26.446 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 1.061 seconds (process running for 1683.695)
+2024-03-25 15:04:26.448 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-25 15:04:26.448 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-25 15:04:26.448 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
+2024-03-25 15:04:59.439 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 5 class path changes (5 additions, 0 deletions, 0 modifications)
+2024-03-25 15:04:59.449 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:59.449 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-25 15:04:59.451 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:59.452 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:59.633 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 26156 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-25 15:04:59.633 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-25 15:04:59.795 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-25 15:04:59.795 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-25 15:04:59.796 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2024-03-25 15:04:59.830 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d896bae4-98ca-3b08-ae92-c898a8e22086
+2024-03-25 15:04:59.901 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-25 15:04:59.901 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-25 15:04:59.902 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-25 15:04:59.902 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-25 15:04:59.902 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:04:59.902 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-25 15:04:59.902 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-25 15:04:59.918 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-25 15:04:59.919 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 284 ms
+2024-03-25 15:05:00.162 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-25 15:05:00.356 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-25 15:05:00.484 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-25 15:05:00.523 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-25 15:05:00.527 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-25 15:05:00.635 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 1.139 seconds (process running for 1717.884)
+2024-03-25 15:05:00.637 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-25 15:05:00.637 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-25 15:05:00.637 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
