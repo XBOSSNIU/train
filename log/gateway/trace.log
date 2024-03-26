@@ -56,3 +56,12 @@
 2024-03-26 17:27:13.008 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train-station/query-list
 2024-03-26 17:27:14.683 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train/query-list
 2024-03-26 17:27:15.157 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train-station/query-list
+2024-03-26 20:37:36.020 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train-station/query-list
+2024-03-26 20:37:38.786 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2024-03-26 20:38:30.292 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2024-03-26 20:38:33.752 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2024-03-26 20:38:40.236 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2024-03-26 20:38:52.868 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train-station/query-list
+2024-03-26 20:38:53.241 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2024-03-26 20:38:53.693 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2024-03-26 20:38:54.971 INFO  com.xboss.train.gateway.config.LoginMemberFilter  :29   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list

@@ -960,3 +960,435 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.xboss.train.
 2024-03-26 20:37:38.796 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
 2024-03-26 20:37:38.797 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
 2024-03-26 20:37:38.797 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2024-03-26 20:38:30.295 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:38:30.295 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-carriage/query-list GET
+2024-03-26 20:38:30.295 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainCarriageAdminController.queryList
+2024-03-26 20:38:30.295 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:38:30.295 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:38:30.296 INFO  c.x.t.business.service.DailyTrainCarriageService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:38:30.296 INFO  c.x.t.business.service.DailyTrainCarriageService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:38:30.296 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from daily_train_carriage order by id desc
+2024-03-26 20:38:30.297 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:38:30.297 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:38:30.298 INFO  c.x.t.business.service.DailyTrainCarriageService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:38:30.298 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:38:30.298 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:38:30.298 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-26 20:38:33.755 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:38:33.756 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-carriage/query-list GET
+2024-03-26 20:38:33.756 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainCarriageAdminController.queryList
+2024-03-26 20:38:33.756 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:38:33.756 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:38:33.757 INFO  c.x.t.business.service.DailyTrainCarriageService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:38:33.757 INFO  c.x.t.business.service.DailyTrainCarriageService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:38:33.757 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from daily_train_carriage order by id desc
+2024-03-26 20:38:33.758 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:38:33.758 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:38:33.759 INFO  c.x.t.business.service.DailyTrainCarriageService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:38:33.759 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:38:33.759 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:38:33.759 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-26 20:38:40.239 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:38:40.239 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-carriage/query-list GET
+2024-03-26 20:38:40.239 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainCarriageAdminController.queryList
+2024-03-26 20:38:40.239 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:38:40.239 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:38:40.239 INFO  c.x.t.business.service.DailyTrainCarriageService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:38:40.239 INFO  c.x.t.business.service.DailyTrainCarriageService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:38:40.240 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from daily_train_carriage order by id desc
+2024-03-26 20:38:40.240 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:38:40.241 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:38:40.241 INFO  c.x.t.business.service.DailyTrainCarriageService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:38:40.241 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:38:40.241 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:38:40.241 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-26 20:38:52.871 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:38:52.871 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2024-03-26 20:38:52.871 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2024-03-26 20:38:52.871 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:38:52.871 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:38:52.871 INFO  c.x.t.business.service.DailyTrainStationService   :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:38:52.871 INFO  c.x.t.business.service.DailyTrainStationService   :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:38:52.872 DEBUG c.x.t.b.m.DailyTrainStationMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, `name`, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time from daily_train_station order by id desc
+2024-03-26 20:38:52.872 DEBUG c.x.t.b.m.DailyTrainStationMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:38:52.873 DEBUG c.x.t.b.m.DailyTrainStationMapper.selectByExample :137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:38:52.874 INFO  c.x.t.business.service.DailyTrainStationService   :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:38:52.874 INFO  c.x.t.business.service.DailyTrainStationService   :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:38:52.875 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:38:52.875 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-26 20:38:53.243 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:38:53.243 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-carriage/query-list GET
+2024-03-26 20:38:53.243 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainCarriageAdminController.queryList
+2024-03-26 20:38:53.243 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:38:53.244 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:38:53.244 INFO  c.x.t.business.service.DailyTrainCarriageService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:38:53.244 INFO  c.x.t.business.service.DailyTrainCarriageService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:38:53.244 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from daily_train_carriage order by id desc
+2024-03-26 20:38:53.244 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:38:53.245 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:38:53.245 INFO  c.x.t.business.service.DailyTrainCarriageService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:38:53.245 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:38:53.245 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:38:53.246 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-26 20:38:53.697 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:38:53.697 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/query-list GET
+2024-03-26 20:38:53.697 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainAdminController.queryList
+2024-03-26 20:38:53.697 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:38:53.698 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:38:53.700 INFO  c.xboss.train.business.service.DailyTrainService  :60   [32m                  [0;39m 查询页码：1
+2024-03-26 20:38:53.700 INFO  c.xboss.train.business.service.DailyTrainService  :61   [32m                  [0;39m 每页条数：10
+2024-03-26 20:38:53.701 DEBUG c.x.t.b.mapper.DailyTrainMapper.selectByExample   :137  [32m                  [0;39m ==>  Preparing: select id, `date`, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from daily_train order by date desc, code asc
+2024-03-26 20:38:53.701 DEBUG c.x.t.b.mapper.DailyTrainMapper.selectByExample   :137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:38:53.703 TRACE c.x.t.b.mapper.DailyTrainMapper.selectByExample   :143  [32m                  [0;39m <==    Columns: id, date, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2024-03-26 20:38:53.703 TRACE c.x.t.b.mapper.DailyTrainMapper.selectByExample   :143  [32m                  [0;39m <==        Row: 1772548295395250176, 2024-03-26, G1, G, 广州, guangzhou, 00:01:01, 清远, qingyuan, 00:06:03, 2024-03-26 16:57:00.634, 2024-03-26 16:57:00.634
+2024-03-26 20:38:53.704 DEBUG c.x.t.b.mapper.DailyTrainMapper.selectByExample   :137  [32m                  [0;39m <==      Total: 1
+2024-03-26 20:38:53.704 INFO  c.xboss.train.business.service.DailyTrainService  :66   [32m                  [0;39m 总行数：1
+2024-03-26 20:38:53.704 INFO  c.xboss.train.business.service.DailyTrainService  :67   [32m                  [0;39m 总页数：1
+2024-03-26 20:38:53.706 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"G1","createTime":1711443420634,"date":1711382400000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1772548295395250176,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1711443420634}],"total":1},"success":true}
+2024-03-26 20:38:53.706 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2024-03-26 20:38:54.973 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:38:54.973 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-carriage/query-list GET
+2024-03-26 20:38:54.973 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainCarriageAdminController.queryList
+2024-03-26 20:38:54.973 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:38:54.974 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:38:54.974 INFO  c.x.t.business.service.DailyTrainCarriageService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:38:54.974 INFO  c.x.t.business.service.DailyTrainCarriageService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:38:54.974 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from daily_train_carriage order by id desc
+2024-03-26 20:38:54.974 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:38:54.975 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:38:54.975 INFO  c.x.t.business.service.DailyTrainCarriageService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:38:54.975 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:38:54.975 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:38:54.975 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-26 20:41:02.886 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-03-26 20:41:02.896 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:41:02.896 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-26 20:41:02.896 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-26 20:41:02.897 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-26 20:41:02.898 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:41:02.899 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:41:02.902 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2024-03-26 20:41:02.905 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2024-03-26 20:41:03.107 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 13708 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-26 20:41:03.107 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-26 20:41:03.319 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-26 20:41:03.319 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-26 20:41:03.320 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2024-03-26 20:41:03.353 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=13fe8f07-e7df-3458-bb6d-4a2767a62b6a
+2024-03-26 20:41:03.426 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-26 20:41:03.426 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-26 20:41:03.426 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-26 20:41:03.426 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-26 20:41:03.426 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:41:03.426 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-26 20:41:03.426 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-26 20:41:03.441 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-26 20:41:03.442 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 332 ms
+2024-03-26 20:41:03.675 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-26 20:41:03.838 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-26 20:41:03.958 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-26 20:41:03.979 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:41:03.981 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-26 20:41:04.080 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 1.134 seconds (process running for 14190.717)
+2024-03-26 20:41:04.081 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-26 20:41:04.082 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-26 20:41:04.082 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
+2024-03-26 20:41:05.313 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 11 class path changes (11 additions, 0 deletions, 0 modifications)
+2024-03-26 20:41:05.321 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:41:05.321 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-26 20:41:05.322 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:41:05.323 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:41:05.462 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 13708 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-26 20:41:05.462 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-26 20:41:05.608 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-26 20:41:05.608 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-26 20:41:05.609 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2024-03-26 20:41:05.639 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=13fe8f07-e7df-3458-bb6d-4a2767a62b6a
+2024-03-26 20:41:05.702 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-26 20:41:05.702 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-26 20:41:05.702 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-26 20:41:05.702 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-26 20:41:05.702 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:41:05.703 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-26 20:41:05.703 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-26 20:41:05.718 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-26 20:41:05.718 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 255 ms
+2024-03-26 20:41:05.963 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-26 20:41:06.122 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-26 20:41:06.234 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-26 20:41:06.253 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:41:06.255 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-26 20:41:06.345 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 0.988 seconds (process running for 14192.981)
+2024-03-26 20:41:06.346 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-26 20:41:06.346 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-26 20:41:06.346 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
+2024-03-26 20:41:59.323 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-26 20:41:59.323 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-03-26 20:41:59.324 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2024-03-26 20:41:59.338 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:41:59.339 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-carriage/query-list GET
+2024-03-26 20:41:59.339 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainCarriageAdminController.queryList
+2024-03-26 20:41:59.340 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:41:59.341 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:41:59.343 INFO  c.x.t.business.service.DailyTrainCarriageService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:41:59.344 INFO  c.x.t.business.service.DailyTrainCarriageService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:41:59.346 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2024-03-26 20:41:59.360 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@783445c0
+2024-03-26 20:41:59.360 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2024-03-26 20:41:59.360 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from daily_train_carriage order by id desc
+2024-03-26 20:41:59.361 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:41:59.362 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:41:59.362 INFO  c.x.t.business.service.DailyTrainCarriageService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:41:59.362 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:41:59.364 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:41:59.364 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：26 ms -------------
+2024-03-26 20:42:41.015 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:42:41.016 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-carriage/query-list GET
+2024-03-26 20:42:41.016 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainCarriageAdminController.queryList
+2024-03-26 20:42:41.016 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:42:41.016 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:42:41.016 INFO  c.x.t.business.service.DailyTrainCarriageService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:42:41.016 INFO  c.x.t.business.service.DailyTrainCarriageService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:42:41.017 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from daily_train_carriage order by id desc
+2024-03-26 20:42:41.017 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:42:41.017 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:42:41.018 INFO  c.x.t.business.service.DailyTrainCarriageService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:42:41.018 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:42:41.018 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:42:41.018 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-26 20:43:11.598 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:43:11.599 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-carriage/query-list GET
+2024-03-26 20:43:11.599 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainCarriageAdminController.queryList
+2024-03-26 20:43:11.599 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:43:11.599 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:43:11.600 INFO  c.x.t.business.service.DailyTrainCarriageService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:43:11.600 INFO  c.x.t.business.service.DailyTrainCarriageService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:43:11.600 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from daily_train_carriage order by id desc
+2024-03-26 20:43:11.600 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:43:11.601 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:43:11.601 INFO  c.x.t.business.service.DailyTrainCarriageService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:43:11.602 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:43:11.602 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:43:11.602 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：4 ms -------------
+2024-03-26 20:43:12.658 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:43:12.659 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-seat/query-list GET
+2024-03-26 20:43:12.659 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainSeatAdminController.queryList
+2024-03-26 20:43:12.659 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:43:12.659 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:43:12.661 INFO  c.x.train.business.service.DailyTrainSeatService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:43:12.661 INFO  c.x.train.business.service.DailyTrainSeatService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:43:12.663 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, carriage_index, `row`, col, seat_type, carriage_seat_index, sell, create_time, update_time from daily_train_seat order by id desc
+2024-03-26 20:43:12.663 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:43:12.664 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:43:12.665 INFO  c.x.train.business.service.DailyTrainSeatService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:43:12.665 INFO  c.x.train.business.service.DailyTrainSeatService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:43:12.665 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:43:12.666 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：8 ms -------------
+2024-03-26 20:43:15.625 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:43:15.625 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-seat/query-list GET
+2024-03-26 20:43:15.626 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainSeatAdminController.queryList
+2024-03-26 20:43:15.626 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:43:15.626 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:43:15.626 INFO  c.x.train.business.service.DailyTrainSeatService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:43:15.626 INFO  c.x.train.business.service.DailyTrainSeatService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:43:15.627 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, carriage_index, `row`, col, seat_type, carriage_seat_index, sell, create_time, update_time from daily_train_seat order by id desc
+2024-03-26 20:43:15.627 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:43:15.627 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:43:15.628 INFO  c.x.train.business.service.DailyTrainSeatService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:43:15.628 INFO  c.x.train.business.service.DailyTrainSeatService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:43:15.628 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:43:15.628 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-26 20:43:16.878 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:43:16.878 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-seat/query-list GET
+2024-03-26 20:43:16.878 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainSeatAdminController.queryList
+2024-03-26 20:43:16.878 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:43:16.878 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:43:16.878 INFO  c.x.train.business.service.DailyTrainSeatService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:43:16.878 INFO  c.x.train.business.service.DailyTrainSeatService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:43:16.879 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, carriage_index, `row`, col, seat_type, carriage_seat_index, sell, create_time, update_time from daily_train_seat order by id desc
+2024-03-26 20:43:16.879 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:43:16.880 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:43:16.880 INFO  c.x.train.business.service.DailyTrainSeatService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:43:16.880 INFO  c.x.train.business.service.DailyTrainSeatService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:43:16.880 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:43:16.880 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-26 20:43:17.084 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:43:17.084 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-seat/query-list GET
+2024-03-26 20:43:17.084 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainSeatAdminController.queryList
+2024-03-26 20:43:17.084 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:43:17.085 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:43:17.085 INFO  c.x.train.business.service.DailyTrainSeatService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:43:17.085 INFO  c.x.train.business.service.DailyTrainSeatService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:43:17.085 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, carriage_index, `row`, col, seat_type, carriage_seat_index, sell, create_time, update_time from daily_train_seat order by id desc
+2024-03-26 20:43:17.085 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:43:17.086 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:43:17.086 INFO  c.x.train.business.service.DailyTrainSeatService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:43:17.086 INFO  c.x.train.business.service.DailyTrainSeatService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:43:17.086 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:43:17.086 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-26 20:43:20.744 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:43:20.744 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-carriage/query-list GET
+2024-03-26 20:43:20.744 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainCarriageAdminController.queryList
+2024-03-26 20:43:20.744 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:43:20.745 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:43:20.745 INFO  c.x.t.business.service.DailyTrainCarriageService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:43:20.745 INFO  c.x.t.business.service.DailyTrainCarriageService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:43:20.746 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from daily_train_carriage order by id desc
+2024-03-26 20:43:20.746 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:43:20.747 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:43:20.747 INFO  c.x.t.business.service.DailyTrainCarriageService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:43:20.747 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:43:20.747 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:43:20.747 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-26 20:43:21.211 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:43:21.211 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-seat/query-list GET
+2024-03-26 20:43:21.211 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainSeatAdminController.queryList
+2024-03-26 20:43:21.211 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:43:21.211 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:43:21.211 INFO  c.x.train.business.service.DailyTrainSeatService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:43:21.212 INFO  c.x.train.business.service.DailyTrainSeatService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:43:21.212 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, carriage_index, `row`, col, seat_type, carriage_seat_index, sell, create_time, update_time from daily_train_seat order by id desc
+2024-03-26 20:43:21.212 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:43:21.213 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:43:21.213 INFO  c.x.train.business.service.DailyTrainSeatService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:43:21.213 INFO  c.x.train.business.service.DailyTrainSeatService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:43:21.213 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:43:21.213 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2024-03-26 20:44:47.777 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:44:47.777 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-carriage/query-list GET
+2024-03-26 20:44:47.778 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainCarriageAdminController.queryList
+2024-03-26 20:44:47.778 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:44:47.778 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:44:47.778 INFO  c.x.t.business.service.DailyTrainCarriageService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:44:47.778 INFO  c.x.t.business.service.DailyTrainCarriageService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:44:47.779 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, seat_type, seat_count, `row_count`, col_count, create_time, update_time from daily_train_carriage order by id desc
+2024-03-26 20:44:47.779 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:44:47.780 DEBUG c.x.t.b.m.DailyTrainCarriageMapper.selectByExample:137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:44:47.780 INFO  c.x.t.business.service.DailyTrainCarriageService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:44:47.780 INFO  c.x.t.business.service.DailyTrainCarriageService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:44:47.780 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:44:47.780 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-26 20:44:48.614 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:44:48.614 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2024-03-26 20:44:48.614 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2024-03-26 20:44:48.614 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:44:48.615 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:44:48.617 INFO  c.x.t.business.service.DailyTrainStationService   :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:44:48.617 INFO  c.x.t.business.service.DailyTrainStationService   :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:44:48.618 DEBUG c.x.t.b.m.DailyTrainStationMapper.selectByExample :137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, `index`, `name`, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time from daily_train_station order by id desc
+2024-03-26 20:44:48.619 DEBUG c.x.t.b.m.DailyTrainStationMapper.selectByExample :137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:44:48.619 DEBUG c.x.t.b.m.DailyTrainStationMapper.selectByExample :137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:44:48.619 INFO  c.x.t.business.service.DailyTrainStationService   :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:44:48.619 INFO  c.x.t.business.service.DailyTrainStationService   :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:44:48.620 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:44:48.620 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2024-03-26 20:44:49.827 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:44:49.828 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/query-list GET
+2024-03-26 20:44:49.828 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainAdminController.queryList
+2024-03-26 20:44:49.828 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:44:49.828 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:44:49.830 INFO  c.xboss.train.business.service.DailyTrainService  :60   [32m                  [0;39m 查询页码：1
+2024-03-26 20:44:49.830 INFO  c.xboss.train.business.service.DailyTrainService  :61   [32m                  [0;39m 每页条数：10
+2024-03-26 20:44:49.831 DEBUG c.x.t.b.mapper.DailyTrainMapper.selectByExample   :137  [32m                  [0;39m ==>  Preparing: select id, `date`, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from daily_train order by date desc, code asc
+2024-03-26 20:44:49.831 DEBUG c.x.t.b.mapper.DailyTrainMapper.selectByExample   :137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:44:49.832 TRACE c.x.t.b.mapper.DailyTrainMapper.selectByExample   :143  [32m                  [0;39m <==    Columns: id, date, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2024-03-26 20:44:49.832 TRACE c.x.t.b.mapper.DailyTrainMapper.selectByExample   :143  [32m                  [0;39m <==        Row: 1772548295395250176, 2024-03-26, G1, G, 广州, guangzhou, 00:01:01, 清远, qingyuan, 00:06:03, 2024-03-26 16:57:00.634, 2024-03-26 16:57:00.634
+2024-03-26 20:44:49.833 DEBUG c.x.t.b.mapper.DailyTrainMapper.selectByExample   :137  [32m                  [0;39m <==      Total: 1
+2024-03-26 20:44:49.833 INFO  c.xboss.train.business.service.DailyTrainService  :66   [32m                  [0;39m 总行数：1
+2024-03-26 20:44:49.833 INFO  c.xboss.train.business.service.DailyTrainService  :67   [32m                  [0;39m 总页数：1
+2024-03-26 20:44:49.836 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[{"code":"G1","createTime":1711443420634,"date":1711382400000,"end":"清远","endPinyin":"qingyuan","endTime":-28437000,"id":1772548295395250176,"start":"广州","startPinyin":"guangzhou","startTime":-28739000,"type":"G","updateTime":1711443420634}],"total":1},"success":true}
+2024-03-26 20:44:49.836 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2024-03-26 20:44:51.415 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m                  [0;39m ------------- 开始 -------------
+2024-03-26 20:44:51.415 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-seat/query-list GET
+2024-03-26 20:44:51.416 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m                  [0;39m 类名方法: com.xboss.train.business.controller.admin.DailyTrainSeatAdminController.queryList
+2024-03-26 20:44:51.416 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-03-26 20:44:51.416 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2024-03-26 20:44:51.416 INFO  c.x.train.business.service.DailyTrainSeatService  :50   [32m                  [0;39m 查询页码：1
+2024-03-26 20:44:51.416 INFO  c.x.train.business.service.DailyTrainSeatService  :51   [32m                  [0;39m 每页条数：10
+2024-03-26 20:44:51.417 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, `date`, train_code, carriage_index, `row`, col, seat_type, carriage_seat_index, sell, create_time, update_time from daily_train_seat order by id desc
+2024-03-26 20:44:51.417 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2024-03-26 20:44:51.417 DEBUG c.x.t.b.m.DailyTrainSeatMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 0
+2024-03-26 20:44:51.418 INFO  c.x.train.business.service.DailyTrainSeatService  :56   [32m                  [0;39m 总行数：0
+2024-03-26 20:44:51.418 INFO  c.x.train.business.service.DailyTrainSeatService  :57   [32m                  [0;39m 总页数：0
+2024-03-26 20:44:51.418 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2024-03-26 20:44:51.418 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2024-03-26 20:50:34.225 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-03-26 20:50:34.234 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:50:34.234 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-26 20:50:34.234 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-26 20:50:34.235 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [business] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2024-03-26 20:50:34.236 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:50:34.236 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:50:34.238 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2024-03-26 20:50:34.241 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2024-03-26 20:50:34.388 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 13708 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-26 20:50:34.388 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-26 20:50:34.545 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-26 20:50:34.545 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-26 20:50:34.547 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-03-26 20:50:34.581 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=beee0a9f-c272-3010-8b64-9ec2f3b41f2b
+2024-03-26 20:50:34.656 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-26 20:50:34.656 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-26 20:50:34.656 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-26 20:50:34.656 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-26 20:50:34.657 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:50:34.657 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-26 20:50:34.657 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-26 20:50:34.672 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-26 20:50:34.672 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 282 ms
+2024-03-26 20:50:34.921 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-26 20:50:35.097 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-26 20:50:35.212 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-26 20:50:35.233 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-26 20:50:35.235 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-26 20:50:35.329 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 1.054 seconds (process running for 14761.966)
+2024-03-26 20:50:35.330 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-26 20:50:35.331 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-26 20:50:35.331 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
+2024-03-26 21:15:12.349 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-03-26 21:15:12.358 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2024-03-26 21:15:12.359 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-03-26 21:15:12.360 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2024-03-26 21:15:12.361 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2024-03-26 21:15:12.521 INFO  c.xboss.train.business.config.BusinessApplication :51   [32m                  [0;39m Starting BusinessApplication using Java 18.0.1.1 with PID 13708 (D:\projectAndcode\train\business\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-26 21:15:12.521 INFO  c.xboss.train.business.config.BusinessApplication :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-26 21:15:12.680 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2024-03-26 21:15:12.680 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-03-26 21:15:12.681 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2024-03-26 21:15:12.715 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=8f83282c-0c64-3956-9f73-7469cf9e5547
+2024-03-26 21:15:12.787 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2024-03-26 21:15:12.787 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-26 21:15:12.787 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-26 21:15:12.787 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-26 21:15:12.788 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2024-03-26 21:15:12.788 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-26 21:15:12.788 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-26 21:15:12.803 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-26 21:15:12.804 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 281 ms
+2024-03-26 21:15:13.042 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2024-03-26 21:15:13.206 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-03-26 21:15:13.321 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-03-26 21:15:13.344 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2024-03-26 21:15:13.346 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2024-03-26 21:15:13.435 INFO  c.xboss.train.business.config.BusinessApplication :57   [32m                  [0;39m Started BusinessApplication in 1.036 seconds (process running for 16240.072)
+2024-03-26 21:15:13.437 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-03-26 21:15:13.437 INFO  c.xboss.train.business.config.BusinessApplication :24   [32m                  [0;39m 启动成功！！
+2024-03-26 21:15:13.438 INFO  c.xboss.train.business.config.BusinessApplication :25   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8002
