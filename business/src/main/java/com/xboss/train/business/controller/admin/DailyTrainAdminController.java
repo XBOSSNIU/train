@@ -1,12 +1,11 @@
 package com.xboss.train.business.controller.admin;
 
-import com.xboss.train.common.context.LoginMemberContext;
-import com.xboss.train.common.resp.CommonResp;
-import com.xboss.train.common.resp.PageResp;
 import com.xboss.train.business.req.DailyTrainQueryReq;
 import com.xboss.train.business.req.DailyTrainSaveReq;
 import com.xboss.train.business.resp.DailyTrainQueryResp;
 import com.xboss.train.business.service.DailyTrainService;
+import com.xboss.train.common.resp.CommonResp;
+import com.xboss.train.common.resp.PageResp;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
@@ -35,5 +34,11 @@ public class DailyTrainAdminController {
         dailyTrainService.delete(id);
         return new CommonResp<>();
     }
+
+    /*@GetMapping("/gen-daily/{date}")
+    public CommonResp<Object> genDaily(@PathVariable @DateTimeFormat(pattern = "yyyy-MM-dd") Date date) {
+        dailyTrainService.genDaily(date);
+        return new CommonResp<>();
+    }*/
 
 }

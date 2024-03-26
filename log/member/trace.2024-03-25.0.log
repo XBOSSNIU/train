@@ -1,0 +1,42 @@
+2024-03-25 14:36:26.223 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-25 14:36:26.259 INFO  com.xboss.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 18.0.1.1 with PID 35104 (D:\projectAndcode\train\member\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-25 14:36:26.260 INFO  com.xboss.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-25 14:36:26.310 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-25 14:36:26.310 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-25 14:36:27.076 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a03d1ca8-ea66-3a43-beaa-9f211e589365
+2024-03-25 14:36:27.696 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-03-25 14:36:27.697 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-25 14:36:27.697 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-25 14:36:27.701 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-25 14:36:27.709 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-03-25 14:36:27.709 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-25 14:36:27.710 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-25 14:36:27.769 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-25 14:36:27.769 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1458 ms
+2024-03-25 14:36:28.635 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-25 14:36:28.873 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-03-25 14:36:28.897 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-03-25 14:36:29.038 INFO  com.xboss.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 3.413 seconds (process running for 4.145)
+2024-03-25 14:36:29.042 INFO  com.xboss.train.member.config.MemberApplication   :24   [32m                  [0;39m 启动成功！！
+2024-03-25 14:36:29.043 INFO  com.xboss.train.member.config.MemberApplication   :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2024-03-25 15:23:00.683 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-03-25 15:23:00.721 INFO  com.xboss.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 18.0.1.1 with PID 36732 (D:\projectAndcode\train\member\target\classes started by 86183 in D:\projectAndcode\train)
+2024-03-25 15:23:00.723 INFO  com.xboss.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-03-25 15:23:00.790 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-25 15:23:00.791 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-25 15:23:01.663 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a03d1ca8-ea66-3a43-beaa-9f211e589365
+2024-03-25 15:23:02.430 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-03-25 15:23:02.431 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2024-03-25 15:23:02.431 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2024-03-25 15:23:02.435 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2024-03-25 15:23:02.445 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-03-25 15:23:02.446 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-03-25 15:23:02.446 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-03-25 15:23:02.508 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-03-25 15:23:02.508 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1717 ms
+2024-03-25 15:23:03.671 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2024-03-25 15:23:03.863 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-03-25 15:23:03.889 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-03-25 15:23:04.120 INFO  com.xboss.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 4.077 seconds (process running for 4.813)
+2024-03-25 15:23:04.123 INFO  com.xboss.train.member.config.MemberApplication   :24   [32m                  [0;39m 启动成功！！
+2024-03-25 15:23:04.124 INFO  com.xboss.train.member.config.MemberApplication   :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
