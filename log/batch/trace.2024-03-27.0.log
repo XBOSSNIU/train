@@ -1,0 +1,7 @@
+2024-03-27 00:05:09.517 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-03-27 00:05:09.559 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2024-03-27 00:05:09.560 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-03-27 00:05:09.560 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-03-27 00:05:09.560 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-03-27 00:05:09.561 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-12 - Shutdown initiated...
+2024-03-27 00:05:09.563 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-12 - Shutdown completed.
