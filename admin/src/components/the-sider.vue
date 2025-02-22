@@ -94,6 +94,11 @@
             <MenuUnfoldOutlined /> &nbsp; 余票信息
           </router-link>
         </a-menu-item>
+        <a-menu-item key="/business/confirm-order">
+          <router-link to="/business/confirm-order">
+            <MenuUnfoldOutlined /> &nbsp; 订单信息
+          </router-link>
+        </a-menu-item>
       </a-sub-menu>
 
     </a-menu>

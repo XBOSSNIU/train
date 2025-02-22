@@ -1,21 +1,185 @@
-2024-06-24 16:00:11.226 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2024-06-24 16:00:11.261 INFO  com.xboss.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 18.0.1.1 with PID 12840 (D:\projectAndcode\train\member\target\classes started by 86183 in D:\projectAndcode\train)
-2024-06-24 16:00:11.263 INFO  com.xboss.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-06-24 16:00:11.315 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-06-24 16:00:11.316 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-06-24 16:00:12.112 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a03d1ca8-ea66-3a43-beaa-9f211e589365
-2024-06-24 16:00:12.775 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2024-06-24 16:00:12.776 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
-2024-06-24 16:00:12.776 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
-2024-06-24 16:00:12.779 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
-2024-06-24 16:00:12.789 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2024-06-24 16:00:12.789 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-06-24 16:00:12.790 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2024-06-24 16:00:12.850 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-06-24 16:00:12.852 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1534 ms
-2024-06-24 16:00:13.840 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2024-06-24 16:00:14.100 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2024-06-24 16:00:14.126 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2024-06-24 16:00:14.274 INFO  com.xboss.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 3.683 seconds (process running for 4.409)
-2024-06-24 16:00:14.277 INFO  com.xboss.train.member.config.MemberApplication   :24   [32m                  [0;39m 启动成功！！
-2024-06-24 16:00:14.277 INFO  com.xboss.train.member.config.MemberApplication   :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2025-02-22 20:06:59.620 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-02-22 20:06:59.673 INFO  com.xboss.train.member.config.MemberApplication   :51   [32m                  [0;39m Starting MemberApplication using Java 18.0.1.1 with PID 45204 (D:\projectAndcode\train\member\target\classes started by 86183 in D:\projectAndcode\train)
+2025-02-22 20:06:59.675 INFO  com.xboss.train.member.config.MemberApplication   :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-02-22 20:06:59.735 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-22 20:06:59.736 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-22 20:07:00.734 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a03d1ca8-ea66-3a43-beaa-9f211e589365
+2025-02-22 20:07:01.596 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-02-22 20:07:01.602 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-02-22 20:07:01.602 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2025-02-22 20:07:01.606 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2025-02-22 20:07:01.616 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-02-22 20:07:01.618 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-02-22 20:07:01.619 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-02-22 20:07:01.685 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-02-22 20:07:01.686 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1950 ms
+2025-02-22 20:07:02.717 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2025-02-22 20:07:03.054 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-02-22 20:07:03.085 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-02-22 20:07:03.374 INFO  com.xboss.train.member.config.MemberApplication   :57   [32m                  [0;39m Started MemberApplication in 5.4 seconds (process running for 6.297)
+2025-02-22 20:07:03.382 INFO  com.xboss.train.member.config.MemberApplication   :24   [32m                  [0;39m 启动成功！！
+2025-02-22 20:07:03.383 INFO  com.xboss.train.member.config.MemberApplication   :25   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2025-02-22 20:07:18.287 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-22 20:07:18.288 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-02-22 20:07:18.288 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2025-02-22 20:07:18.388 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m17402260383022te  [0;39m ------------- 开始 -------------
+2025-02-22 20:07:18.389 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m17402260383022te  [0;39m 请求地址: http://127.0.0.1:8001/member/member/sendCode POST
+2025-02-22 20:07:18.389 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m17402260383022te  [0;39m 类名方法: com.xboss.train.member.controller.memberController.sendCode
+2025-02-22 20:07:18.389 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m17402260383022te  [0;39m 远程地址: 127.0.0.1
+2025-02-22 20:07:18.436 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m17402260383022te  [0;39m 请求参数: [{"mobile":"18318227810"}]
+2025-02-22 20:07:18.476 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m17402260383022te  [0;39m HikariPool-1 - Starting...
+2025-02-22 20:07:18.682 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m17402260383022te  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@552a7249
+2025-02-22 20:07:18.684 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m17402260383022te  [0;39m HikariPool-1 - Start completed.
+2025-02-22 20:07:18.690 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m17402260383022te  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2025-02-22 20:07:18.708 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m17402260383022te  [0;39m ==> Parameters: 18318227810(String)
+2025-02-22 20:07:18.724 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m17402260383022te  [0;39m <==    Columns: id, mobile
+2025-02-22 20:07:18.725 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m17402260383022te  [0;39m <==        Row: 1709648918858, 18318227810
+2025-02-22 20:07:18.727 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m17402260383022te  [0;39m <==      Total: 1
+2025-02-22 20:07:18.732 INFO  com.xboss.train.member.service.MemberService      :62   [32m17402260383022te  [0;39m 手机号已存在，不插入记录
+2025-02-22 20:07:18.732 INFO  com.xboss.train.member.service.MemberService      :67   [32m17402260383022te  [0;39m 生成短信验证码：8888
+2025-02-22 20:07:18.732 INFO  com.xboss.train.member.service.MemberService      :70   [32m17402260383022te  [0;39m 保存短信记录表
+2025-02-22 20:07:18.732 INFO  com.xboss.train.member.service.MemberService      :73   [32m17402260383022te  [0;39m 对接短信通道
+2025-02-22 20:07:18.735 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m17402260383022te  [0;39m 返回结果: {"success":true}
+2025-02-22 20:07:18.735 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m17402260383022te  [0;39m ------------- 结束 耗时：347 ms -------------
+2025-02-22 20:07:19.624 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740226039617pv9  [0;39m ------------- 开始 -------------
+2025-02-22 20:07:19.624 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740226039617pv9  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2025-02-22 20:07:19.624 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740226039617pv9  [0;39m 类名方法: com.xboss.train.member.controller.memberController.login
+2025-02-22 20:07:19.626 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740226039617pv9  [0;39m 远程地址: 127.0.0.1
+2025-02-22 20:07:19.627 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740226039617pv9  [0;39m 请求参数: [{"code":"8888","mobile":"18318227810"}]
+2025-02-22 20:07:19.628 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m1740226039617pv9  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2025-02-22 20:07:19.628 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m1740226039617pv9  [0;39m ==> Parameters: 18318227810(String)
+2025-02-22 20:07:19.629 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m1740226039617pv9  [0;39m <==    Columns: id, mobile
+2025-02-22 20:07:19.630 TRACE c.x.t.member.mapper.MemberMapper.selectByExample  :143  [32m1740226039617pv9  [0;39m <==        Row: 1709648918858, 18318227810
+2025-02-22 20:07:19.630 DEBUG c.x.t.member.mapper.MemberMapper.selectByExample  :137  [32m1740226039617pv9  [0;39m <==      Total: 1
+2025-02-22 20:07:19.664 INFO  com.xboss.train.common.util.JwtUtil               :24   [32m1740226039617pv9  [0;39m 开始生成JWT token，id：1709648918858，mobile：18318227810
+2025-02-22 20:07:19.826 INFO  com.xboss.train.common.util.JwtUtil               :39   [32m1740226039617pv9  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDAyMjYwMzksIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTc0MDMxMjQzOSwiaWF0IjoxNzQwMjI2MDM5fQ.Ea74tkjc1fBDGSaAF8LtjGCEh1pFEPCsNU6rOkejFQQ
+2025-02-22 20:07:19.826 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740226039617pv9  [0;39m 返回结果: {"content":{"id":1709648918858,"mobile":"18318227810","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDAyMjYwMzksIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTc0MDMxMjQzOSwiaWF0IjoxNzQwMjI2MDM5fQ.Ea74tkjc1fBDGSaAF8LtjGCEh1pFEPCsNU6rOkejFQQ"},"success":true}
+2025-02-22 20:07:19.826 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740226039617pv9  [0;39m ------------- 结束 耗时：202 ms -------------
+2025-02-22 20:07:29.476 INFO  c.xboss.train.common.interceptor.MemberInterceptor:26   [32m1740226049476d95  [0;39m MemberInterceptor开始
+2025-02-22 20:07:29.476 INFO  c.xboss.train.common.interceptor.MemberInterceptor:30   [32m1740226049476d95  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDAyMjYwMzksIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTc0MDMxMjQzOSwiaWF0IjoxNzQwMjI2MDM5fQ.Ea74tkjc1fBDGSaAF8LtjGCEh1pFEPCsNU6rOkejFQQ
+2025-02-22 20:07:29.479 INFO  com.xboss.train.common.util.JwtUtil               :60   [32m1740226049476d95  [0;39m 根据token获取原始内容：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 20:07:29.479 INFO  c.xboss.train.common.interceptor.MemberInterceptor:32   [32m1740226049476d95  [0;39m 当前登录会员：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 20:07:29.485 INFO  c.xboss.train.common.interceptor.MemberInterceptor:36   [32m1740226049476d95  [0;39m MemberInterceptor结束
+2025-02-22 20:07:29.499 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740226049476d95  [0;39m ------------- 开始 -------------
+2025-02-22 20:07:29.499 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740226049476d95  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/selectByMemberId GET
+2025-02-22 20:07:29.499 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740226049476d95  [0;39m 类名方法: com.xboss.train.member.controller.PassengerController.selectByMemberId
+2025-02-22 20:07:29.501 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740226049476d95  [0;39m 远程地址: 127.0.0.1
+2025-02-22 20:07:29.501 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740226049476d95  [0;39m 请求参数: [{"page":1,"size":10}]
+2025-02-22 20:07:29.501 INFO  com.xboss.train.member.service.PassengerService   :63   [32m1740226049476d95  [0;39m 查询页码：1
+2025-02-22 20:07:29.503 INFO  com.xboss.train.member.service.PassengerService   :64   [32m1740226049476d95  [0;39m 每页条数：10
+2025-02-22 20:07:29.507 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740226049476d95  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger order by id desc
+2025-02-22 20:07:29.508 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740226049476d95  [0;39m ==> Parameters: 
+2025-02-22 20:07:29.509 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740226049476d95  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2025-02-22 20:07:29.510 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740226049476d95  [0;39m <==        Row: 1767825255628087296, 1709648918858, 酸萝卜, 44180200, 2, 2024-03-13 16:09:20.203, null
+2025-02-22 20:07:29.511 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740226049476d95  [0;39m <==        Row: 1767825161738592256, 1709648918858, test, 441802, 1, 2024-03-13 16:08:57.819, null
+2025-02-22 20:07:29.511 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740226049476d95  [0;39m <==        Row: 1767456275600060416, 1709648918858, xboss, 12345, 3, 2024-03-12 15:43:08.510, null
+2025-02-22 20:07:29.511 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740226049476d95  [0;39m <==      Total: 3
+2025-02-22 20:07:29.511 INFO  com.xboss.train.member.service.PassengerService   :69   [32m1740226049476d95  [0;39m 总行数：3
+2025-02-22 20:07:29.511 INFO  com.xboss.train.member.service.PassengerService   :70   [32m1740226049476d95  [0;39m 总页数：1
+2025-02-22 20:07:29.522 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740226049476d95  [0;39m 返回结果: {"content":{"list":[{"createTime":1710317360203,"id":1767825255628087296,"idCard":"44180200","memberId":1709648918858,"name":"酸萝卜","type":"2"},{"createTime":1710317337819,"id":1767825161738592256,"idCard":"441802","memberId":1709648918858,"name":"test","type":"1"},{"createTime":1710229388510,"id":1767456275600060416,"idCard":"12345","memberId":1709648918858,"name":"xboss","type":"3"}],"total":3},"success":true}
+2025-02-22 20:07:29.522 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740226049476d95  [0;39m ------------- 结束 耗时：23 ms -------------
+2025-02-22 22:56:03.395 INFO  c.xboss.train.common.interceptor.MemberInterceptor:26   [32m1740236163394frp  [0;39m MemberInterceptor开始
+2025-02-22 22:56:03.395 INFO  c.xboss.train.common.interceptor.MemberInterceptor:30   [32m1740236163394frp  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDAyMjYwMzksIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTc0MDMxMjQzOSwiaWF0IjoxNzQwMjI2MDM5fQ.Ea74tkjc1fBDGSaAF8LtjGCEh1pFEPCsNU6rOkejFQQ
+2025-02-22 22:56:03.404 INFO  com.xboss.train.common.util.JwtUtil               :60   [32m1740236163394frp  [0;39m 根据token获取原始内容：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 22:56:03.404 INFO  c.xboss.train.common.interceptor.MemberInterceptor:32   [32m1740236163394frp  [0;39m 当前登录会员：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 22:56:03.407 INFO  c.xboss.train.common.interceptor.MemberInterceptor:36   [32m1740236163394frp  [0;39m MemberInterceptor结束
+2025-02-22 22:56:03.417 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740236163394frp  [0;39m ------------- 开始 -------------
+2025-02-22 22:56:03.420 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740236163394frp  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/selectByMemberId GET
+2025-02-22 22:56:03.420 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740236163394frp  [0;39m 类名方法: com.xboss.train.member.controller.PassengerController.selectByMemberId
+2025-02-22 22:56:03.420 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740236163394frp  [0;39m 远程地址: 127.0.0.1
+2025-02-22 22:56:03.421 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740236163394frp  [0;39m 请求参数: [{"page":1,"size":10}]
+2025-02-22 22:56:03.421 INFO  com.xboss.train.member.service.PassengerService   :63   [32m1740236163394frp  [0;39m 查询页码：1
+2025-02-22 22:56:03.422 INFO  com.xboss.train.member.service.PassengerService   :64   [32m1740236163394frp  [0;39m 每页条数：10
+2025-02-22 22:56:03.426 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236163394frp  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger order by id desc
+2025-02-22 22:56:03.428 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236163394frp  [0;39m ==> Parameters: 
+2025-02-22 22:56:03.431 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236163394frp  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2025-02-22 22:56:03.432 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236163394frp  [0;39m <==        Row: 1767825255628087296, 1709648918858, 酸萝卜, 44180200, 2, 2024-03-13 16:09:20.203, null
+2025-02-22 22:56:03.432 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236163394frp  [0;39m <==        Row: 1767825161738592256, 1709648918858, test, 441802, 1, 2024-03-13 16:08:57.819, null
+2025-02-22 22:56:03.432 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236163394frp  [0;39m <==        Row: 1767456275600060416, 1709648918858, xboss, 12345, 3, 2024-03-12 15:43:08.510, null
+2025-02-22 22:56:03.434 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236163394frp  [0;39m <==      Total: 3
+2025-02-22 22:56:03.434 INFO  com.xboss.train.member.service.PassengerService   :69   [32m1740236163394frp  [0;39m 总行数：3
+2025-02-22 22:56:03.435 INFO  com.xboss.train.member.service.PassengerService   :70   [32m1740236163394frp  [0;39m 总页数：1
+2025-02-22 22:56:03.437 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740236163394frp  [0;39m 返回结果: {"content":{"list":[{"createTime":1710317360203,"id":1767825255628087296,"idCard":"44180200","memberId":1709648918858,"name":"酸萝卜","type":"2"},{"createTime":1710317337819,"id":1767825161738592256,"idCard":"441802","memberId":1709648918858,"name":"test","type":"1"},{"createTime":1710229388510,"id":1767456275600060416,"idCard":"12345","memberId":1709648918858,"name":"xboss","type":"3"}],"total":3},"success":true}
+2025-02-22 22:56:03.437 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740236163394frp  [0;39m ------------- 结束 耗时：20 ms -------------
+2025-02-22 22:56:07.490 INFO  c.xboss.train.common.interceptor.MemberInterceptor:26   [32m1740236167490jt6  [0;39m MemberInterceptor开始
+2025-02-22 22:56:07.490 INFO  c.xboss.train.common.interceptor.MemberInterceptor:30   [32m1740236167490jt6  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDAyMjYwMzksIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTc0MDMxMjQzOSwiaWF0IjoxNzQwMjI2MDM5fQ.Ea74tkjc1fBDGSaAF8LtjGCEh1pFEPCsNU6rOkejFQQ
+2025-02-22 22:56:07.490 INFO  com.xboss.train.common.util.JwtUtil               :60   [32m1740236167490jt6  [0;39m 根据token获取原始内容：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 22:56:07.490 INFO  c.xboss.train.common.interceptor.MemberInterceptor:32   [32m1740236167490jt6  [0;39m 当前登录会员：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 22:56:07.491 INFO  c.xboss.train.common.interceptor.MemberInterceptor:36   [32m1740236167490jt6  [0;39m MemberInterceptor结束
+2025-02-22 22:56:07.491 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740236167490jt6  [0;39m ------------- 开始 -------------
+2025-02-22 22:56:07.491 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740236167490jt6  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-mine GET
+2025-02-22 22:56:07.491 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740236167490jt6  [0;39m 类名方法: com.xboss.train.member.controller.PassengerController.queryMine
+2025-02-22 22:56:07.491 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740236167490jt6  [0;39m 远程地址: 127.0.0.1
+2025-02-22 22:56:07.491 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740236167490jt6  [0;39m 请求参数: []
+2025-02-22 22:56:07.501 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236167490jt6  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by name asc
+2025-02-22 22:56:07.507 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236167490jt6  [0;39m ==> Parameters: 1709648918858(Long)
+2025-02-22 22:56:07.508 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236167490jt6  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2025-02-22 22:56:07.509 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236167490jt6  [0;39m <==        Row: 1767825161738592256, 1709648918858, test, 441802, 1, 2024-03-13 16:08:57.819, null
+2025-02-22 22:56:07.509 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236167490jt6  [0;39m <==        Row: 1767456275600060416, 1709648918858, xboss, 12345, 3, 2024-03-12 15:43:08.510, null
+2025-02-22 22:56:07.510 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236167490jt6  [0;39m <==        Row: 1767825255628087296, 1709648918858, 酸萝卜, 44180200, 2, 2024-03-13 16:09:20.203, null
+2025-02-22 22:56:07.510 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236167490jt6  [0;39m <==      Total: 3
+2025-02-22 22:56:07.515 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740236167490jt6  [0;39m 返回结果: {"content":[{"createTime":1710317337819,"id":1767825161738592256,"idCard":"441802","memberId":1709648918858,"name":"test","type":"1"},{"createTime":1710229388510,"id":1767456275600060416,"idCard":"12345","memberId":1709648918858,"name":"xboss","type":"3"},{"createTime":1710317360203,"id":1767825255628087296,"idCard":"44180200","memberId":1709648918858,"name":"酸萝卜","type":"2"}],"success":true}
+2025-02-22 22:56:07.515 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740236167490jt6  [0;39m ------------- 结束 耗时：24 ms -------------
+2025-02-22 22:56:23.309 INFO  c.xboss.train.common.interceptor.MemberInterceptor:26   [32m1740236183309sqg  [0;39m MemberInterceptor开始
+2025-02-22 22:56:23.309 INFO  c.xboss.train.common.interceptor.MemberInterceptor:30   [32m1740236183309sqg  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDAyMjYwMzksIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTc0MDMxMjQzOSwiaWF0IjoxNzQwMjI2MDM5fQ.Ea74tkjc1fBDGSaAF8LtjGCEh1pFEPCsNU6rOkejFQQ
+2025-02-22 22:56:23.309 INFO  com.xboss.train.common.util.JwtUtil               :60   [32m1740236183309sqg  [0;39m 根据token获取原始内容：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 22:56:23.309 INFO  c.xboss.train.common.interceptor.MemberInterceptor:32   [32m1740236183309sqg  [0;39m 当前登录会员：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 22:56:23.309 INFO  c.xboss.train.common.interceptor.MemberInterceptor:36   [32m1740236183309sqg  [0;39m MemberInterceptor结束
+2025-02-22 22:56:23.309 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740236183309sqg  [0;39m ------------- 开始 -------------
+2025-02-22 22:56:23.309 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740236183309sqg  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-mine GET
+2025-02-22 22:56:23.309 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740236183309sqg  [0;39m 类名方法: com.xboss.train.member.controller.PassengerController.queryMine
+2025-02-22 22:56:23.309 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740236183309sqg  [0;39m 远程地址: 127.0.0.1
+2025-02-22 22:56:23.309 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740236183309sqg  [0;39m 请求参数: []
+2025-02-22 22:56:23.309 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236183309sqg  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by name asc
+2025-02-22 22:56:23.309 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236183309sqg  [0;39m ==> Parameters: 1709648918858(Long)
+2025-02-22 22:56:23.309 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236183309sqg  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2025-02-22 22:56:23.309 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236183309sqg  [0;39m <==        Row: 1767825161738592256, 1709648918858, test, 441802, 1, 2024-03-13 16:08:57.819, null
+2025-02-22 22:56:23.309 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236183309sqg  [0;39m <==        Row: 1767456275600060416, 1709648918858, xboss, 12345, 3, 2024-03-12 15:43:08.510, null
+2025-02-22 22:56:23.309 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236183309sqg  [0;39m <==        Row: 1767825255628087296, 1709648918858, 酸萝卜, 44180200, 2, 2024-03-13 16:09:20.203, null
+2025-02-22 22:56:23.315 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236183309sqg  [0;39m <==      Total: 3
+2025-02-22 22:56:23.316 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740236183309sqg  [0;39m 返回结果: {"content":[{"createTime":1710317337819,"id":1767825161738592256,"idCard":"441802","memberId":1709648918858,"name":"test","type":"1"},{"createTime":1710229388510,"id":1767456275600060416,"idCard":"12345","memberId":1709648918858,"name":"xboss","type":"3"},{"createTime":1710317360203,"id":1767825255628087296,"idCard":"44180200","memberId":1709648918858,"name":"酸萝卜","type":"2"}],"success":true}
+2025-02-22 22:56:23.316 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740236183309sqg  [0;39m ------------- 结束 耗时：7 ms -------------
+2025-02-22 22:57:43.598 INFO  c.xboss.train.common.interceptor.MemberInterceptor:26   [32m174023626359820q  [0;39m MemberInterceptor开始
+2025-02-22 22:57:43.598 INFO  c.xboss.train.common.interceptor.MemberInterceptor:30   [32m174023626359820q  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDAyMjYwMzksIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTc0MDMxMjQzOSwiaWF0IjoxNzQwMjI2MDM5fQ.Ea74tkjc1fBDGSaAF8LtjGCEh1pFEPCsNU6rOkejFQQ
+2025-02-22 22:57:43.602 INFO  com.xboss.train.common.util.JwtUtil               :60   [32m174023626359820q  [0;39m 根据token获取原始内容：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 22:57:43.602 INFO  c.xboss.train.common.interceptor.MemberInterceptor:32   [32m174023626359820q  [0;39m 当前登录会员：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 22:57:43.602 INFO  c.xboss.train.common.interceptor.MemberInterceptor:36   [32m174023626359820q  [0;39m MemberInterceptor结束
+2025-02-22 22:57:43.602 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m174023626359820q  [0;39m ------------- 开始 -------------
+2025-02-22 22:57:43.602 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m174023626359820q  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/selectByMemberId GET
+2025-02-22 22:57:43.602 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m174023626359820q  [0;39m 类名方法: com.xboss.train.member.controller.PassengerController.selectByMemberId
+2025-02-22 22:57:43.602 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m174023626359820q  [0;39m 远程地址: 127.0.0.1
+2025-02-22 22:57:43.602 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m174023626359820q  [0;39m 请求参数: [{"page":1,"size":10}]
+2025-02-22 22:57:43.603 INFO  com.xboss.train.member.service.PassengerService   :63   [32m174023626359820q  [0;39m 查询页码：1
+2025-02-22 22:57:43.603 INFO  com.xboss.train.member.service.PassengerService   :64   [32m174023626359820q  [0;39m 每页条数：10
+2025-02-22 22:57:43.603 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m174023626359820q  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger order by id desc
+2025-02-22 22:57:43.605 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m174023626359820q  [0;39m ==> Parameters: 
+2025-02-22 22:57:43.605 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m174023626359820q  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2025-02-22 22:57:43.606 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m174023626359820q  [0;39m <==        Row: 1767825255628087296, 1709648918858, 酸萝卜, 44180200, 2, 2024-03-13 16:09:20.203, null
+2025-02-22 22:57:43.606 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m174023626359820q  [0;39m <==        Row: 1767825161738592256, 1709648918858, test, 441802, 1, 2024-03-13 16:08:57.819, null
+2025-02-22 22:57:43.606 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m174023626359820q  [0;39m <==        Row: 1767456275600060416, 1709648918858, xboss, 12345, 3, 2024-03-12 15:43:08.510, null
+2025-02-22 22:57:43.610 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m174023626359820q  [0;39m <==      Total: 3
+2025-02-22 22:57:43.610 INFO  com.xboss.train.member.service.PassengerService   :69   [32m174023626359820q  [0;39m 总行数：3
+2025-02-22 22:57:43.610 INFO  com.xboss.train.member.service.PassengerService   :70   [32m174023626359820q  [0;39m 总页数：1
+2025-02-22 22:57:43.611 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m174023626359820q  [0;39m 返回结果: {"content":{"list":[{"createTime":1710317360203,"id":1767825255628087296,"idCard":"44180200","memberId":1709648918858,"name":"酸萝卜","type":"2"},{"createTime":1710317337819,"id":1767825161738592256,"idCard":"441802","memberId":1709648918858,"name":"test","type":"1"},{"createTime":1710229388510,"id":1767456275600060416,"idCard":"12345","memberId":1709648918858,"name":"xboss","type":"3"}],"total":3},"success":true}
+2025-02-22 22:57:43.611 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m174023626359820q  [0;39m ------------- 结束 耗时：9 ms -------------
+2025-02-22 22:57:46.604 INFO  c.xboss.train.common.interceptor.MemberInterceptor:26   [32m1740236266604fpv  [0;39m MemberInterceptor开始
+2025-02-22 22:57:46.604 INFO  c.xboss.train.common.interceptor.MemberInterceptor:30   [32m1740236266604fpv  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NDAyMjYwMzksIm1vYmlsZSI6IjE4MzE4MjI3ODEwIiwiaWQiOjE3MDk2NDg5MTg4NTgsImV4cCI6MTc0MDMxMjQzOSwiaWF0IjoxNzQwMjI2MDM5fQ.Ea74tkjc1fBDGSaAF8LtjGCEh1pFEPCsNU6rOkejFQQ
+2025-02-22 22:57:46.604 INFO  com.xboss.train.common.util.JwtUtil               :60   [32m1740236266604fpv  [0;39m 根据token获取原始内容：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 22:57:46.604 INFO  c.xboss.train.common.interceptor.MemberInterceptor:32   [32m1740236266604fpv  [0;39m 当前登录会员：{"mobile":"18318227810","id":1709648918858}
+2025-02-22 22:57:46.604 INFO  c.xboss.train.common.interceptor.MemberInterceptor:36   [32m1740236266604fpv  [0;39m MemberInterceptor结束
+2025-02-22 22:57:46.604 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740236266604fpv  [0;39m ------------- 开始 -------------
+2025-02-22 22:57:46.604 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740236266604fpv  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-mine GET
+2025-02-22 22:57:46.604 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740236266604fpv  [0;39m 类名方法: com.xboss.train.member.controller.PassengerController.queryMine
+2025-02-22 22:57:46.604 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740236266604fpv  [0;39m 远程地址: 127.0.0.1
+2025-02-22 22:57:46.604 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740236266604fpv  [0;39m 请求参数: []
+2025-02-22 22:57:46.609 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236266604fpv  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by name asc
+2025-02-22 22:57:46.609 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236266604fpv  [0;39m ==> Parameters: 1709648918858(Long)
+2025-02-22 22:57:46.609 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236266604fpv  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2025-02-22 22:57:46.609 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236266604fpv  [0;39m <==        Row: 1767825161738592256, 1709648918858, test, 441802, 1, 2024-03-13 16:08:57.819, null
+2025-02-22 22:57:46.609 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236266604fpv  [0;39m <==        Row: 1767456275600060416, 1709648918858, xboss, 12345, 3, 2024-03-12 15:43:08.510, null
+2025-02-22 22:57:46.609 TRACE c.x.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1740236266604fpv  [0;39m <==        Row: 1767825255628087296, 1709648918858, 酸萝卜, 44180200, 2, 2024-03-13 16:09:20.203, null
+2025-02-22 22:57:46.609 DEBUG c.x.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1740236266604fpv  [0;39m <==      Total: 3
+2025-02-22 22:57:46.609 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740236266604fpv  [0;39m 返回结果: {"content":[{"createTime":1710317337819,"id":1767825161738592256,"idCard":"441802","memberId":1709648918858,"name":"test","type":"1"},{"createTime":1710229388510,"id":1767456275600060416,"idCard":"12345","memberId":1709648918858,"name":"xboss","type":"3"},{"createTime":1710317360203,"id":1767825255628087296,"idCard":"44180200","memberId":1709648918858,"name":"酸萝卜","type":"2"}],"success":true}
+2025-02-22 22:57:46.609 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740236266604fpv  [0;39m ------------- 结束 耗时：5 ms -------------
+2025-02-22 23:05:34.880 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-02-22 23:05:34.884 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
