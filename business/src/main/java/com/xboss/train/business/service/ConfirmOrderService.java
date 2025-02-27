@@ -3,21 +3,27 @@ package com.xboss.train.business.service;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.ObjectUtil;
+import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.xboss.train.common.resp.PageResp;
-import com.xboss.train.common.util.SnowUtil;
 import com.xboss.train.business.domain.ConfirmOrder;
 import com.xboss.train.business.domain.ConfirmOrderExample;
+import com.xboss.train.business.domain.DailyTrainTicket;
+import com.xboss.train.business.enums.ConfirmOrderStatusEnum;
 import com.xboss.train.business.mapper.ConfirmOrderMapper;
+import com.xboss.train.business.req.ConfirmOrderDoReq;
 import com.xboss.train.business.req.ConfirmOrderQueryReq;
-import com.xboss.train.business.req.ConfirmOrderSaveReq;
+import com.xboss.train.business.req.ConfirmOrderTicketReq;
 import com.xboss.train.business.resp.ConfirmOrderQueryResp;
+import com.xboss.train.common.context.LoginMemberContext;
+import com.xboss.train.common.resp.PageResp;
+import com.xboss.train.common.util.SnowUtil;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -28,7 +34,10 @@ public class ConfirmOrderService {
     @Resource
     private ConfirmOrderMapper confirmOrderMapper;
 
-    public void save(ConfirmOrderSaveReq req) {
+    @Resource
+    private DailyTrainTicketService dailyTrainTicketService;
+
+    public void save(ConfirmOrderDoReq req) {
         DateTime now = DateTime.now();
         ConfirmOrder confirmOrder = BeanUtil.copyProperties(req, ConfirmOrder.class);
         if (ObjectUtil.isNull(confirmOrder.getId())) {
@@ -66,5 +75,33 @@ public class ConfirmOrderService {
 
     public void delete(Long id) {
         confirmOrderMapper.deleteByPrimaryKey(id);
+    }
+
+    public void doConfirm(ConfirmOrderDoReq req) {
+        Date date = req.getDate();
+        String trainCode = req.getTrainCode();
+        String start = req.getStart();
+        String end = req.getEnd();
+        List<ConfirmOrderTicketReq> tickets = req.getTickets();
+
+         // 保存确认订单表，状态初始
+         DateTime now = DateTime.now();
+         ConfirmOrder confirmOrder = new ConfirmOrder();
+         confirmOrder.setId(SnowUtil.getSnowflakeNextId());
+         confirmOrder.setCreateTime(now);
+         confirmOrder.setUpdateTime(now);
+         confirmOrder.setMemberId(LoginMemberContext.getId());
+         confirmOrder.setDate(date);
+         confirmOrder.setTrainCode(trainCode);
+         confirmOrder.setStart(start);
+         confirmOrder.setEnd(end);
+         confirmOrder.setDailyTrainTicketId(req.getDailyTrainTicketId());
+         confirmOrder.setStatus(ConfirmOrderStatusEnum.INIT.getCode());
+         confirmOrder.setTickets(JSON.toJSONString(tickets));
+         confirmOrderMapper.insert(confirmOrder);
+
+        // 查出余票记录，需要得到真实的库存
+        DailyTrainTicket dailyTrainTicket = dailyTrainTicketService.selectByUnique(date, trainCode, start, end);
+        LOG.info("查出余票记录：{}", dailyTrainTicket);
     }
 }

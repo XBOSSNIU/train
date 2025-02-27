@@ -1,7 +1,7 @@
 package com.xboss.train.business.controller.admin;
 
+import com.xboss.train.business.req.ConfirmOrderDoReq;
 import com.xboss.train.business.req.ConfirmOrderQueryReq;
-import com.xboss.train.business.req.ConfirmOrderSaveReq;
 import com.xboss.train.business.resp.ConfirmOrderQueryResp;
 import com.xboss.train.business.service.ConfirmOrderService;
 import com.xboss.train.common.resp.CommonResp;
@@ -18,7 +18,7 @@ public class ConfirmOrderAdminController {
     private ConfirmOrderService confirmOrderService;
 
     @PostMapping("/save")
-    public CommonResp<Object> save(@Valid @RequestBody ConfirmOrderSaveReq req) {
+    public CommonResp<Object> save(@Valid @RequestBody ConfirmOrderDoReq req) {
         confirmOrderService.save(req);
         return new CommonResp<>();
     }
