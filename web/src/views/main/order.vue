@@ -62,7 +62,7 @@
         <a-col :span="3">座位类型</a-col>
       </a-row>
       <a-row class="order-tickets-row" v-for="ticket in tickets" :key="ticket.passengerId">
-        <a-col :span="3">{{ticket.passengerName}}</a-col>tu
+        <a-col :span="3">{{ticket.passengerName}}</a-col>
         <a-col :span="15">{{ticket.passengerIdCard}}</a-col>
         <a-col :span="3">
           <span v-for="item in PASSENGER_TYPE_ARRAY" :key="item.code">
