@@ -1,0 +1,15 @@
+2025-02-27 13:26:24.875 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.xboss.train.business.service.ConfirmOrderService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.xboss.train.business.service.ConfirmOrderService' in your configuration.
+

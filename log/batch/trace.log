@@ -1,30 +1,30 @@
-2025-02-27 13:09:29.494 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2025-02-27 13:09:29.552 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 27012 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
-2025-02-27 13:09:29.554 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-02-27 13:09:29.624 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-02-27 13:09:29.625 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-02-27 13:09:30.808 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
-2025-02-27 13:09:30.912 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d26ce994-8ca6-3fb2-9d63-01f2b02fe5b8
-2025-02-27 13:09:30.967 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.xboss.train.batch.feign.BusinessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2025-02-27 13:09:30.968 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.xboss.train.batch.feign.MemberFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2025-02-27 13:09:32.392 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
-2025-02-27 13:09:32.393 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
-2025-02-27 13:09:32.394 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
-2025-02-27 13:09:32.410 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
-2025-02-27 13:09:32.427 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
-2025-02-27 13:09:32.428 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-02-27 13:09:32.428 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-02-27 13:09:32.546 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-02-27 13:09:32.547 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2921 ms
-2025-02-27 13:09:32.864 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
-2025-02-27 13:09:32.879 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2025-02-27 13:09:32.879 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
-2025-02-27 13:09:32.891 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
-2025-02-27 13:09:33.342 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@397b34a3
-2025-02-27 13:09:33.345 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2025-02-27 13:09:33.360 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  [32m                  [0;39m Using db table-based data access locking (synchronization).
-2025-02-27 13:09:33.363 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  [32m                  [0;39m JobStoreCMT initialized.
-2025-02-27 13:09:33.364 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+2025-03-03 10:32:42.784 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-03-03 10:32:42.832 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 2108 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2025-03-03 10:32:42.833 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-03-03 10:32:42.895 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-03 10:32:42.896 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-03 10:32:44.124 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2025-03-03 10:32:44.318 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d26ce994-8ca6-3fb2-9d63-01f2b02fe5b8
+2025-03-03 10:32:44.411 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.xboss.train.batch.feign.BusinessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-03 10:32:44.415 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.xboss.train.batch.feign.MemberFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-03 10:32:45.706 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2025-03-03 10:32:45.707 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-03-03 10:32:45.707 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2025-03-03 10:32:45.722 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2025-03-03 10:32:45.735 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2025-03-03 10:32:45.736 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-03-03 10:32:45.736 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-03-03 10:32:45.837 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-03-03 10:32:45.838 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2942 ms
+2025-03-03 10:32:46.066 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2025-03-03 10:32:46.080 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-03-03 10:32:46.081 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2025-03-03 10:32:46.091 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2025-03-03 10:32:46.610 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75a7736
+2025-03-03 10:32:46.613 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2025-03-03 10:32:46.625 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  [32m                  [0;39m Using db table-based data access locking (synchronization).
+2025-03-03 10:32:46.628 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  [32m                  [0;39m JobStoreCMT initialized.
+2025-03-03 10:32:46.629 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -32,22 +32,384 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
 
-2025-02-27 13:09:33.365 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
-2025-02-27 13:09:33.365 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
-2025-02-27 13:09:33.365 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: com.xboss.train.batch.config.MyJobFactory@71d4cd0d
-2025-02-27 13:09:33.766 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2025-02-27 13:09:34.241 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
-2025-02-27 13:09:35.271 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-27 13:09:35.471 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
-2025-02-27 13:09:35.509 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
-2025-02-27 13:09:35.935 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  [32m                  [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
-2025-02-27 13:09:35.949 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 7.278 seconds (process running for 8.287)
-2025-02-27 13:09:35.954 INFO  com.xboss.train.batch.config.BatchApplication     :26   [32m                  [0;39m 启动成功！！
-2025-02-27 13:09:35.955 INFO  com.xboss.train.batch.config.BatchApplication     :27   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
-2025-02-27 13:09:37.951 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  [32m                  [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
-2025-02-27 13:09:38.005 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  [32m                  [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
-2025-02-27 13:09:38.010 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  [32m                  [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
-2025-02-27 13:09:38.011 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  [32m                  [0;39m Recovery complete.
-2025-02-27 13:09:38.012 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  [32m                  [0;39m Removed 0 'complete' triggers.
-2025-02-27 13:09:38.014 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  [32m                  [0;39m Removed 0 stale fired job entries.
-2025-02-27 13:09:38.016 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2025-03-03 10:32:46.629 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2025-03-03 10:32:46.630 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2025-03-03 10:32:46.630 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: com.xboss.train.batch.config.MyJobFactory@7cbd4963
+2025-03-03 10:32:46.991 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2025-03-03 10:32:47.457 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2025-03-03 10:32:48.252 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-03 10:32:48.412 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2025-03-03 10:32:48.440 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2025-03-03 10:32:48.713 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  [32m                  [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2025-03-03 10:32:48.724 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 6.668 seconds (process running for 7.762)
+2025-03-03 10:32:48.730 INFO  com.xboss.train.batch.config.BatchApplication     :26   [32m                  [0;39m 启动成功！！
+2025-03-03 10:32:48.730 INFO  com.xboss.train.batch.config.BatchApplication     :27   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2025-03-03 10:32:50.732 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  [32m                  [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2025-03-03 10:32:50.816 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  [32m                  [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2025-03-03 10:32:50.828 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  [32m                  [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2025-03-03 10:32:50.828 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  [32m                  [0;39m Recovery complete.
+2025-03-03 10:32:50.829 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  [32m                  [0;39m Removed 0 'complete' triggers.
+2025-03-03 10:32:50.831 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  [32m                  [0;39m Removed 0 stale fired job entries.
+2025-03-03 10:32:50.833 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2025-03-03 10:44:12.881 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03 10:44:12.881 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-03-03 10:44:12.883 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2025-03-03 10:44:12.996 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740969852985ox1  [0;39m ------------- 开始 -------------
+2025-03-03 10:44:12.997 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740969852985ox1  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2025-03-03 10:44:12.997 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740969852985ox1  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.query
+2025-03-03 10:44:12.997 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740969852985ox1  [0;39m 远程地址: 127.0.0.1
+2025-03-03 10:44:13.025 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740969852985ox1  [0;39m 请求参数: []
+2025-03-03 10:44:13.025 INFO  com.xboss.train.batch.controller.JobController    :169  [32m1740969852985ox1  [0;39m 查看所有定时任务开始
+2025-03-03 10:44:13.046 INFO  com.xboss.train.batch.controller.JobController    :200  [32m1740969852985ox1  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='*/2 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.TestJob', description='null', state='PAUSED', nextFireTime=Mon Mar 25 14:52:34 CST 2024, preFireTime=Mon Mar 25 14:52:32 CST 2024}, CronJobDto{cronExpression='*/5 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.DailyTrainJob', description='生成每日车次', state='PAUSED', nextFireTime=Tue Mar 26 21:00:50 CST 2024, preFireTime=Tue Mar 26 21:00:45 CST 2024}]}
+2025-03-03 10:44:13.065 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740969852985ox1  [0;39m 返回结果: {"content":[{"cronExpression":"*/2 * * * * ?","group":"DEFAULT","name":"com.xboss.train.batch.job.TestJob","nextFireTime":1711349554000,"preFireTime":1711349552000,"state":"PAUSED"},{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob","nextFireTime":1711458050000,"preFireTime":1711458045000,"state":"PAUSED"}],"success":true}
+2025-03-03 10:44:13.065 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740969852985ox1  [0;39m ------------- 结束 耗时：70 ms -------------
+2025-03-03 10:44:52.320 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740969892319zvs  [0;39m ------------- 开始 -------------
+2025-03-03 10:44:52.320 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740969892319zvs  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2025-03-03 10:44:52.320 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740969892319zvs  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.query
+2025-03-03 10:44:52.320 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740969892319zvs  [0;39m 远程地址: 127.0.0.1
+2025-03-03 10:44:52.320 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740969892319zvs  [0;39m 请求参数: []
+2025-03-03 10:44:52.320 INFO  com.xboss.train.batch.controller.JobController    :169  [32m1740969892319zvs  [0;39m 查看所有定时任务开始
+2025-03-03 10:44:52.326 INFO  com.xboss.train.batch.controller.JobController    :200  [32m1740969892319zvs  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='*/2 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.TestJob', description='null', state='PAUSED', nextFireTime=Mon Mar 25 14:52:34 CST 2024, preFireTime=Mon Mar 25 14:52:32 CST 2024}, CronJobDto{cronExpression='*/5 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.DailyTrainJob', description='生成每日车次', state='PAUSED', nextFireTime=Tue Mar 26 21:00:50 CST 2024, preFireTime=Tue Mar 26 21:00:45 CST 2024}]}
+2025-03-03 10:44:52.326 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740969892319zvs  [0;39m 返回结果: {"content":[{"cronExpression":"*/2 * * * * ?","group":"DEFAULT","name":"com.xboss.train.batch.job.TestJob","nextFireTime":1711349554000,"preFireTime":1711349552000,"state":"PAUSED"},{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob","nextFireTime":1711458050000,"preFireTime":1711458045000,"state":"PAUSED"}],"success":true}
+2025-03-03 10:44:52.326 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740969892319zvs  [0;39m ------------- 结束 耗时：6 ms -------------
+2025-03-03 10:44:57.291 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740969897280wh9  [0;39m ------------- 开始 -------------
+2025-03-03 10:44:57.291 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740969897280wh9  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/run POST
+2025-03-03 10:44:57.291 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740969897280wh9  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.run
+2025-03-03 10:44:57.291 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740969897280wh9  [0;39m 远程地址: 127.0.0.1
+2025-03-03 10:44:57.293 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740969897280wh9  [0;39m 请求参数: [{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob"}]
+2025-03-03 10:44:57.293 INFO  com.xboss.train.batch.controller.JobController    :35   [32m1740969897280wh9  [0;39m 手动执行任务开始：com.xboss.train.batch.job.DailyTrainJob, DEFAULT
+2025-03-03 10:44:57.308 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740969897280wh9  [0;39m 返回结果: {"success":true}
+2025-03-03 10:44:57.310 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740969897280wh9  [0;39m ------------- 结束 耗时：19 ms -------------
+2025-03-03 10:44:57.328 INFO  com.xboss.train.batch.job.DailyTrainJob           :30   [32m174096989732863h  [0;39m 生成15天后的车次数据开始
+2025-03-03 10:44:57.574 INFO  com.xboss.train.batch.job.DailyTrainJob           :35   [32m174096989732863h  [0;39m 生成15天后的车次数据结束，结果：CommonResp{success=true, message='null', content=null}
+2025-03-03 10:46:27.806 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740969987806t5d  [0;39m ------------- 开始 -------------
+2025-03-03 10:46:27.806 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740969987806t5d  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2025-03-03 10:46:27.807 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740969987806t5d  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.query
+2025-03-03 10:46:27.807 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740969987806t5d  [0;39m 远程地址: 127.0.0.1
+2025-03-03 10:46:27.807 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740969987806t5d  [0;39m 请求参数: []
+2025-03-03 10:46:27.807 INFO  com.xboss.train.batch.controller.JobController    :169  [32m1740969987806t5d  [0;39m 查看所有定时任务开始
+2025-03-03 10:46:27.812 INFO  com.xboss.train.batch.controller.JobController    :200  [32m1740969987806t5d  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='*/2 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.TestJob', description='null', state='PAUSED', nextFireTime=Mon Mar 25 14:52:34 CST 2024, preFireTime=Mon Mar 25 14:52:32 CST 2024}, CronJobDto{cronExpression='*/5 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.DailyTrainJob', description='生成每日车次', state='PAUSED', nextFireTime=Tue Mar 26 21:00:50 CST 2024, preFireTime=Tue Mar 26 21:00:45 CST 2024}]}
+2025-03-03 10:46:27.812 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740969987806t5d  [0;39m 返回结果: {"content":[{"cronExpression":"*/2 * * * * ?","group":"DEFAULT","name":"com.xboss.train.batch.job.TestJob","nextFireTime":1711349554000,"preFireTime":1711349552000,"state":"PAUSED"},{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob","nextFireTime":1711458050000,"preFireTime":1711458045000,"state":"PAUSED"}],"success":true}
+2025-03-03 10:46:27.813 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740969987806t5d  [0;39m ------------- 结束 耗时：7 ms -------------
+2025-03-03 10:48:51.696 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m17409701316967r6  [0;39m ------------- 开始 -------------
+2025-03-03 10:48:51.696 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m17409701316967r6  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2025-03-03 10:48:51.696 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m17409701316967r6  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.query
+2025-03-03 10:48:51.696 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m17409701316967r6  [0;39m 远程地址: 127.0.0.1
+2025-03-03 10:48:51.696 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m17409701316967r6  [0;39m 请求参数: []
+2025-03-03 10:48:51.696 INFO  com.xboss.train.batch.controller.JobController    :169  [32m17409701316967r6  [0;39m 查看所有定时任务开始
+2025-03-03 10:48:51.703 INFO  com.xboss.train.batch.controller.JobController    :200  [32m17409701316967r6  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='*/2 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.TestJob', description='null', state='PAUSED', nextFireTime=Mon Mar 25 14:52:34 CST 2024, preFireTime=Mon Mar 25 14:52:32 CST 2024}, CronJobDto{cronExpression='*/5 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.DailyTrainJob', description='生成每日车次', state='PAUSED', nextFireTime=Tue Mar 26 21:00:50 CST 2024, preFireTime=Tue Mar 26 21:00:45 CST 2024}]}
+2025-03-03 10:48:51.704 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m17409701316967r6  [0;39m 返回结果: {"content":[{"cronExpression":"*/2 * * * * ?","group":"DEFAULT","name":"com.xboss.train.batch.job.TestJob","nextFireTime":1711349554000,"preFireTime":1711349552000,"state":"PAUSED"},{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob","nextFireTime":1711458050000,"preFireTime":1711458045000,"state":"PAUSED"}],"success":true}
+2025-03-03 10:48:51.704 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m17409701316967r6  [0;39m ------------- 结束 耗时：8 ms -------------
+2025-03-03 10:49:13.235 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740970153235c0c  [0;39m ------------- 开始 -------------
+2025-03-03 10:49:13.235 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740970153235c0c  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2025-03-03 10:49:13.235 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740970153235c0c  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.query
+2025-03-03 10:49:13.235 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740970153235c0c  [0;39m 远程地址: 127.0.0.1
+2025-03-03 10:49:13.235 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740970153235c0c  [0;39m 请求参数: []
+2025-03-03 10:49:13.235 INFO  com.xboss.train.batch.controller.JobController    :169  [32m1740970153235c0c  [0;39m 查看所有定时任务开始
+2025-03-03 10:49:13.240 INFO  com.xboss.train.batch.controller.JobController    :200  [32m1740970153235c0c  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='*/2 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.TestJob', description='null', state='PAUSED', nextFireTime=Mon Mar 25 14:52:34 CST 2024, preFireTime=Mon Mar 25 14:52:32 CST 2024}, CronJobDto{cronExpression='*/5 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.DailyTrainJob', description='生成每日车次', state='PAUSED', nextFireTime=Tue Mar 26 21:00:50 CST 2024, preFireTime=Tue Mar 26 21:00:45 CST 2024}]}
+2025-03-03 10:49:13.240 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740970153235c0c  [0;39m 返回结果: {"content":[{"cronExpression":"*/2 * * * * ?","group":"DEFAULT","name":"com.xboss.train.batch.job.TestJob","nextFireTime":1711349554000,"preFireTime":1711349552000,"state":"PAUSED"},{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob","nextFireTime":1711458050000,"preFireTime":1711458045000,"state":"PAUSED"}],"success":true}
+2025-03-03 10:49:13.240 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740970153235c0c  [0;39m ------------- 结束 耗时：5 ms -------------
+2025-03-03 12:37:59.815 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m12s934ms298µs700ns).
+2025-03-03 12:52:57.679 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740977577678ui3  [0;39m ------------- 开始 -------------
+2025-03-03 12:52:57.681 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740977577678ui3  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2025-03-03 12:52:57.682 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740977577678ui3  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.query
+2025-03-03 12:52:57.682 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740977577678ui3  [0;39m 远程地址: 127.0.0.1
+2025-03-03 12:52:57.682 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740977577678ui3  [0;39m 请求参数: []
+2025-03-03 12:52:57.683 INFO  com.xboss.train.batch.controller.JobController    :169  [32m1740977577678ui3  [0;39m 查看所有定时任务开始
+2025-03-03 12:52:57.691 INFO  com.xboss.train.batch.controller.JobController    :200  [32m1740977577678ui3  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='*/2 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.TestJob', description='null', state='PAUSED', nextFireTime=Mon Mar 25 14:52:34 CST 2024, preFireTime=Mon Mar 25 14:52:32 CST 2024}, CronJobDto{cronExpression='*/5 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.DailyTrainJob', description='生成每日车次', state='PAUSED', nextFireTime=Tue Mar 26 21:00:50 CST 2024, preFireTime=Tue Mar 26 21:00:45 CST 2024}]}
+2025-03-03 12:52:57.692 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740977577678ui3  [0;39m 返回结果: {"content":[{"cronExpression":"*/2 * * * * ?","group":"DEFAULT","name":"com.xboss.train.batch.job.TestJob","nextFireTime":1711349554000,"preFireTime":1711349552000,"state":"PAUSED"},{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob","nextFireTime":1711458050000,"preFireTime":1711458045000,"state":"PAUSED"}],"success":true}
+2025-03-03 12:52:57.692 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740977577678ui3  [0;39m ------------- 结束 耗时：13 ms -------------
+2025-03-03 14:06:20.645 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740981980636bim  [0;39m ------------- 开始 -------------
+2025-03-03 14:06:20.645 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740981980636bim  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2025-03-03 14:06:20.645 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740981980636bim  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.query
+2025-03-03 14:06:20.651 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740981980636bim  [0;39m 远程地址: 127.0.0.1
+2025-03-03 14:06:20.652 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740981980636bim  [0;39m 请求参数: []
+2025-03-03 14:06:20.652 INFO  com.xboss.train.batch.controller.JobController    :169  [32m1740981980636bim  [0;39m 查看所有定时任务开始
+2025-03-03 14:06:20.666 INFO  com.xboss.train.batch.controller.JobController    :200  [32m1740981980636bim  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='*/2 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.TestJob', description='null', state='PAUSED', nextFireTime=Mon Mar 25 14:52:34 CST 2024, preFireTime=Mon Mar 25 14:52:32 CST 2024}, CronJobDto{cronExpression='*/5 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.DailyTrainJob', description='生成每日车次', state='PAUSED', nextFireTime=Tue Mar 26 21:00:50 CST 2024, preFireTime=Tue Mar 26 21:00:45 CST 2024}]}
+2025-03-03 14:06:20.667 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740981980636bim  [0;39m 返回结果: {"content":[{"cronExpression":"*/2 * * * * ?","group":"DEFAULT","name":"com.xboss.train.batch.job.TestJob","nextFireTime":1711349554000,"preFireTime":1711349552000,"state":"PAUSED"},{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob","nextFireTime":1711458050000,"preFireTime":1711458045000,"state":"PAUSED"}],"success":true}
+2025-03-03 14:06:20.669 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740981980636bim  [0;39m ------------- 结束 耗时：25 ms -------------
+2025-03-03 14:56:33.678 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-03-03 14:56:33.708 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-03-03 14:56:33.744 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2025-03-03 14:56:33.744 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2025-03-03 14:56:33.750 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-03-03 14:56:33.761 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [batch] appears to have started a thread named [sentinel-heartbeat-send-task-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@18.0.1.1/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3464)
+ java.base@18.0.1.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3435)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2025-03-03 14:56:33.762 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [batch] appears to have started a thread named [sentinel-time-tick-thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/java.lang.Thread.sleep(Native Method)
+ java.base@18.0.1.1/java.lang.Thread.sleep(Thread.java:337)
+ java.base@18.0.1.1/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+ app//com.alibaba.csp.sentinel.util.TimeUtil.run(TimeUtil.java:123)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2025-03-03 14:56:33.763 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [batch] appears to have started a thread named [sentinel-system-status-record-task-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2025-03-03 14:56:33.763 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [batch] appears to have started a thread named [sentinel-metrics-record-task-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2025-03-03 14:56:33.764 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [batch] appears to have started a thread named [sentinel-command-center-executor-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/sun.nio.ch.Net.accept(Native Method)
+ java.base@18.0.1.1/sun.nio.ch.NioSocketImpl.accept(NioSocketImpl.java:752)
+ java.base@18.0.1.1/java.net.ServerSocket.implAccept(ServerSocket.java:673)
+ java.base@18.0.1.1/java.net.ServerSocket.platformImplAccept(ServerSocket.java:639)
+ java.base@18.0.1.1/java.net.ServerSocket.implAccept(ServerSocket.java:615)
+ java.base@18.0.1.1/java.net.ServerSocket.implAccept(ServerSocket.java:572)
+ java.base@18.0.1.1/java.net.ServerSocket.accept(ServerSocket.java:530)
+ app//com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter$ServerThread.run(SimpleHttpCommandCenter.java:191)
+ java.base@18.0.1.1/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+ java.base@18.0.1.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2025-03-03 14:56:33.765 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [batch] appears to have started a thread named [sentinel-heartbeat-send-task-thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.1.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@18.0.1.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@18.0.1.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@18.0.1.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@18.0.1.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.1.1/java.lang.Thread.run(Thread.java:833)
+2025-03-03 14:56:33.768 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2025-03-03 14:56:33.772 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2025-03-03 14:56:33.792 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2025-03-03 14:56:33.793 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2025-03-03 14:56:33.793 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-03-03 14:56:33.794 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2025-03-03 14:56:33.794 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-03-03 14:56:33.804 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-03-03 14:56:34.416 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 2108 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2025-03-03 14:56:34.416 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-03-03 14:56:34.804 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2025-03-03 14:56:34.827 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d26ce994-8ca6-3fb2-9d63-01f2b02fe5b8
+2025-03-03 14:56:34.844 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.xboss.train.batch.feign.BusinessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-03 14:56:34.848 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.xboss.train.batch.feign.MemberFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-03 14:56:35.035 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2025-03-03 14:56:35.035 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-03-03 14:56:35.035 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2025-03-03 14:56:35.035 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2025-03-03 14:56:35.035 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2025-03-03 14:56:35.035 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-03-03 14:56:35.035 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-03-03 14:56:35.073 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-03-03 14:56:35.073 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 654 ms
+2025-03-03 14:56:35.163 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2025-03-03 14:56:35.163 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-03-03 14:56:35.163 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2025-03-03 14:56:35.163 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2025-03-03 14:56:35.184 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ec764e
+2025-03-03 14:56:35.184 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2025-03-03 14:56:35.184 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  [32m                  [0;39m Using db table-based data access locking (synchronization).
+2025-03-03 14:56:35.186 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  [32m                  [0;39m JobStoreCMT initialized.
+2025-03-03 14:56:35.186 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2025-03-03 14:56:35.186 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2025-03-03 14:56:35.186 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2025-03-03 14:56:35.186 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: com.xboss.train.batch.config.MyJobFactory@17b95a6
+2025-03-03 14:56:35.361 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2025-03-03 14:56:35.613 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2025-03-03 14:56:36.205 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-03 14:56:36.238 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2025-03-03 14:56:36.244 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2025-03-03 14:56:36.570 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  [32m                  [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2025-03-03 14:56:36.583 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 2.594 seconds (process running for 15835.634)
+2025-03-03 14:56:36.583 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2025-03-03 14:56:36.583 INFO  com.xboss.train.batch.config.BatchApplication     :26   [32m                  [0;39m 启动成功！！
+2025-03-03 14:56:36.583 INFO  com.xboss.train.batch.config.BatchApplication     :27   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2025-03-03 14:56:38.579 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  [32m                  [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2025-03-03 14:56:38.587 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  [32m                  [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2025-03-03 14:56:38.587 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  [32m                  [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2025-03-03 14:56:38.587 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  [32m                  [0;39m Recovery complete.
+2025-03-03 14:56:38.587 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  [32m                  [0;39m Removed 0 'complete' triggers.
+2025-03-03 14:56:38.587 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  [32m                  [0;39m Removed 0 stale fired job entries.
+2025-03-03 14:56:38.595 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2025-03-03 15:25:49.412 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-03-03 15:25:49.443 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2025-03-03 15:25:49.443 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2025-03-03 15:25:49.443 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-03-03 15:25:49.444 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2025-03-03 15:25:49.444 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2025-03-03 15:25:49.451 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2025-03-03 15:25:52.835 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-03-03 15:25:52.883 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 25956 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2025-03-03 15:25:52.885 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-03-03 15:25:52.972 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-03 15:25:52.973 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-03 15:25:54.169 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2025-03-03 15:25:54.302 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d26ce994-8ca6-3fb2-9d63-01f2b02fe5b8
+2025-03-03 15:25:54.383 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.xboss.train.batch.feign.BusinessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-03 15:25:54.385 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.xboss.train.batch.feign.MemberFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-03 15:25:55.385 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2025-03-03 15:25:55.386 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-03-03 15:25:55.386 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2025-03-03 15:25:55.392 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2025-03-03 15:25:55.404 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2025-03-03 15:25:55.405 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-03-03 15:25:55.405 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-03-03 15:25:55.502 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-03-03 15:25:55.503 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2529 ms
+2025-03-03 15:25:55.732 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2025-03-03 15:25:55.745 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-03-03 15:25:55.745 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2025-03-03 15:25:55.754 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2025-03-03 15:25:56.074 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@745675ef
+2025-03-03 15:25:56.077 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2025-03-03 15:25:56.092 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  [32m                  [0;39m Using db table-based data access locking (synchronization).
+2025-03-03 15:25:56.094 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  [32m                  [0;39m JobStoreCMT initialized.
+2025-03-03 15:25:56.095 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2025-03-03 15:25:56.095 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2025-03-03 15:25:56.096 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2025-03-03 15:25:56.096 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: com.xboss.train.batch.config.MyJobFactory@8bfaaf9
+2025-03-03 15:25:56.407 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2025-03-03 15:25:56.821 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2025-03-03 15:25:57.656 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-03 15:25:57.817 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2025-03-03 15:25:57.850 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2025-03-03 15:25:58.176 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  [32m                  [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2025-03-03 15:25:58.190 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 6.252 seconds (process running for 7.402)
+2025-03-03 15:25:58.195 INFO  com.xboss.train.batch.config.BatchApplication     :26   [32m                  [0;39m 启动成功！！
+2025-03-03 15:25:58.196 INFO  com.xboss.train.batch.config.BatchApplication     :27   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2025-03-03 15:26:00.192 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  [32m                  [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2025-03-03 15:26:00.230 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  [32m                  [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2025-03-03 15:26:00.234 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  [32m                  [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2025-03-03 15:26:00.234 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  [32m                  [0;39m Recovery complete.
+2025-03-03 15:26:00.235 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  [32m                  [0;39m Removed 0 'complete' triggers.
+2025-03-03 15:26:00.236 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  [32m                  [0;39m Removed 0 stale fired job entries.
+2025-03-03 15:26:00.238 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2025-03-03 15:50:33.494 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-03-03 15:50:33.525 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2025-03-03 15:50:33.526 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2025-03-03 15:50:33.526 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-03-03 15:50:33.526 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2025-03-03 15:50:33.527 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-03-03 15:50:33.534 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-03-03 15:50:38.086 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-03-03 15:50:38.121 INFO  com.xboss.train.batch.config.BatchApplication     :51   [32m                  [0;39m Starting BatchApplication using Java 18.0.1.1 with PID 27480 (D:\projectAndcode\train\batch\target\classes started by 86183 in D:\projectAndcode\train)
+2025-03-03 15:50:38.122 INFO  com.xboss.train.batch.config.BatchApplication     :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-03-03 15:50:38.169 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-03 15:50:38.169 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-03 15:50:38.933 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.xboss.train.business/mapper]' package. Please check your configuration.
+2025-03-03 15:50:39.016 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=d26ce994-8ca6-3fb2-9d63-01f2b02fe5b8
+2025-03-03 15:50:39.058 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.xboss.train.batch.feign.BusinessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-03 15:50:39.059 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.xboss.train.batch.feign.MemberFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-03-03 15:50:39.845 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2025-03-03 15:50:39.846 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2025-03-03 15:50:39.847 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2025-03-03 15:50:39.853 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2025-03-03 15:50:39.871 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2025-03-03 15:50:39.872 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-03-03 15:50:39.872 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-03-03 15:50:39.951 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-03-03 15:50:39.951 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1781 ms
+2025-03-03 15:50:40.109 INFO  org.quartz.impl.StdSchedulerFactory               :1220 [32m                  [0;39m Using default implementation for ThreadExecutor
+2025-03-03 15:50:40.118 INFO  org.quartz.core.SchedulerSignalerImpl             :61   [32m                  [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-03-03 15:50:40.119 INFO  org.quartz.core.QuartzScheduler                   :229  [32m                  [0;39m Quartz Scheduler v.2.3.2 created.
+2025-03-03 15:50:40.125 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2025-03-03 15:50:40.363 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@634d6da8
+2025-03-03 15:50:40.365 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2025-03-03 15:50:40.376 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  [32m                  [0;39m Using db table-based data access locking (synchronization).
+2025-03-03 15:50:40.378 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  [32m                  [0;39m JobStoreCMT initialized.
+2025-03-03 15:50:40.379 INFO  org.quartz.core.QuartzScheduler                   :294  [32m                  [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2025-03-03 15:50:40.379 INFO  org.quartz.impl.StdSchedulerFactory               :1374 [32m                  [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2025-03-03 15:50:40.380 INFO  org.quartz.impl.StdSchedulerFactory               :1378 [32m                  [0;39m Quartz scheduler version: 2.3.2
+2025-03-03 15:50:40.380 INFO  org.quartz.core.QuartzScheduler                   :2293 [32m                  [0;39m JobFactory set to: com.xboss.train.batch.config.MyJobFactory@374ecdaf
+2025-03-03 15:50:40.619 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2025-03-03 15:50:40.920 INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer :52   [32m                  [0;39m [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2025-03-03 15:50:41.488 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   [32m                  [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-03 15:50:41.618 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2025-03-03 15:50:41.646 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2025-03-03 15:50:41.876 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  [32m                  [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2025-03-03 15:50:41.885 INFO  com.xboss.train.batch.config.BatchApplication     :57   [32m                  [0;39m Started BatchApplication in 4.47 seconds (process running for 5.304)
+2025-03-03 15:50:41.888 INFO  com.xboss.train.batch.config.BatchApplication     :26   [32m                  [0;39m 启动成功！！
+2025-03-03 15:50:41.889 INFO  com.xboss.train.batch.config.BatchApplication     :27   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8003
+2025-03-03 15:50:43.883 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  [32m                  [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2025-03-03 15:50:43.911 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  [32m                  [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2025-03-03 15:50:43.913 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  [32m                  [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2025-03-03 15:50:43.914 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  [32m                  [0;39m Recovery complete.
+2025-03-03 15:50:43.915 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  [32m                  [0;39m Removed 0 'complete' triggers.
+2025-03-03 15:50:43.915 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  [32m                  [0;39m Removed 0 stale fired job entries.
+2025-03-03 15:50:43.917 INFO  org.quartz.core.QuartzScheduler                   :547  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2025-03-03 15:57:08.145 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03 15:57:08.145 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-03-03 15:57:08.145 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2025-03-03 15:57:08.302 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740988628286vjx  [0;39m ------------- 开始 -------------
+2025-03-03 15:57:08.302 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740988628286vjx  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2025-03-03 15:57:08.310 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740988628286vjx  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.query
+2025-03-03 15:57:08.310 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740988628286vjx  [0;39m 远程地址: 127.0.0.1
+2025-03-03 15:57:08.352 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740988628286vjx  [0;39m 请求参数: []
+2025-03-03 15:57:08.353 INFO  com.xboss.train.batch.controller.JobController    :169  [32m1740988628286vjx  [0;39m 查看所有定时任务开始
+2025-03-03 15:57:08.367 INFO  com.xboss.train.batch.controller.JobController    :200  [32m1740988628286vjx  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='*/2 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.TestJob', description='null', state='PAUSED', nextFireTime=Mon Mar 25 14:52:34 CST 2024, preFireTime=Mon Mar 25 14:52:32 CST 2024}, CronJobDto{cronExpression='*/5 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.DailyTrainJob', description='生成每日车次', state='PAUSED', nextFireTime=Tue Mar 26 21:00:50 CST 2024, preFireTime=Tue Mar 26 21:00:45 CST 2024}]}
+2025-03-03 15:57:08.399 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740988628286vjx  [0;39m 返回结果: {"content":[{"cronExpression":"*/2 * * * * ?","group":"DEFAULT","name":"com.xboss.train.batch.job.TestJob","nextFireTime":1711349554000,"preFireTime":1711349552000,"state":"PAUSED"},{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob","nextFireTime":1711458050000,"preFireTime":1711458045000,"state":"PAUSED"}],"success":true}
+2025-03-03 15:57:08.399 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740988628286vjx  [0;39m ------------- 结束 耗时：97 ms -------------
+2025-03-03 15:57:16.933 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740988636933nny  [0;39m ------------- 开始 -------------
+2025-03-03 15:57:16.933 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740988636933nny  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2025-03-03 15:57:16.933 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740988636933nny  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.query
+2025-03-03 15:57:16.933 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740988636933nny  [0;39m 远程地址: 127.0.0.1
+2025-03-03 15:57:16.933 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740988636933nny  [0;39m 请求参数: []
+2025-03-03 15:57:16.933 INFO  com.xboss.train.batch.controller.JobController    :169  [32m1740988636933nny  [0;39m 查看所有定时任务开始
+2025-03-03 15:57:16.949 INFO  com.xboss.train.batch.controller.JobController    :200  [32m1740988636933nny  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='*/2 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.TestJob', description='null', state='PAUSED', nextFireTime=Mon Mar 25 14:52:34 CST 2024, preFireTime=Mon Mar 25 14:52:32 CST 2024}, CronJobDto{cronExpression='*/5 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.DailyTrainJob', description='生成每日车次', state='PAUSED', nextFireTime=Tue Mar 26 21:00:50 CST 2024, preFireTime=Tue Mar 26 21:00:45 CST 2024}]}
+2025-03-03 15:57:16.949 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740988636933nny  [0;39m 返回结果: {"content":[{"cronExpression":"*/2 * * * * ?","group":"DEFAULT","name":"com.xboss.train.batch.job.TestJob","nextFireTime":1711349554000,"preFireTime":1711349552000,"state":"PAUSED"},{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob","nextFireTime":1711458050000,"preFireTime":1711458045000,"state":"PAUSED"}],"success":true}
+2025-03-03 15:57:16.949 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740988636933nny  [0;39m ------------- 结束 耗时：16 ms -------------
+2025-03-03 15:57:24.364 INFO  com.xboss.train.common.aspect.LogAspect           :48   [32m1740988644364cvm  [0;39m ------------- 开始 -------------
+2025-03-03 15:57:24.364 INFO  com.xboss.train.common.aspect.LogAspect           :49   [32m1740988644364cvm  [0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2025-03-03 15:57:24.364 INFO  com.xboss.train.common.aspect.LogAspect           :50   [32m1740988644364cvm  [0;39m 类名方法: com.xboss.train.batch.controller.JobController.query
+2025-03-03 15:57:24.364 INFO  com.xboss.train.common.aspect.LogAspect           :51   [32m1740988644364cvm  [0;39m 远程地址: 127.0.0.1
+2025-03-03 15:57:24.364 INFO  com.xboss.train.common.aspect.LogAspect           :72   [32m1740988644364cvm  [0;39m 请求参数: []
+2025-03-03 15:57:24.364 INFO  com.xboss.train.batch.controller.JobController    :169  [32m1740988644364cvm  [0;39m 查看所有定时任务开始
+2025-03-03 15:57:24.373 INFO  com.xboss.train.batch.controller.JobController    :200  [32m1740988644364cvm  [0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='*/2 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.TestJob', description='null', state='PAUSED', nextFireTime=Mon Mar 25 14:52:34 CST 2024, preFireTime=Mon Mar 25 14:52:32 CST 2024}, CronJobDto{cronExpression='*/5 * * * * ?', group='DEFAULT', name='com.xboss.train.batch.job.DailyTrainJob', description='生成每日车次', state='PAUSED', nextFireTime=Tue Mar 26 21:00:50 CST 2024, preFireTime=Tue Mar 26 21:00:45 CST 2024}]}
+2025-03-03 15:57:24.373 INFO  com.xboss.train.common.aspect.LogAspect           :84   [32m1740988644364cvm  [0;39m 返回结果: {"content":[{"cronExpression":"*/2 * * * * ?","group":"DEFAULT","name":"com.xboss.train.batch.job.TestJob","nextFireTime":1711349554000,"preFireTime":1711349552000,"state":"PAUSED"},{"cronExpression":"*/5 * * * * ?","description":"生成每日车次","group":"DEFAULT","name":"com.xboss.train.batch.job.DailyTrainJob","nextFireTime":1711458050000,"preFireTime":1711458045000,"state":"PAUSED"}],"success":true}
+2025-03-03 15:57:24.376 INFO  com.xboss.train.common.aspect.LogAspect           :85   [32m1740988644364cvm  [0;39m ------------- 结束 耗时：12 ms -------------
+2025-03-03 17:28:53.000 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m12s320ms644µs100ns).
+2025-03-03 17:29:28.777 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-03-03 17:29:28.817 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  [32m                  [0;39m Shutting down Quartz Scheduler
+2025-03-03 17:29:28.818 INFO  org.quartz.core.QuartzScheduler                   :666  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2025-03-03 17:29:28.818 INFO  org.quartz.core.QuartzScheduler                   :585  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2025-03-03 17:29:28.818 INFO  org.quartz.core.QuartzScheduler                   :740  [32m                  [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2025-03-03 17:29:28.819 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-03-03 17:29:28.824 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
